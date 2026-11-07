@@ -204,11 +204,7 @@ export function buildSiteData({ sources, siteConfig, state, now = new Date() }) 
         })
         .sort(compareOptions)
         .map(({ __sort, ...rest }) => rest);
-      downloads[platform] = {
-        options,
-        hasMirror: options.some((o) => o.status === 'ready'),
-        arches: [...new Set(options.map((o) => o.arch))],
-      };
+      downloads[platform] = { options };
     }
 
     const summary = summarizeItem(source, downloads, sourceState);

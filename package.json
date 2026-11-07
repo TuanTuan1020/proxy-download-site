@@ -16,7 +16,8 @@
     "cleanup": "node scripts/cleanup.js",
     "cleanup:apply": "node scripts/cleanup.js --apply",
     "test": "node tests/verify.mjs",
-    "test:browser": "node tests/browser-check.mjs http://127.0.0.1:8787"
+    "test:browser": "node tests/browser-check.mjs http://127.0.0.1:8787",
+    "preview:static": "node scripts/preview-static.js"
   },
   "license": "MIT"
 }

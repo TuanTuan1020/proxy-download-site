@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "createdAt": "2026-11-07T15:05:43.998Z",
-  "updatedAt": "2026-11-07T16:02:45.786Z",
+  "updatedAt": "2026-11-07T16:13:33.265Z",
   "sources": {
     "clash-verge-rev": {
       "etag": null,
-      "lastCheckedAt": "2026-11-07T15:56:13.075Z",
-      "lastCheckOkAt": "2026-11-07T15:56:13.075Z",
+      "lastCheckedAt": "2026-11-07T16:13:15.739Z",
+      "lastCheckOkAt": "2026-11-07T16:13:15.739Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "html-fallback",
@@ -378,8 +378,8 @@
     },
     "clash-party": {
       "etag": null,
-      "lastCheckedAt": "2026-11-07T15:56:32.132Z",
-      "lastCheckOkAt": "2026-11-07T15:56:32.132Z",
+      "lastCheckedAt": "2026-11-07T16:13:17.326Z",
+      "lastCheckOkAt": "2026-11-07T16:13:17.326Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "html-fallback",
@@ -1331,8 +1331,8 @@
     },
     "flclash": {
       "etag": null,
-      "lastCheckedAt": "2026-11-07T15:56:46.395Z",
-      "lastCheckOkAt": "2026-11-07T15:56:46.395Z",
+      "lastCheckedAt": "2026-11-07T16:13:18.946Z",
+      "lastCheckOkAt": "2026-11-07T16:13:18.946Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "html-fallback",
@@ -1691,8 +1691,8 @@
     },
     "clash-nyanpasu": {
       "etag": null,
-      "lastCheckedAt": "2026-11-07T15:57:08.268Z",
-      "lastCheckOkAt": "2026-11-07T15:57:08.268Z",
+      "lastCheckedAt": "2026-11-07T16:13:21.154Z",
+      "lastCheckOkAt": "2026-11-07T16:13:21.154Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "html-fallback",
@@ -2096,7 +2096,7 @@
       ],
       "versions": {
         "v2.0.1": {
-          "syncedAt": "2026-11-07T16:02:45.785Z",
+          "syncedAt": "2026-11-07T16:03:41.451Z",
           "files": {
             "Clash.Nyanpasu_2.0.1_aarch64.dmg": {
               "filename": "Clash.Nyanpasu_2.0.1_aarch64.dmg",
@@ -2186,11 +2186,11 @@
               "sha256": "1ede25d4bf1f8a524f3b1a662065dda5c058c0c054147e1903bb4a60389fbcc1",
               "verified": "github-digest",
               "officialDigest": "1ede25d4bf1f8a524f3b1a662065dda5c058c0c054147e1903bb4a60389fbcc1",
-              "assetId": 694924314,
-              "assetUpdatedAt": "2026-10-31T09:18:52Z",
-              "officialUrl": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/v2.0.1/Clash.Nyanpasu_2.0.1_fixed-webview-x64-setup.exe",
-              "publishedAt": "2026-10-31T07:45:15Z",
-              "syncedAt": "2026-11-07T15:47:37.910Z",
+              "assetId": null,
+              "assetUpdatedAt": null,
+              "officialUrl": "https://github.com/LibNyanpasu/clash-nyanpasu/releases/download/v2.0.1/Clash.Nyanpasu_2.0.1_fixed-webview-x64-setup.exe",
+              "publishedAt": "2026-10-31T10:54:32Z",
+              "syncedAt": "2026-11-07T16:03:11.525Z",
               "contentType": "application/octet-stream"
             },
             "Clash.Nyanpasu_2.0.1_x64-setup.exe": {
@@ -2205,11 +2205,11 @@
               "sha256": "c0614aa0df4749068bf8fc9a9d3fcd3e8632843af454a8b649c47f2b38797a41",
               "verified": "github-digest",
               "officialDigest": "c0614aa0df4749068bf8fc9a9d3fcd3e8632843af454a8b649c47f2b38797a41",
-              "assetId": 694925943,
-              "assetUpdatedAt": "2026-10-31T09:19:34Z",
-              "officialUrl": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/v2.0.1/Clash.Nyanpasu_2.0.1_x64-setup.exe",
-              "publishedAt": "2026-10-31T07:45:15Z",
-              "syncedAt": "2026-11-07T15:48:17.831Z",
+              "assetId": null,
+              "assetUpdatedAt": null,
+              "officialUrl": "https://github.com/LibNyanpasu/clash-nyanpasu/releases/download/v2.0.1/Clash.Nyanpasu_2.0.1_x64-setup.exe",
+              "publishedAt": "2026-10-31T10:54:32Z",
+              "syncedAt": "2026-11-07T16:03:21.765Z",
               "contentType": "application/octet-stream"
             },
             "Clash.Nyanpasu_2.0.1_x64.dmg": {
@@ -2224,11 +2224,11 @@
               "sha256": "1b02d5a35c0f6b926c9c0702803fd1148cfac4313c2131eb821fadac6bbfb537",
               "verified": "github-digest",
               "officialDigest": "1b02d5a35c0f6b926c9c0702803fd1148cfac4313c2131eb821fadac6bbfb537",
-              "assetId": 694925238,
-              "assetUpdatedAt": "2026-10-31T09:19:12Z",
-              "officialUrl": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/v2.0.1/Clash.Nyanpasu_2.0.1_x64.dmg",
-              "publishedAt": "2026-10-31T07:45:15Z",
-              "syncedAt": "2026-11-07T15:48:00.367Z",
+              "assetId": null,
+              "assetUpdatedAt": null,
+              "officialUrl": "https://github.com/LibNyanpasu/clash-nyanpasu/releases/download/v2.0.1/Clash.Nyanpasu_2.0.1_x64.dmg",
+              "publishedAt": "2026-10-31T10:54:32Z",
+              "syncedAt": "2026-11-07T16:03:31.952Z",
               "contentType": "application/octet-stream"
             },
             "Clash.Nyanpasu_2.0.1_x86_64_portable.zip": {
@@ -2243,25 +2243,25 @@
               "sha256": "ab8700c3ad48a8ee29be043a27543d2e0f47e639ecbf7d8960fb6abe6989df1b",
               "verified": "github-digest",
               "officialDigest": "ab8700c3ad48a8ee29be043a27543d2e0f47e639ecbf7d8960fb6abe6989df1b",
-              "assetId": 694921778,
-              "assetUpdatedAt": "2026-10-31T09:17:31Z",
-              "officialUrl": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/v2.0.1/Clash.Nyanpasu_2.0.1_x86_64_portable.zip",
-              "publishedAt": "2026-10-31T07:45:15Z",
-              "syncedAt": "2026-11-07T15:46:23.423Z",
+              "assetId": null,
+              "assetUpdatedAt": null,
+              "officialUrl": "https://github.com/LibNyanpasu/clash-nyanpasu/releases/download/v2.0.1/Clash.Nyanpasu_2.0.1_x86_64_portable.zip",
+              "publishedAt": "2026-10-31T10:54:32Z",
+              "syncedAt": "2026-11-07T16:03:41.451Z",
               "contentType": "application/octet-stream"
             }
           }
         }
       },
-      "lastSyncedAt": "2026-11-07T16:02:45.785Z",
+      "lastSyncedAt": "2026-11-07T16:03:41.451Z",
       "consecutiveFailures": 0,
       "nextRetryAt": null,
       "lastChangeAt": "2026-11-07T15:07:36.850Z"
     },
     "v2rayn": {
       "etag": null,
-      "lastCheckedAt": "2026-11-07T15:57:20.868Z",
-      "lastCheckOkAt": "2026-11-07T15:57:20.868Z",
+      "lastCheckedAt": "2026-11-07T16:13:22.938Z",
+      "lastCheckOkAt": "2026-11-07T16:13:22.938Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "html-fallback",
@@ -2687,7 +2687,7 @@
       "prereleases": [],
       "versions": {
         "7.25.6": {
-          "syncedAt": "2026-11-07T16:02:41.823Z",
+          "syncedAt": "2026-11-07T16:03:58.120Z",
           "files": {
             "v2rayN-macos-64.dmg": {
               "filename": "v2rayN-macos-64.dmg",
@@ -2720,11 +2720,11 @@
               "sha256": "81c979a7fa480a24a7e9f9629992c2641f78d7b75a8ca8ce588ba36bfcbbbf91",
               "verified": "github-digest",
               "officialDigest": "81c979a7fa480a24a7e9f9629992c2641f78d7b75a8ca8ce588ba36bfcbbbf91",
-              "assetId": 629942992,
-              "assetUpdatedAt": "2026-10-11T06:03:34Z",
+              "assetId": null,
+              "assetUpdatedAt": null,
               "officialUrl": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-macos-arm64.dmg",
-              "publishedAt": "2026-10-11T05:59:58Z",
-              "syncedAt": "2026-11-07T15:47:04.295Z",
+              "publishedAt": "2026-10-14T06:34:55Z",
+              "syncedAt": "2026-11-07T16:03:00.073Z",
               "contentType": "application/octet-stream"
             },
             "v2rayN-windows-64-desktop.zip": {
@@ -2739,11 +2739,11 @@
               "sha256": "defb18a16dac1d44659c30d0b8934f8b085cf540133574b892919ea29b083b00",
               "verified": "github-digest",
               "officialDigest": "defb18a16dac1d44659c30d0b8934f8b085cf540133574b892919ea29b083b00",
-              "assetId": 629945391,
-              "assetUpdatedAt": "2026-10-11T06:04:49Z",
+              "assetId": null,
+              "assetUpdatedAt": null,
               "officialUrl": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-windows-64-desktop.zip",
-              "publishedAt": "2026-10-11T05:59:58Z",
-              "syncedAt": "2026-11-07T15:47:20.140Z",
+              "publishedAt": "2026-10-14T06:34:55Z",
+              "syncedAt": "2026-11-07T16:03:18.710Z",
               "contentType": "application/octet-stream"
             },
             "v2rayN-windows-64.zip": {
@@ -2758,11 +2758,11 @@
               "sha256": "9b94718c2a214a246b04dec84b9a27f1f0ced8489c2dd25eb80a0fbb806bd13f",
               "verified": "github-digest",
               "officialDigest": "9b94718c2a214a246b04dec84b9a27f1f0ced8489c2dd25eb80a0fbb806bd13f",
-              "assetId": 629943182,
-              "assetUpdatedAt": "2026-10-11T06:03:41Z",
+              "assetId": null,
+              "assetUpdatedAt": null,
               "officialUrl": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-windows-64.zip",
-              "publishedAt": "2026-10-11T05:59:58Z",
-              "syncedAt": "2026-11-07T15:47:43.794Z",
+              "publishedAt": "2026-10-14T06:34:55Z",
+              "syncedAt": "2026-11-07T16:03:32.701Z",
               "contentType": "application/octet-stream"
             },
             "v2rayN-windows-arm64-desktop.zip": {
@@ -2777,11 +2777,11 @@
               "sha256": "acc25498500fb2a1f44d93e266d42850dc2f8a86b84dd09f03da49086cb5a6c1",
               "verified": "github-digest",
               "officialDigest": "acc25498500fb2a1f44d93e266d42850dc2f8a86b84dd09f03da49086cb5a6c1",
-              "assetId": 629945371,
-              "assetUpdatedAt": "2026-10-11T06:04:50Z",
+              "assetId": null,
+              "assetUpdatedAt": null,
               "officialUrl": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-windows-arm64-desktop.zip",
-              "publishedAt": "2026-10-11T05:59:58Z",
-              "syncedAt": "2026-11-07T15:47:57.778Z",
+              "publishedAt": "2026-10-14T06:34:55Z",
+              "syncedAt": "2026-11-07T16:03:45.523Z",
               "contentType": "application/octet-stream"
             },
             "v2rayN-windows-arm64.zip": {
@@ -2796,25 +2796,25 @@
               "sha256": "4f01badc9bb3a1fd805104192d54f06d69b0d122ffbff884f521242619ad42f3",
               "verified": "github-digest",
               "officialDigest": "4f01badc9bb3a1fd805104192d54f06d69b0d122ffbff884f521242619ad42f3",
-              "assetId": 629943342,
-              "assetUpdatedAt": "2026-10-11T06:03:46Z",
+              "assetId": null,
+              "assetUpdatedAt": null,
               "officialUrl": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-windows-arm64.zip",
-              "publishedAt": "2026-10-11T05:59:58Z",
-              "syncedAt": "2026-11-07T15:48:10.896Z",
+              "publishedAt": "2026-10-14T06:34:55Z",
+              "syncedAt": "2026-11-07T16:03:58.120Z",
               "contentType": "application/octet-stream"
             }
           }
         }
       },
-      "lastSyncedAt": "2026-11-07T16:02:41.823Z",
+      "lastSyncedAt": "2026-11-07T16:03:58.120Z",
       "consecutiveFailures": 0,
       "nextRetryAt": null,
       "lastChangeAt": "2026-11-07T15:07:38.921Z"
     },
     "v2rayng": {
       "etag": null,
-      "lastCheckedAt": "2026-11-07T15:57:40.986Z",
-      "lastCheckOkAt": "2026-11-07T15:57:40.986Z",
+      "lastCheckedAt": "2026-11-07T16:13:24.444Z",
+      "lastCheckOkAt": "2026-11-07T16:13:24.444Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "html-fallback",
@@ -3040,7 +3040,7 @@
       "prereleases": [],
       "versions": {
         "2.3.15": {
-          "syncedAt": "2026-11-07T15:48:29.110Z",
+          "syncedAt": "2026-11-07T16:04:02.087Z",
           "files": {
             "v2rayNG_2.3.15_arm64-v8a.apk": {
               "filename": "v2rayNG_2.3.15_arm64-v8a.apk",
@@ -3054,11 +3054,11 @@
               "sha256": "ec53590f042ebb3998169506164ca72eeb84de938d6ed8e888d3b10031f548e3",
               "verified": "github-digest",
               "officialDigest": "ec53590f042ebb3998169506164ca72eeb84de938d6ed8e888d3b10031f548e3",
-              "assetId": 697594847,
-              "assetUpdatedAt": "2026-11-01T06:59:50Z",
+              "assetId": null,
+              "assetUpdatedAt": null,
               "officialUrl": "https://github.com/2dust/v2rayNG/releases/download/2.3.15/v2rayNG_2.3.15_arm64-v8a.apk",
-              "publishedAt": "2026-11-01T06:59:32Z",
-              "syncedAt": "2026-11-07T15:48:16.684Z",
+              "publishedAt": "2026-11-04T09:53:01Z",
+              "syncedAt": "2026-11-07T16:03:45.535Z",
               "contentType": "application/vnd.android.package-archive"
             },
             "v2rayNG_2.3.15_armeabi-v7a.apk": {
@@ -3073,11 +3073,11 @@
               "sha256": "6380a1d5c8b604b10390d4b59591da6df7345ea981b73500a5a2773e1aab156a",
               "verified": "github-digest",
               "officialDigest": "6380a1d5c8b604b10390d4b59591da6df7345ea981b73500a5a2773e1aab156a",
-              "assetId": 697594740,
-              "assetUpdatedAt": "2026-11-01T06:59:47Z",
+              "assetId": null,
+              "assetUpdatedAt": null,
               "officialUrl": "https://github.com/2dust/v2rayNG/releases/download/2.3.15/v2rayNG_2.3.15_armeabi-v7a.apk",
-              "publishedAt": "2026-11-01T06:59:32Z",
-              "syncedAt": "2026-11-07T15:48:20.448Z",
+              "publishedAt": "2026-11-04T09:53:01Z",
+              "syncedAt": "2026-11-07T16:03:49.129Z",
               "contentType": "application/vnd.android.package-archive"
             },
             "v2rayNG_2.3.15_universal.apk": {
@@ -3092,11 +3092,11 @@
               "sha256": "561df11add49967981e4393db30344fea6ee76b72fca052db9a8114fb0ba9d7d",
               "verified": "github-digest",
               "officialDigest": "561df11add49967981e4393db30344fea6ee76b72fca052db9a8114fb0ba9d7d",
-              "assetId": 697594631,
-              "assetUpdatedAt": "2026-11-01T06:59:44Z",
+              "assetId": null,
+              "assetUpdatedAt": null,
               "officialUrl": "https://github.com/2dust/v2rayNG/releases/download/2.3.15/v2rayNG_2.3.15_universal.apk",
-              "publishedAt": "2026-11-01T06:59:32Z",
-              "syncedAt": "2026-11-07T15:48:24.756Z",
+              "publishedAt": "2026-11-04T09:53:01Z",
+              "syncedAt": "2026-11-07T16:03:58.166Z",
               "contentType": "application/vnd.android.package-archive"
             },
             "v2rayNG_2.3.15_x86_64.apk": {
@@ -3111,25 +3111,25 @@
               "sha256": "6c5276597d913c1330334b99d03b273201834cf475ab6aa709f7413097613bd5",
               "verified": "github-digest",
               "officialDigest": "6c5276597d913c1330334b99d03b273201834cf475ab6aa709f7413097613bd5",
-              "assetId": 697594407,
-              "assetUpdatedAt": "2026-11-01T06:59:35Z",
+              "assetId": null,
+              "assetUpdatedAt": null,
               "officialUrl": "https://github.com/2dust/v2rayNG/releases/download/2.3.15/v2rayNG_2.3.15_x86_64.apk",
-              "publishedAt": "2026-11-01T06:59:32Z",
-              "syncedAt": "2026-11-07T15:48:29.110Z",
+              "publishedAt": "2026-11-04T09:53:01Z",
+              "syncedAt": "2026-11-07T16:04:02.087Z",
               "contentType": "application/vnd.android.package-archive"
             }
           }
         }
       },
-      "lastSyncedAt": "2026-11-07T15:48:29.110Z",
+      "lastSyncedAt": "2026-11-07T16:04:02.087Z",
       "consecutiveFailures": 0,
       "nextRetryAt": null,
       "lastChangeAt": "2026-11-07T15:07:40.745Z"
     },
     "clash-meta-for-android": {
       "etag": null,
-      "lastCheckedAt": "2026-11-07T15:57:54.754Z",
-      "lastCheckOkAt": "2026-11-07T15:57:54.754Z",
+      "lastCheckedAt": "2026-11-07T16:13:26.197Z",
+      "lastCheckOkAt": "2026-11-07T16:13:26.197Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "html-fallback",
@@ -3205,7 +3205,7 @@
       "prereleases": [],
       "versions": {
         "v2.11.36": {
-          "syncedAt": "2026-11-07T15:49:09.760Z",
+          "syncedAt": "2026-11-07T16:04:25.410Z",
           "files": {
             "cmfa-2.11.36-meta-arm64-v8a-release.apk": {
               "filename": "cmfa-2.11.36-meta-arm64-v8a-release.apk",
@@ -3219,11 +3219,11 @@
               "sha256": "7da3083c16af676f9a3e478e3f42098b91803cbd7cb637bff4117d4d50360f95",
               "verified": "github-digest",
               "officialDigest": "7da3083c16af676f9a3e478e3f42098b91803cbd7cb637bff4117d4d50360f95",
-              "assetId": 663157507,
-              "assetUpdatedAt": "2026-10-21T16:44:07Z",
+              "assetId": null,
+              "assetUpdatedAt": null,
               "officialUrl": "https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.36/cmfa-2.11.36-meta-arm64-v8a-release.apk",
               "publishedAt": "2026-10-21T16:44:10Z",
-              "syncedAt": "2026-11-07T15:48:39.431Z",
+              "syncedAt": "2026-11-07T16:04:02.115Z",
               "contentType": "application/vnd.android.package-archive"
             },
             "cmfa-2.11.36-meta-armeabi-v7a-release.apk": {
@@ -3238,11 +3238,11 @@
               "sha256": "bd500e3d04e619e8d85e8ca196c8fd42de285fc5d3811e4cd3ee5dc355cd7dea",
               "verified": "github-digest",
               "officialDigest": "bd500e3d04e619e8d85e8ca196c8fd42de285fc5d3811e4cd3ee5dc355cd7dea",
-              "assetId": 663157503,
-              "assetUpdatedAt": "2026-10-21T16:44:09Z",
+              "assetId": null,
+              "assetUpdatedAt": null,
               "officialUrl": "https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.36/cmfa-2.11.36-meta-armeabi-v7a-release.apk",
               "publishedAt": "2026-10-21T16:44:10Z",
-              "syncedAt": "2026-11-07T15:48:47.503Z",
+              "syncedAt": "2026-11-07T16:04:06.071Z",
               "contentType": "application/vnd.android.package-archive"
             },
             "cmfa-2.11.36-meta-universal-release.apk": {
@@ -3257,11 +3257,11 @@
               "sha256": "8c0745deba065d32285955a8e2932e752f9a51747858c72d7a29882cd43cfbb5",
               "verified": "github-digest",
               "officialDigest": "8c0745deba065d32285955a8e2932e752f9a51747858c72d7a29882cd43cfbb5",
-              "assetId": 663157512,
-              "assetUpdatedAt": "2026-10-21T16:44:08Z",
+              "assetId": null,
+              "assetUpdatedAt": null,
               "officialUrl": "https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.36/cmfa-2.11.36-meta-universal-release.apk",
               "publishedAt": "2026-10-21T16:44:10Z",
-              "syncedAt": "2026-11-07T15:48:58.227Z",
+              "syncedAt": "2026-11-07T16:04:14.728Z",
               "contentType": "application/vnd.android.package-archive"
             },
             "cmfa-2.11.36-meta-x86-release.apk": {
@@ -3276,11 +3276,11 @@
               "sha256": "664f0a2f7fe197af4e4c11737e142fff7339628a5aa53c5eb1fc876229cee0a5",
               "verified": "github-digest",
               "officialDigest": "664f0a2f7fe197af4e4c11737e142fff7339628a5aa53c5eb1fc876229cee0a5",
-              "assetId": 663157505,
-              "assetUpdatedAt": "2026-10-21T16:44:07Z",
+              "assetId": null,
+              "assetUpdatedAt": null,
               "officialUrl": "https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.36/cmfa-2.11.36-meta-x86-release.apk",
               "publishedAt": "2026-10-21T16:44:10Z",
-              "syncedAt": "2026-11-07T15:49:03.918Z",
+              "syncedAt": "2026-11-07T16:04:20.796Z",
               "contentType": "application/vnd.android.package-archive"
             },
             "cmfa-2.11.36-meta-x86_64-release.apk": {
@@ -3295,25 +3295,25 @@
               "sha256": "aa70600b1cdc4211b8fd314d44d32c830c2bd60ef1c4185457b9eb17a17ec83e",
               "verified": "github-digest",
               "officialDigest": "aa70600b1cdc4211b8fd314d44d32c830c2bd60ef1c4185457b9eb17a17ec83e",
-              "assetId": 663157514,
-              "assetUpdatedAt": "2026-10-21T16:44:07Z",
+              "assetId": null,
+              "assetUpdatedAt": null,
               "officialUrl": "https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.36/cmfa-2.11.36-meta-x86_64-release.apk",
               "publishedAt": "2026-10-21T16:44:10Z",
-              "syncedAt": "2026-11-07T15:49:09.760Z",
+              "syncedAt": "2026-11-07T16:04:25.410Z",
               "contentType": "application/vnd.android.package-archive"
             }
           }
         }
       },
-      "lastSyncedAt": "2026-11-07T15:49:09.760Z",
+      "lastSyncedAt": "2026-11-07T16:04:25.410Z",
       "consecutiveFailures": 0,
       "nextRetryAt": null,
       "lastChangeAt": "2026-11-07T15:07:42.630Z"
     },
     "nekobox": {
       "etag": null,
-      "lastCheckedAt": "2026-11-07T15:58:16.286Z",
-      "lastCheckOkAt": "2026-11-07T15:58:16.286Z",
+      "lastCheckedAt": "2026-11-07T16:13:27.887Z",
+      "lastCheckOkAt": "2026-11-07T16:13:27.887Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "html-fallback",
@@ -3369,7 +3369,7 @@
       "prereleases": [],
       "versions": {
         "1.4.2": {
-          "syncedAt": "2026-11-07T15:48:56.517Z",
+          "syncedAt": "2026-11-07T16:04:09.285Z",
           "files": {
             "NekoBox-1.4.2-arm64-v8a.apk": {
               "filename": "NekoBox-1.4.2-arm64-v8a.apk",
@@ -3383,11 +3383,11 @@
               "sha256": "d01e76feeb05e4701f3ae382cb71c0a3ebb77039005e5893f8817e1051f8ac28",
               "verified": "github-digest",
               "officialDigest": "d01e76feeb05e4701f3ae382cb71c0a3ebb77039005e5893f8817e1051f8ac28",
-              "assetId": 352906288,
-              "assetUpdatedAt": "2026-02-09T03:54:59Z",
+              "assetId": null,
+              "assetUpdatedAt": null,
               "officialUrl": "https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/download/1.4.2/NekoBox-1.4.2-arm64-v8a.apk",
-              "publishedAt": "2026-02-09T03:55:00Z",
-              "syncedAt": "2026-11-07T15:48:49.887Z",
+              "publishedAt": "2026-02-09T03:56:02Z",
+              "syncedAt": "2026-11-07T16:04:03.702Z",
               "contentType": "application/vnd.android.package-archive"
             },
             "NekoBox-1.4.2-armeabi-v7a.apk": {
@@ -3402,11 +3402,11 @@
               "sha256": "e21f4b1c09696e0fd8ff594db42fcec41d1ad1254b356e08c2fa6e9c5bfed10b",
               "verified": "github-digest",
               "officialDigest": "e21f4b1c09696e0fd8ff594db42fcec41d1ad1254b356e08c2fa6e9c5bfed10b",
-              "assetId": 352906287,
-              "assetUpdatedAt": "2026-02-09T03:54:59Z",
+              "assetId": null,
+              "assetUpdatedAt": null,
               "officialUrl": "https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/download/1.4.2/NekoBox-1.4.2-armeabi-v7a.apk",
-              "publishedAt": "2026-02-09T03:55:00Z",
-              "syncedAt": "2026-11-07T15:48:51.572Z",
+              "publishedAt": "2026-02-09T03:56:02Z",
+              "syncedAt": "2026-11-07T16:04:05.434Z",
               "contentType": "application/vnd.android.package-archive"
             },
             "NekoBox-1.4.2-x86.apk": {
@@ -3421,11 +3421,11 @@
               "sha256": "10b5e9ce5b569c06bb957ce88e57ecb3238b56f8aaf1a7ed50d1306aaec1cde3",
               "verified": "github-digest",
               "officialDigest": "10b5e9ce5b569c06bb957ce88e57ecb3238b56f8aaf1a7ed50d1306aaec1cde3",
-              "assetId": 352906290,
-              "assetUpdatedAt": "2026-02-09T03:54:59Z",
+              "assetId": null,
+              "assetUpdatedAt": null,
               "officialUrl": "https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/download/1.4.2/NekoBox-1.4.2-x86.apk",
-              "publishedAt": "2026-02-09T03:55:00Z",
-              "syncedAt": "2026-11-07T15:48:53.690Z",
+              "publishedAt": "2026-02-09T03:56:02Z",
+              "syncedAt": "2026-11-07T16:04:07.404Z",
               "contentType": "application/vnd.android.package-archive"
             },
             "NekoBox-1.4.2-x86_64.apk": {
@@ -3440,25 +3440,25 @@
               "sha256": "aa3282a2736334c1cd810e42b36d94769ea1e33d6512a70d0fc90bcea4ef6935",
               "verified": "github-digest",
               "officialDigest": "aa3282a2736334c1cd810e42b36d94769ea1e33d6512a70d0fc90bcea4ef6935",
-              "assetId": 352906289,
-              "assetUpdatedAt": "2026-02-09T03:54:59Z",
+              "assetId": null,
+              "assetUpdatedAt": null,
               "officialUrl": "https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/download/1.4.2/NekoBox-1.4.2-x86_64.apk",
-              "publishedAt": "2026-02-09T03:55:00Z",
-              "syncedAt": "2026-11-07T15:48:56.517Z",
+              "publishedAt": "2026-02-09T03:56:02Z",
+              "syncedAt": "2026-11-07T16:04:09.285Z",
               "contentType": "application/vnd.android.package-archive"
             }
           }
         }
       },
-      "lastSyncedAt": "2026-11-07T15:48:56.517Z",
+      "lastSyncedAt": "2026-11-07T16:04:09.285Z",
       "consecutiveFailures": 0,
       "nextRetryAt": null,
       "lastChangeAt": "2026-11-07T15:07:44.615Z"
     },
     "sing-box": {
       "etag": null,
-      "lastCheckedAt": "2026-11-07T15:58:33.891Z",
-      "lastCheckOkAt": "2026-11-07T15:58:33.891Z",
+      "lastCheckedAt": "2026-11-07T16:13:29.669Z",
+      "lastCheckOkAt": "2026-11-07T16:13:29.669Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "html-fallback",
@@ -5162,7 +5162,7 @@
       ],
       "versions": {
         "v1.14.4": {
-          "syncedAt": "2026-11-07T15:50:10.015Z",
+          "syncedAt": "2026-11-07T16:05:13.266Z",
           "files": {
             "SFA-1.14.4-arm64-v8a.apk": {
               "filename": "SFA-1.14.4-arm64-v8a.apk",
@@ -5176,11 +5176,11 @@
               "sha256": "2d6b25a583e5ff99656d799c52839fc3869a40b94dc659a92619fd551e32ec0a",
               "verified": "github-digest",
               "officialDigest": "2d6b25a583e5ff99656d799c52839fc3869a40b94dc659a92619fd551e32ec0a",
-              "assetId": 669524004,
-              "assetUpdatedAt": "2026-10-23T15:21:43Z",
+              "assetId": null,
+              "assetUpdatedAt": null,
               "officialUrl": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/SFA-1.14.4-arm64-v8a.apk",
               "publishedAt": "2026-10-24T01:04:25Z",
-              "syncedAt": "2026-11-07T15:49:00.865Z",
+              "syncedAt": "2026-11-07T16:04:14.823Z",
               "contentType": "application/vnd.android.package-archive"
             },
             "SFA-1.14.4-armeabi-v7a.apk": {
@@ -5195,11 +5195,11 @@
               "sha256": "b1ae76164e1f518c0ae343ce30d8ee63fbb46a59f1e12295bf5bd20f1e1a5e1b",
               "verified": "github-digest",
               "officialDigest": "b1ae76164e1f518c0ae343ce30d8ee63fbb46a59f1e12295bf5bd20f1e1a5e1b",
-              "assetId": 669524096,
-              "assetUpdatedAt": "2026-10-23T15:21:45Z",
+              "assetId": null,
+              "assetUpdatedAt": null,
               "officialUrl": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/SFA-1.14.4-armeabi-v7a.apk",
               "publishedAt": "2026-10-24T01:04:25Z",
-              "syncedAt": "2026-11-07T15:49:04.381Z",
+              "syncedAt": "2026-11-07T16:04:19.714Z",
               "contentType": "application/vnd.android.package-archive"
             },
             "SFA-1.14.4-universal.apk": {
@@ -5214,11 +5214,11 @@
               "sha256": "382cd451a135b4da7dbdfb031dcc34046b2feb0cb32d3eb69655b20bd376d3f9",
               "verified": "github-digest",
               "officialDigest": "382cd451a135b4da7dbdfb031dcc34046b2feb0cb32d3eb69655b20bd376d3f9",
-              "assetId": 669524142,
-              "assetUpdatedAt": "2026-10-23T15:21:49Z",
+              "assetId": null,
+              "assetUpdatedAt": null,
               "officialUrl": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/SFA-1.14.4-universal.apk",
               "publishedAt": "2026-10-24T01:04:25Z",
-              "syncedAt": "2026-11-07T15:49:15.288Z",
+              "syncedAt": "2026-11-07T16:04:26.987Z",
               "contentType": "application/vnd.android.package-archive"
             },
             "SFA-1.14.4-x86_64.apk": {
@@ -5233,11 +5233,11 @@
               "sha256": "a28a98431366b92f9e39b2cbe5eb4f31616623dd26153e4cc2981c10027d6b71",
               "verified": "github-digest",
               "officialDigest": "a28a98431366b92f9e39b2cbe5eb4f31616623dd26153e4cc2981c10027d6b71",
-              "assetId": 669524228,
-              "assetUpdatedAt": "2026-10-23T15:21:46Z",
+              "assetId": null,
+              "assetUpdatedAt": null,
               "officialUrl": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/SFA-1.14.4-x86_64.apk",
               "publishedAt": "2026-10-24T01:04:25Z",
-              "syncedAt": "2026-11-07T15:49:22.662Z",
+              "syncedAt": "2026-11-07T16:04:30.631Z",
               "contentType": "application/vnd.android.package-archive"
             },
             "SFM-1.14.4-Apple.pkg": {
@@ -5252,11 +5252,11 @@
               "sha256": "6eb140750dfdc386ebb5da3957e8d8024fee8f2316318b7b7b79e015a088274c",
               "verified": "github-digest",
               "officialDigest": "6eb140750dfdc386ebb5da3957e8d8024fee8f2316318b7b7b79e015a088274c",
-              "assetId": 669524855,
-              "assetUpdatedAt": "2026-10-23T15:22:00Z",
+              "assetId": null,
+              "assetUpdatedAt": null,
               "officialUrl": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/SFM-1.14.4-Apple.pkg",
               "publishedAt": "2026-10-24T01:04:25Z",
-              "syncedAt": "2026-11-07T15:49:29.593Z",
+              "syncedAt": "2026-11-07T16:04:34.574Z",
               "contentType": "application/octet-stream"
             },
             "SFM-1.14.4-Intel.pkg": {
@@ -5271,11 +5271,11 @@
               "sha256": "27de3ca781aa4e93ded22d76b65abee12b6778226c1fbee1218719dcd6beb29e",
               "verified": "github-digest",
               "officialDigest": "27de3ca781aa4e93ded22d76b65abee12b6778226c1fbee1218719dcd6beb29e",
-              "assetId": 669524995,
-              "assetUpdatedAt": "2026-10-23T15:22:03Z",
+              "assetId": null,
+              "assetUpdatedAt": null,
               "officialUrl": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/SFM-1.14.4-Intel.pkg",
               "publishedAt": "2026-10-24T01:04:25Z",
-              "syncedAt": "2026-11-07T15:49:34.708Z",
+              "syncedAt": "2026-11-07T16:04:39.407Z",
               "contentType": "application/octet-stream"
             },
             "SFM-1.14.4-Universal.pkg": {
@@ -5290,11 +5290,11 @@
               "sha256": "51b9ab52e5bc7ef6058ff35fba1309fbc2c4a3241762eca1ad7e490cd7678294",
               "verified": "github-digest",
               "officialDigest": "51b9ab52e5bc7ef6058ff35fba1309fbc2c4a3241762eca1ad7e490cd7678294",
-              "assetId": 669525281,
-              "assetUpdatedAt": "2026-10-23T15:22:11Z",
+              "assetId": null,
+              "assetUpdatedAt": null,
               "officialUrl": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/SFM-1.14.4-Universal.pkg",
               "publishedAt": "2026-10-24T01:04:25Z",
-              "syncedAt": "2026-11-07T15:49:45.280Z",
+              "syncedAt": "2026-11-07T16:04:51.190Z",
               "contentType": "application/octet-stream"
             },
             "SFW-1.14.4-arm64.exe": {
@@ -5309,11 +5309,11 @@
               "sha256": "65f2813f83616c9e43625873fcc80fdf522aca66d560600d6edb721366efb781",
               "verified": "github-digest",
               "officialDigest": "65f2813f83616c9e43625873fcc80fdf522aca66d560600d6edb721366efb781",
-              "assetId": 669525341,
-              "assetUpdatedAt": "2026-10-23T15:22:16Z",
+              "assetId": null,
+              "assetUpdatedAt": null,
               "officialUrl": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/SFW-1.14.4-arm64.exe",
               "publishedAt": "2026-10-24T01:04:25Z",
-              "syncedAt": "2026-11-07T15:50:00.183Z",
+              "syncedAt": "2026-11-07T16:05:03.925Z",
               "contentType": "application/octet-stream"
             },
             "SFW-1.14.4-x64.exe": {
@@ -5328,25 +5328,25 @@
               "sha256": "9720433083bb00cacbc439cad79b89d337814fe8af31a8ff6f8dc5b807782446",
               "verified": "github-digest",
               "officialDigest": "9720433083bb00cacbc439cad79b89d337814fe8af31a8ff6f8dc5b807782446",
-              "assetId": 669525350,
-              "assetUpdatedAt": "2026-10-23T15:22:12Z",
+              "assetId": null,
+              "assetUpdatedAt": null,
               "officialUrl": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/SFW-1.14.4-x64.exe",
               "publishedAt": "2026-10-24T01:04:25Z",
-              "syncedAt": "2026-11-07T15:50:10.015Z",
+              "syncedAt": "2026-11-07T16:05:13.266Z",
               "contentType": "application/octet-stream"
             }
           }
         }
       },
-      "lastSyncedAt": "2026-11-07T15:50:10.015Z",
+      "lastSyncedAt": "2026-11-07T16:05:13.266Z",
       "consecutiveFailures": 0,
       "nextRetryAt": null,
       "lastChangeAt": "2026-11-07T15:07:46.511Z"
     },
     "hiddify": {
       "etag": null,
-      "lastCheckedAt": "2026-11-07T15:58:50.465Z",
-      "lastCheckOkAt": "2026-11-07T15:58:50.465Z",
+      "lastCheckedAt": "2026-11-07T16:13:31.133Z",
+      "lastCheckOkAt": "2026-11-07T16:13:31.133Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "html-fallback",
@@ -5526,8 +5526,8 @@
     },
     "throne": {
       "etag": null,
-      "lastCheckedAt": "2026-11-07T15:58:55.870Z",
-      "lastCheckOkAt": "2026-11-07T15:58:55.870Z",
+      "lastCheckedAt": "2026-11-07T16:13:32.664Z",
+      "lastCheckOkAt": "2026-11-07T16:13:32.664Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "html-fallback",
@@ -5723,7 +5723,7 @@
       "prereleases": [],
       "versions": {
         "1.4.1": {
-          "syncedAt": "2026-11-07T15:49:59.545Z",
+          "syncedAt": "2026-11-07T16:05:08.410Z",
           "files": {
             "Throne-1.4.1-macos-arm64.zip": {
               "filename": "Throne-1.4.1-macos-arm64.zip",
@@ -5737,11 +5737,11 @@
               "sha256": "50766e6563878810c8a43f1e42ae9a79c94c9e2e57122e48a57427d745bcc755",
               "verified": "github-digest",
               "officialDigest": "50766e6563878810c8a43f1e42ae9a79c94c9e2e57122e48a57427d745bcc755",
-              "assetId": 718874160,
-              "assetUpdatedAt": "2026-11-06T23:05:26Z",
+              "assetId": null,
+              "assetUpdatedAt": null,
               "officialUrl": "https://github.com/throneproj/Throne/releases/download/1.4.1/Throne-1.4.1-macos-arm64.zip",
               "publishedAt": "2026-11-06T23:05:33Z",
-              "syncedAt": "2026-11-07T15:49:29.661Z",
+              "syncedAt": "2026-11-07T16:04:37.393Z",
               "contentType": "application/octet-stream"
             },
             "Throne-1.4.1-windows64.zip": {
@@ -5756,11 +5756,11 @@
               "sha256": "c0fb62af75fd6a100a216c019b167a3bd924ebdc059b2bbbe68a684702293890",
               "verified": "github-digest",
               "officialDigest": "c0fb62af75fd6a100a216c019b167a3bd924ebdc059b2bbbe68a684702293890",
-              "assetId": 718874615,
-              "assetUpdatedAt": "2026-11-06T23:05:32Z",
+              "assetId": null,
+              "assetUpdatedAt": null,
               "officialUrl": "https://github.com/throneproj/Throne/releases/download/1.4.1/Throne-1.4.1-windows64.zip",
               "publishedAt": "2026-11-06T23:05:33Z",
-              "syncedAt": "2026-11-07T15:49:59.545Z",
+              "syncedAt": "2026-11-07T16:05:08.410Z",
               "contentType": "application/octet-stream"
             },
             "Throne-1.4.1-macos-amd64.zip": {
@@ -5775,11 +5775,11 @@
               "sha256": "9980a1b8b27e39c184f0e49ca3e51392f39fc1f90a1c93411c90c673748366ac",
               "verified": "github-digest",
               "officialDigest": "9980a1b8b27e39c184f0e49ca3e51392f39fc1f90a1c93411c90c673748366ac",
-              "assetId": 718874128,
-              "assetUpdatedAt": "2026-11-06T23:05:27Z",
+              "assetId": null,
+              "assetUpdatedAt": null,
               "officialUrl": "https://github.com/throneproj/Throne/releases/download/1.4.1/Throne-1.4.1-macos-amd64.zip",
               "publishedAt": "2026-11-06T23:05:33Z",
-              "syncedAt": "2026-11-07T15:49:21.066Z",
+              "syncedAt": "2026-11-07T16:04:32.267Z",
               "contentType": "application/octet-stream"
             },
             "Throne-1.4.1-windows-arm64.zip": {
@@ -5794,11 +5794,11 @@
               "sha256": "2078094210d92115617198a2f43c83776904b09501b6c146eee709d51904cc24",
               "verified": "github-digest",
               "officialDigest": "2078094210d92115617198a2f43c83776904b09501b6c146eee709d51904cc24",
-              "assetId": 718874322,
-              "assetUpdatedAt": "2026-11-06T23:05:28Z",
+              "assetId": null,
+              "assetUpdatedAt": null,
               "officialUrl": "https://github.com/throneproj/Throne/releases/download/1.4.1/Throne-1.4.1-windows-arm64.zip",
               "publishedAt": "2026-11-06T23:05:33Z",
-              "syncedAt": "2026-11-07T15:49:35.447Z",
+              "syncedAt": "2026-11-07T16:04:41.601Z",
               "contentType": "application/octet-stream"
             },
             "Throne-1.4.1-windows-universal-installer.exe": {
@@ -5813,17 +5813,17 @@
               "sha256": "1f0d27b38abcb0dbe89408fa194cf96279ef259c8008be311db94bd66fc9c26a",
               "verified": "github-digest",
               "officialDigest": "1f0d27b38abcb0dbe89408fa194cf96279ef259c8008be311db94bd66fc9c26a",
-              "assetId": 718874263,
-              "assetUpdatedAt": "2026-11-06T23:05:32Z",
+              "assetId": null,
+              "assetUpdatedAt": null,
               "officialUrl": "https://github.com/throneproj/Throne/releases/download/1.4.1/Throne-1.4.1-windows-universal-installer.exe",
               "publishedAt": "2026-11-06T23:05:33Z",
-              "syncedAt": "2026-11-07T15:49:52.853Z",
+              "syncedAt": "2026-11-07T16:04:59.746Z",
               "contentType": "application/octet-stream"
             }
           }
         }
       },
-      "lastSyncedAt": "2026-11-07T15:49:59.545Z",
+      "lastSyncedAt": "2026-11-07T16:05:08.410Z",
       "consecutiveFailures": 0,
       "nextRetryAt": null,
       "lastChangeAt": "2026-11-07T15:07:49.983Z"
@@ -5929,6 +5929,90 @@
       "sync": {
         "files": 62,
         "skipped": 0,
+        "failed": 0
+      },
+      "storage": "local",
+      "warnings": [],
+      "triggeredBy": "scheduler"
+    },
+    {
+      "reason": "scheduler",
+      "startedAt": "2026-11-07T15:56:00.373Z",
+      "finishedAt": "2026-11-07T16:05:13.275Z",
+      "durationMs": 552902,
+      "projects": 11,
+      "collect": {
+        "ok": 11,
+        "failed": 0,
+        "notModified": 0,
+        "degraded": 11
+      },
+      "sync": {
+        "files": 62,
+        "skipped": 0,
+        "failed": 0
+      },
+      "storage": "local",
+      "warnings": [],
+      "triggeredBy": "scheduler"
+    },
+    {
+      "reason": "scheduler",
+      "startedAt": "2026-11-07T16:06:10.030Z",
+      "finishedAt": "2026-11-07T16:06:34.482Z",
+      "durationMs": 24452,
+      "projects": 11,
+      "collect": {
+        "ok": 11,
+        "failed": 0,
+        "notModified": 0,
+        "degraded": 11
+      },
+      "sync": {
+        "files": 0,
+        "skipped": 62,
+        "failed": 0
+      },
+      "storage": "local",
+      "warnings": [],
+      "triggeredBy": "scheduler"
+    },
+    {
+      "reason": "scheduler",
+      "startedAt": "2026-11-07T16:12:23.506Z",
+      "finishedAt": "2026-11-07T16:12:48.454Z",
+      "durationMs": 24948,
+      "projects": 11,
+      "collect": {
+        "ok": 11,
+        "failed": 0,
+        "notModified": 0,
+        "degraded": 11
+      },
+      "sync": {
+        "files": 0,
+        "skipped": 62,
+        "failed": 0
+      },
+      "storage": "local",
+      "warnings": [],
+      "triggeredBy": "scheduler"
+    },
+    {
+      "reason": "scheduler",
+      "startedAt": "2026-11-07T16:13:13.280Z",
+      "finishedAt": "2026-11-07T16:13:33.264Z",
+      "durationMs": 19984,
+      "projects": 11,
+      "collect": {
+        "ok": 11,
+        "failed": 0,
+        "notModified": 0,
+        "degraded": 11
+      },
+      "sync": {
+        "files": 0,
+        "skipped": 62,
         "failed": 0
       },
       "storage": "local",

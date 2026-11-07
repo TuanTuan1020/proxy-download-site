@@ -74,6 +74,8 @@ git push -u origin main
 | Variable | `PUBLIC_DOWNLOAD_BASE` | `https://dl.example.com`（指向下载域） |
 
 > `PUBLIC_DOWNLOAD_BASE` 写成完整 URL 时，前端按钮直接用绝对地址；写成 `/download` 时必须由 Node 服务处理下载。
+>
+> **只部署 GitHub Pages（纯静态）时**：一定要把 `PUBLIC_DOWNLOAD_BASE` 设为下载服务或 CDN 的完整地址（如 `https://dl.example.com`），否则页面会提示“当前为纯静态部署，本站下载需要独立的文件服务”。这是有意设计的降级提示，不会静默给出坏链接。
 
 ### 2.4 启用 Pages
 

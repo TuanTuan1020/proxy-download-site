@@ -12,6 +12,13 @@ import {
 } from './shared.js';
 
 const $ = (selector) => document.querySelector(selector);
+
+/**
+ * 关键：用模块自身位置解析资源地址，而不是相对页面 URL。
+ * 这样 /、/index.html、/foo、/foo/、以及部署在子路径（/repo/）或反向代理前缀下都能正确加载。
+ */
+const DATA_URL = new URL('../data/site.json', import.meta.url);
+const STATUS_URL = new URL('../api/status', import.meta.url);
 const $$ = (selector) => [...document.querySelectorAll(selector)];
 
 const PLATFORM_ICON = { windows: 'i-windows', macos: 'i-apple', android: 'i-android' };
@@ -25,6 +32,7 @@ const state = {
   onlyMaintained: false,
   showPrerelease: false,
   detection: null,
+  serverAvailable: false,
 };
 
 const STATUS_BADGES = {
@@ -549,6 +557,14 @@ function renderPlatformBlock(item, platform) {
        </details>`
     : '';
 
+  // 纯静态托管（无本站文件服务）时，相对路径的下载链接会 404，需要明确告知
+  const staticHostWarning =
+    option.status === 'ready' &&
+    String(option.href || '').startsWith('/') &&
+    !state.serverAvailable
+      ? `<p class="dl-note info">当前为纯静态部署，本站下载需要独立的文件服务。若该服务未部署，请使用「官方下载」。</p>`
+      : '';
+
   const archMismatch =
     state.arch && option.arch !== state.arch
       ? `<p class="dl-note info">当前筛选架构为「${escapeHtml(archLabel(platform, state.arch))}」，该项目没有对应文件，以上为最接近的选项。</p>`
@@ -562,6 +578,7 @@ function renderPlatformBlock(item, platform) {
       </div>
       <div class="dl-primary">${renderDownloadButtons(option)}</div>
       <div class="dl-meta">${metaParts}${hint}</div>
+      ${staticHostWarning}
       ${archMismatch}
       ${noteText ? `<p class="dl-note ${noteClass}">${escapeHtml(noteText)}</p>` : ''}
       ${shaRow}
@@ -671,8 +688,11 @@ function render() {
 
 async function loadPublicStatus() {
   try {
-    const res = await fetch('/api/status', { cache: 'no-store' });
-    if (res.ok) state.publicStatus = await res.json();
+    const res = await fetch(STATUS_URL, { cache: 'no-store' });
+    if (res.ok) {
+      state.publicStatus = await res.json();
+      state.serverAvailable = true;
+    }
   } catch {
     state.publicStatus = null;
   }
@@ -683,8 +703,15 @@ async function loadData() {
   if (loadingEl) loadingEl.hidden = false;
   $('#error-panel').hidden = true;
   try {
-    const res = await fetch('./data/site.json', { cache: 'no-store' });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    let res;
+    try {
+      res = await fetch(DATA_URL, { cache: 'no-store' });
+    } catch {
+      // 网络抖动时自动重试一次
+      await new Promise((resolve) => setTimeout(resolve, 400));
+      res = await fetch(DATA_URL, { cache: 'no-store' });
+    }
+    if (!res.ok) throw new Error(`HTTP ${res.status} · ${DATA_URL.pathname}`);
     state.data = await res.json();
     renderSiteMeta();
     renderFaq();
@@ -693,7 +720,10 @@ async function loadData() {
   } catch (error) {
     $('#loading')?.remove();
     $('#error-panel').hidden = false;
-    $('#error-message').textContent = `无法读取站点数据（${error.message}）。请确认已运行采集任务生成本地数据，或检查网络与部署。`;
+    $('#error-message').textContent =
+      `无法读取站点数据（${error.message}）。` +
+      `数据地址应为 ${DATA_URL.pathname}。` +
+      '本地预览请先运行 node scripts/collect.js 生成数据；部署后请确认该文件已随站点一起发布。';
   }
 }
 

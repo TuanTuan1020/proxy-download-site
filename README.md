@@ -81,7 +81,8 @@ npm run dev        # = node scripts/server.js --update-on-start
 | `npm run cleanup` | 列出未被引用的文件（**只预览，不删除**） |
 | `npm run cleanup:apply -- --yes` | 真正删除未被引用的文件 |
 | `npm test` | 26 项单元 + HTTP 集成验证 |
-| `npm run test:browser` | 16 项真实浏览器（Chrome）交互与布局验证 |
+| `npm run test:browser` | 26 项真实浏览器（Chrome）交互、布局与回归验证 |
+| `npm run preview:static` | 纯静态预览（无 API、无下载服务），验证前端可独立托管 |
 
 可选参数：`--source=flclash,throne`（限定项目）、`--force`（忽略“未变化”判断强制重同步）、`--file=<文件名>`（限定文件）。
 
@@ -272,13 +273,15 @@ curl -H "Authorization: Bearer $ADMIN_TOKEN" 'http://127.0.0.1:8787/api/admin/lo
 - 系统识别（Android/Windows/macOS/iOS/Linux）
 - 下载服务：HEAD 头部正确、`Range` 206、整包 SHA-256 与登记值一致、未登记文件 404、路径穿越被拒、后台接口鉴权
 
-**真实浏览器（`npm run test:browser`，Chrome DevTools Protocol）：22 项全部通过**
+**真实浏览器（`npm run test:browser`，Chrome DevTools Protocol）：26 项全部通过**
 
 - 首页渲染、自动识别提示、点击 Android 后只剩 Android 项目、架构下拉重建、URL 同步
 - 主下载按钮指向 `/download/...` 而不是 GitHub 网页
 - 搜索、主题切换、SHA-256 展示、未同步项目有明确提示
 - 390px 手机宽度无横向溢出、按钮点击高度、键盘可聚焦
 - 设计指标：标题 ≥ 30px、桌面卡片 3 列栅格、主按钮为品牌渐变、卡片圆角 22px、正文对比度 6.29:1（WCAG AA）、3 张系统选择卡渲染
+- 回归：`/index.html`、`/foo`、`/foo/` 三种 URL 形态都能加载数据；未知路径被 302 归一到根路径
+- 回归：纯静态托管（无 API）也能渲染 8 张卡片，并提示“下载服务未部署”
 
 **布局实测（Chrome 计算样式 + 截图像素抽查）**
 
@@ -308,6 +311,7 @@ curl -H "Authorization: Bearer $ADMIN_TOKEN" 'http://127.0.0.1:8787/api/admin/lo
 | 自动清理删除 | 未执行 | 按要求部署初期只做预览，不自动删除已有文件 |
 | 升级/回滚演练 | 未验证 | 需要真实部署环境 |
 | 视觉细节（截图核对） | 有限 | 已用无头浏览器做 DOM/布局断言与截图，但未逐像素人工核对 |
+| 纯静态托管下的下载按钮 | 已降级提示 | 若未把 `PUBLIC_DOWNLOAD_BASE` 指向真实下载服务，按钮仍会显示但会提示“下载服务未部署”，需按 DEPLOY 配置 |
 
 ---
 

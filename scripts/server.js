@@ -185,9 +185,11 @@ async function handleStatic(req, res, urlPath) {
     if (req.method === 'HEAD') return res.end();
     fs.createReadStream(file).pipe(res);
   } catch {
-    if (urlPath !== '/' && !urlPath.includes('.')) {
-      // 前端为单页，未知路径回落到首页
-      return handleStatic(req, res, '/');
+    // 未知且不像静态文件的路径：302 归一到根路径。
+    // 这样浏览器地址栏不会停留在 /foo/，相对资源（assets/app.js）才能正确解析。
+    if (!path.extname(urlPath)) {
+      res.writeHead(302, { Location: '/' + (req.url.includes('?') ? req.url.slice(req.url.indexOf('?')) : '') });
+      return res.end();
     }
     res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' });
     res.end('Not found');

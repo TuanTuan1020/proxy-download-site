@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-07T16:02:45.787Z",
+  "generatedAt": "2026-11-07T16:15:19.985Z",
   "dataSource": "html-fallback",
   "site": {
     "name": "代理客户端下载站",
@@ -84,8 +84,8 @@
         "isPrereleaseTag": false
       },
       "prereleases": [],
-      "checkedAt": "2026-11-07T15:56:13.075Z",
-      "checkOkAt": "2026-11-07T15:56:13.075Z",
+      "checkedAt": "2026-11-07T16:13:15.739Z",
+      "checkOkAt": "2026-11-07T16:13:15.739Z",
       "syncedAt": "2026-11-07T16:01:23.574Z",
       "checkError": null,
       "syncError": null,
@@ -188,11 +188,6 @@
               "syncedAt": "2026-11-07T16:00:28.285Z",
               "note": ""
             }
-          ],
-          "hasMirror": true,
-          "arches": [
-            "x64",
-            "arm64"
           ]
         },
         "macos": {
@@ -243,11 +238,6 @@
               "syncedAt": "2026-11-07T16:00:51.283Z",
               "note": ""
             }
-          ],
-          "hasMirror": true,
-          "arches": [
-            "arm64",
-            "x64"
           ]
         }
       },
@@ -294,8 +284,8 @@
         "isPrereleaseTag": false
       },
       "prereleases": [],
-      "checkedAt": "2026-11-07T15:56:32.132Z",
-      "checkOkAt": "2026-11-07T15:56:32.132Z",
+      "checkedAt": "2026-11-07T16:13:17.326Z",
+      "checkOkAt": "2026-11-07T16:13:17.326Z",
       "syncedAt": "2026-11-07T16:01:43.452Z",
       "checkError": null,
       "syncError": null,
@@ -398,11 +388,6 @@
               "syncedAt": "2026-11-07T16:00:50.248Z",
               "note": ""
             }
-          ],
-          "hasMirror": true,
-          "arches": [
-            "x64",
-            "arm64"
           ]
         },
         "macos": {
@@ -453,11 +438,6 @@
               "syncedAt": "2026-11-07T16:00:34.263Z",
               "note": ""
             }
-          ],
-          "hasMirror": true,
-          "arches": [
-            "arm64",
-            "x64"
           ]
         }
       },
@@ -504,8 +484,8 @@
         "isPrereleaseTag": false
       },
       "prereleases": [],
-      "checkedAt": "2026-11-07T15:56:46.395Z",
-      "checkOkAt": "2026-11-07T15:56:46.395Z",
+      "checkedAt": "2026-11-07T16:13:18.946Z",
+      "checkOkAt": "2026-11-07T16:13:18.946Z",
       "syncedAt": "2026-11-07T16:02:26.426Z",
       "checkError": null,
       "syncError": null,
@@ -608,11 +588,6 @@
               "syncedAt": "2026-11-07T16:02:26.426Z",
               "note": ""
             }
-          ],
-          "hasMirror": true,
-          "arches": [
-            "x64",
-            "arm64"
           ]
         },
         "macos": {
@@ -663,11 +638,6 @@
               "syncedAt": "2026-11-07T16:01:56.549Z",
               "note": ""
             }
-          ],
-          "hasMirror": true,
-          "arches": [
-            "arm64",
-            "x64"
           ]
         },
         "android": {
@@ -741,12 +711,6 @@
               "syncedAt": "2026-11-07T16:01:49.528Z",
               "note": ""
             }
-          ],
-          "hasMirror": true,
-          "arches": [
-            "arm64-v8a",
-            "armeabi-v7a",
-            "x86_64"
           ]
         }
       },
@@ -800,9 +764,9 @@
           "heuristic": true
         }
       ],
-      "checkedAt": "2026-11-07T15:57:08.268Z",
-      "checkOkAt": "2026-11-07T15:57:08.268Z",
-      "syncedAt": "2026-11-07T16:02:45.785Z",
+      "checkedAt": "2026-11-07T16:13:21.154Z",
+      "checkOkAt": "2026-11-07T16:13:21.154Z",
+      "syncedAt": "2026-11-07T16:03:41.451Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "html-fallback",
@@ -832,7 +796,7 @@
               "verified": "github-digest",
               "verifiedLabel": "与 GitHub 资产摘要一致",
               "href": "/download/packages/clash-nyanpasu/v2.0.1/Clash.Nyanpasu_2.0.1_x64-setup.exe",
-              "syncedAt": "2026-11-07T15:48:17.831Z",
+              "syncedAt": "2026-11-07T16:03:21.765Z",
               "note": ""
             },
             {
@@ -855,7 +819,7 @@
               "verified": "github-digest",
               "verifiedLabel": "与 GitHub 资产摘要一致",
               "href": "/download/packages/clash-nyanpasu/v2.0.1/Clash.Nyanpasu_2.0.1_x86_64_portable.zip",
-              "syncedAt": "2026-11-07T15:46:23.423Z",
+              "syncedAt": "2026-11-07T16:03:41.451Z",
               "note": ""
             },
             {
@@ -878,7 +842,7 @@
               "verified": "github-digest",
               "verifiedLabel": "与 GitHub 资产摘要一致",
               "href": "/download/packages/clash-nyanpasu/v2.0.1/Clash.Nyanpasu_2.0.1_fixed-webview-x64-setup.exe",
-              "syncedAt": "2026-11-07T15:47:37.910Z",
+              "syncedAt": "2026-11-07T16:03:11.525Z",
               "note": ""
             },
             {
@@ -950,11 +914,6 @@
               "syncedAt": "2026-11-07T16:02:45.785Z",
               "note": ""
             }
-          ],
-          "hasMirror": true,
-          "arches": [
-            "x64",
-            "arm64"
           ]
         },
         "macos": {
@@ -1002,14 +961,9 @@
               "verified": "github-digest",
               "verifiedLabel": "与 GitHub 资产摘要一致",
               "href": "/download/packages/clash-nyanpasu/v2.0.1/Clash.Nyanpasu_2.0.1_x64.dmg",
-              "syncedAt": "2026-11-07T15:48:00.367Z",
+              "syncedAt": "2026-11-07T16:03:31.952Z",
               "note": ""
             }
-          ],
-          "hasMirror": true,
-          "arches": [
-            "arm64",
-            "x64"
           ]
         }
       },
@@ -1056,9 +1010,9 @@
         "isPrereleaseTag": false
       },
       "prereleases": [],
-      "checkedAt": "2026-11-07T15:57:20.868Z",
-      "checkOkAt": "2026-11-07T15:57:20.868Z",
-      "syncedAt": "2026-11-07T16:02:41.823Z",
+      "checkedAt": "2026-11-07T16:13:22.938Z",
+      "checkOkAt": "2026-11-07T16:13:22.938Z",
+      "syncedAt": "2026-11-07T16:03:58.120Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "html-fallback",
@@ -1088,7 +1042,7 @@
               "verified": "github-digest",
               "verifiedLabel": "与 GitHub 资产摘要一致",
               "href": "/download/packages/v2rayn/7.25.6/v2rayN-windows-64.zip",
-              "syncedAt": "2026-11-07T15:47:43.794Z",
+              "syncedAt": "2026-11-07T16:03:32.701Z",
               "note": ""
             },
             {
@@ -1111,7 +1065,7 @@
               "verified": "github-digest",
               "verifiedLabel": "与 GitHub 资产摘要一致",
               "href": "/download/packages/v2rayn/7.25.6/v2rayN-windows-64-desktop.zip",
-              "syncedAt": "2026-11-07T15:47:20.140Z",
+              "syncedAt": "2026-11-07T16:03:18.710Z",
               "note": ""
             },
             {
@@ -1134,7 +1088,7 @@
               "verified": "github-digest",
               "verifiedLabel": "与 GitHub 资产摘要一致",
               "href": "/download/packages/v2rayn/7.25.6/v2rayN-windows-arm64.zip",
-              "syncedAt": "2026-11-07T15:48:10.896Z",
+              "syncedAt": "2026-11-07T16:03:58.120Z",
               "note": ""
             },
             {
@@ -1157,14 +1111,9 @@
               "verified": "github-digest",
               "verifiedLabel": "与 GitHub 资产摘要一致",
               "href": "/download/packages/v2rayn/7.25.6/v2rayN-windows-arm64-desktop.zip",
-              "syncedAt": "2026-11-07T15:47:57.778Z",
+              "syncedAt": "2026-11-07T16:03:45.523Z",
               "note": ""
             }
-          ],
-          "hasMirror": true,
-          "arches": [
-            "x64",
-            "arm64"
           ]
         },
         "macos": {
@@ -1189,7 +1138,7 @@
               "verified": "github-digest",
               "verifiedLabel": "与 GitHub 资产摘要一致",
               "href": "/download/packages/v2rayn/7.25.6/v2rayN-macos-arm64.dmg",
-              "syncedAt": "2026-11-07T15:47:04.295Z",
+              "syncedAt": "2026-11-07T16:03:00.073Z",
               "note": ""
             },
             {
@@ -1215,11 +1164,6 @@
               "syncedAt": "2026-11-07T16:02:41.823Z",
               "note": ""
             }
-          ],
-          "hasMirror": true,
-          "arches": [
-            "arm64",
-            "x64"
           ]
         }
       },
@@ -1264,9 +1208,9 @@
         "isPrereleaseTag": false
       },
       "prereleases": [],
-      "checkedAt": "2026-11-07T15:57:40.986Z",
-      "checkOkAt": "2026-11-07T15:57:40.986Z",
-      "syncedAt": "2026-11-07T15:48:29.110Z",
+      "checkedAt": "2026-11-07T16:13:24.444Z",
+      "checkOkAt": "2026-11-07T16:13:24.444Z",
+      "syncedAt": "2026-11-07T16:04:02.087Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "html-fallback",
@@ -1296,7 +1240,7 @@
               "verified": "github-digest",
               "verifiedLabel": "与 GitHub 资产摘要一致",
               "href": "/download/packages/v2rayng/2.3.15/v2rayNG_2.3.15_arm64-v8a.apk",
-              "syncedAt": "2026-11-07T15:48:16.684Z",
+              "syncedAt": "2026-11-07T16:03:45.535Z",
               "note": ""
             },
             {
@@ -1319,7 +1263,7 @@
               "verified": "github-digest",
               "verifiedLabel": "与 GitHub 资产摘要一致",
               "href": "/download/packages/v2rayng/2.3.15/v2rayNG_2.3.15_armeabi-v7a.apk",
-              "syncedAt": "2026-11-07T15:48:20.448Z",
+              "syncedAt": "2026-11-07T16:03:49.129Z",
               "note": ""
             },
             {
@@ -1342,7 +1286,7 @@
               "verified": "github-digest",
               "verifiedLabel": "与 GitHub 资产摘要一致",
               "href": "/download/packages/v2rayng/2.3.15/v2rayNG_2.3.15_universal.apk",
-              "syncedAt": "2026-11-07T15:48:24.756Z",
+              "syncedAt": "2026-11-07T16:03:58.166Z",
               "note": ""
             },
             {
@@ -1365,16 +1309,9 @@
               "verified": "github-digest",
               "verifiedLabel": "与 GitHub 资产摘要一致",
               "href": "/download/packages/v2rayng/2.3.15/v2rayNG_2.3.15_x86_64.apk",
-              "syncedAt": "2026-11-07T15:48:29.110Z",
+              "syncedAt": "2026-11-07T16:04:02.087Z",
               "note": ""
             }
-          ],
-          "hasMirror": true,
-          "arches": [
-            "arm64-v8a",
-            "armeabi-v7a",
-            "universal",
-            "x86_64"
           ]
         }
       },
@@ -1419,9 +1356,9 @@
         "isPrereleaseTag": false
       },
       "prereleases": [],
-      "checkedAt": "2026-11-07T15:57:54.754Z",
-      "checkOkAt": "2026-11-07T15:57:54.754Z",
-      "syncedAt": "2026-11-07T15:49:09.760Z",
+      "checkedAt": "2026-11-07T16:13:26.197Z",
+      "checkOkAt": "2026-11-07T16:13:26.197Z",
+      "syncedAt": "2026-11-07T16:04:25.410Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "html-fallback",
@@ -1451,7 +1388,7 @@
               "verified": "github-digest",
               "verifiedLabel": "与 GitHub 资产摘要一致",
               "href": "/download/packages/clash-meta-for-android/v2.11.36/cmfa-2.11.36-meta-arm64-v8a-release.apk",
-              "syncedAt": "2026-11-07T15:48:39.431Z",
+              "syncedAt": "2026-11-07T16:04:02.115Z",
               "note": ""
             },
             {
@@ -1474,7 +1411,7 @@
               "verified": "github-digest",
               "verifiedLabel": "与 GitHub 资产摘要一致",
               "href": "/download/packages/clash-meta-for-android/v2.11.36/cmfa-2.11.36-meta-armeabi-v7a-release.apk",
-              "syncedAt": "2026-11-07T15:48:47.503Z",
+              "syncedAt": "2026-11-07T16:04:06.071Z",
               "note": ""
             },
             {
@@ -1497,7 +1434,7 @@
               "verified": "github-digest",
               "verifiedLabel": "与 GitHub 资产摘要一致",
               "href": "/download/packages/clash-meta-for-android/v2.11.36/cmfa-2.11.36-meta-universal-release.apk",
-              "syncedAt": "2026-11-07T15:48:58.227Z",
+              "syncedAt": "2026-11-07T16:04:14.728Z",
               "note": ""
             },
             {
@@ -1520,7 +1457,7 @@
               "verified": "github-digest",
               "verifiedLabel": "与 GitHub 资产摘要一致",
               "href": "/download/packages/clash-meta-for-android/v2.11.36/cmfa-2.11.36-meta-x86_64-release.apk",
-              "syncedAt": "2026-11-07T15:49:09.760Z",
+              "syncedAt": "2026-11-07T16:04:25.410Z",
               "note": ""
             },
             {
@@ -1543,17 +1480,9 @@
               "verified": "github-digest",
               "verifiedLabel": "与 GitHub 资产摘要一致",
               "href": "/download/packages/clash-meta-for-android/v2.11.36/cmfa-2.11.36-meta-x86-release.apk",
-              "syncedAt": "2026-11-07T15:49:03.918Z",
+              "syncedAt": "2026-11-07T16:04:20.796Z",
               "note": ""
             }
-          ],
-          "hasMirror": true,
-          "arches": [
-            "arm64-v8a",
-            "armeabi-v7a",
-            "universal",
-            "x86_64",
-            "x86"
           ]
         }
       },
@@ -1598,9 +1527,9 @@
         "isPrereleaseTag": false
       },
       "prereleases": [],
-      "checkedAt": "2026-11-07T15:58:16.286Z",
-      "checkOkAt": "2026-11-07T15:58:16.286Z",
-      "syncedAt": "2026-11-07T15:48:56.517Z",
+      "checkedAt": "2026-11-07T16:13:27.887Z",
+      "checkOkAt": "2026-11-07T16:13:27.887Z",
+      "syncedAt": "2026-11-07T16:04:09.285Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "html-fallback",
@@ -1630,7 +1559,7 @@
               "verified": "github-digest",
               "verifiedLabel": "与 GitHub 资产摘要一致",
               "href": "/download/packages/nekobox/1.4.2/NekoBox-1.4.2-arm64-v8a.apk",
-              "syncedAt": "2026-11-07T15:48:49.887Z",
+              "syncedAt": "2026-11-07T16:04:03.702Z",
               "note": ""
             },
             {
@@ -1653,7 +1582,7 @@
               "verified": "github-digest",
               "verifiedLabel": "与 GitHub 资产摘要一致",
               "href": "/download/packages/nekobox/1.4.2/NekoBox-1.4.2-armeabi-v7a.apk",
-              "syncedAt": "2026-11-07T15:48:51.572Z",
+              "syncedAt": "2026-11-07T16:04:05.434Z",
               "note": ""
             },
             {
@@ -1676,7 +1605,7 @@
               "verified": "github-digest",
               "verifiedLabel": "与 GitHub 资产摘要一致",
               "href": "/download/packages/nekobox/1.4.2/NekoBox-1.4.2-x86_64.apk",
-              "syncedAt": "2026-11-07T15:48:56.517Z",
+              "syncedAt": "2026-11-07T16:04:09.285Z",
               "note": ""
             },
             {
@@ -1699,16 +1628,9 @@
               "verified": "github-digest",
               "verifiedLabel": "与 GitHub 资产摘要一致",
               "href": "/download/packages/nekobox/1.4.2/NekoBox-1.4.2-x86.apk",
-              "syncedAt": "2026-11-07T15:48:53.690Z",
+              "syncedAt": "2026-11-07T16:04:07.404Z",
               "note": ""
             }
-          ],
-          "hasMirror": true,
-          "arches": [
-            "arm64-v8a",
-            "armeabi-v7a",
-            "x86_64",
-            "x86"
           ]
         }
       },
@@ -1764,9 +1686,9 @@
           "heuristic": true
         }
       ],
-      "checkedAt": "2026-11-07T15:58:33.891Z",
-      "checkOkAt": "2026-11-07T15:58:33.891Z",
-      "syncedAt": "2026-11-07T15:50:10.015Z",
+      "checkedAt": "2026-11-07T16:13:29.669Z",
+      "checkOkAt": "2026-11-07T16:13:29.669Z",
+      "syncedAt": "2026-11-07T16:05:13.266Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "html-fallback",
@@ -1796,7 +1718,7 @@
               "verified": "github-digest",
               "verifiedLabel": "与 GitHub 资产摘要一致",
               "href": "/download/packages/sing-box/v1.14.4/SFW-1.14.4-x64.exe",
-              "syncedAt": "2026-11-07T15:50:10.015Z",
+              "syncedAt": "2026-11-07T16:05:13.266Z",
               "note": ""
             },
             {
@@ -1819,14 +1741,9 @@
               "verified": "github-digest",
               "verifiedLabel": "与 GitHub 资产摘要一致",
               "href": "/download/packages/sing-box/v1.14.4/SFW-1.14.4-arm64.exe",
-              "syncedAt": "2026-11-07T15:50:00.183Z",
+              "syncedAt": "2026-11-07T16:05:03.925Z",
               "note": ""
             }
-          ],
-          "hasMirror": true,
-          "arches": [
-            "x64",
-            "arm64"
           ]
         },
         "macos": {
@@ -1851,7 +1768,7 @@
               "verified": "github-digest",
               "verifiedLabel": "与 GitHub 资产摘要一致",
               "href": "/download/packages/sing-box/v1.14.4/SFM-1.14.4-Apple.pkg",
-              "syncedAt": "2026-11-07T15:49:29.593Z",
+              "syncedAt": "2026-11-07T16:04:34.574Z",
               "note": ""
             },
             {
@@ -1874,7 +1791,7 @@
               "verified": "github-digest",
               "verifiedLabel": "与 GitHub 资产摘要一致",
               "href": "/download/packages/sing-box/v1.14.4/SFM-1.14.4-Intel.pkg",
-              "syncedAt": "2026-11-07T15:49:34.708Z",
+              "syncedAt": "2026-11-07T16:04:39.407Z",
               "note": ""
             },
             {
@@ -1897,15 +1814,9 @@
               "verified": "github-digest",
               "verifiedLabel": "与 GitHub 资产摘要一致",
               "href": "/download/packages/sing-box/v1.14.4/SFM-1.14.4-Universal.pkg",
-              "syncedAt": "2026-11-07T15:49:45.280Z",
+              "syncedAt": "2026-11-07T16:04:51.190Z",
               "note": ""
             }
-          ],
-          "hasMirror": true,
-          "arches": [
-            "arm64",
-            "x64",
-            "universal"
           ]
         },
         "android": {
@@ -1930,7 +1841,7 @@
               "verified": "github-digest",
               "verifiedLabel": "与 GitHub 资产摘要一致",
               "href": "/download/packages/sing-box/v1.14.4/SFA-1.14.4-arm64-v8a.apk",
-              "syncedAt": "2026-11-07T15:49:00.865Z",
+              "syncedAt": "2026-11-07T16:04:14.823Z",
               "note": ""
             },
             {
@@ -1953,7 +1864,7 @@
               "verified": "github-digest",
               "verifiedLabel": "与 GitHub 资产摘要一致",
               "href": "/download/packages/sing-box/v1.14.4/SFA-1.14.4-armeabi-v7a.apk",
-              "syncedAt": "2026-11-07T15:49:04.381Z",
+              "syncedAt": "2026-11-07T16:04:19.714Z",
               "note": ""
             },
             {
@@ -1976,7 +1887,7 @@
               "verified": "github-digest",
               "verifiedLabel": "与 GitHub 资产摘要一致",
               "href": "/download/packages/sing-box/v1.14.4/SFA-1.14.4-universal.apk",
-              "syncedAt": "2026-11-07T15:49:15.288Z",
+              "syncedAt": "2026-11-07T16:04:26.987Z",
               "note": ""
             },
             {
@@ -1999,16 +1910,9 @@
               "verified": "github-digest",
               "verifiedLabel": "与 GitHub 资产摘要一致",
               "href": "/download/packages/sing-box/v1.14.4/SFA-1.14.4-x86_64.apk",
-              "syncedAt": "2026-11-07T15:49:22.662Z",
+              "syncedAt": "2026-11-07T16:04:30.631Z",
               "note": ""
             }
-          ],
-          "hasMirror": true,
-          "arches": [
-            "arm64-v8a",
-            "armeabi-v7a",
-            "universal",
-            "x86_64"
           ]
         }
       },
@@ -2064,8 +1968,8 @@
           "heuristic": true
         }
       ],
-      "checkedAt": "2026-11-07T15:58:50.465Z",
-      "checkOkAt": "2026-11-07T15:58:50.465Z",
+      "checkedAt": "2026-11-07T16:13:31.133Z",
+      "checkOkAt": "2026-11-07T16:13:31.133Z",
       "syncedAt": null,
       "checkError": null,
       "syncError": null,
@@ -2122,10 +2026,6 @@
               "syncedAt": null,
               "note": "许可证附加条款较复杂，默认仅提供官方入口。"
             }
-          ],
-          "hasMirror": false,
-          "arches": [
-            "x64"
           ]
         },
         "macos": {
@@ -2176,10 +2076,6 @@
               "syncedAt": null,
               "note": "许可证附加条款较复杂，默认仅提供官方入口。"
             }
-          ],
-          "hasMirror": false,
-          "arches": [
-            "unknown"
           ]
         },
         "android": {
@@ -2276,13 +2172,6 @@
               "syncedAt": null,
               "note": "许可证附加条款较复杂，默认仅提供官方入口。"
             }
-          ],
-          "hasMirror": false,
-          "arches": [
-            "arm64-v8a",
-            "armeabi-v7a",
-            "universal",
-            "x86_64"
           ]
         }
       },
@@ -2329,9 +2218,9 @@
         "isPrereleaseTag": false
       },
       "prereleases": [],
-      "checkedAt": "2026-11-07T15:58:55.870Z",
-      "checkOkAt": "2026-11-07T15:58:55.870Z",
-      "syncedAt": "2026-11-07T15:49:59.545Z",
+      "checkedAt": "2026-11-07T16:13:32.664Z",
+      "checkOkAt": "2026-11-07T16:13:32.664Z",
+      "syncedAt": "2026-11-07T16:05:08.410Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "html-fallback",
@@ -2361,7 +2250,7 @@
               "verified": "github-digest",
               "verifiedLabel": "与 GitHub 资产摘要一致",
               "href": "/download/packages/throne/1.4.1/Throne-1.4.1-windows64.zip",
-              "syncedAt": "2026-11-07T15:49:59.545Z",
+              "syncedAt": "2026-11-07T16:05:08.410Z",
               "note": ""
             },
             {
@@ -2384,7 +2273,7 @@
               "verified": "github-digest",
               "verifiedLabel": "与 GitHub 资产摘要一致",
               "href": "/download/packages/throne/1.4.1/Throne-1.4.1-windows-arm64.zip",
-              "syncedAt": "2026-11-07T15:49:35.447Z",
+              "syncedAt": "2026-11-07T16:04:41.601Z",
               "note": ""
             },
             {
@@ -2407,15 +2296,9 @@
               "verified": "github-digest",
               "verifiedLabel": "与 GitHub 资产摘要一致",
               "href": "/download/packages/throne/1.4.1/Throne-1.4.1-windows-universal-installer.exe",
-              "syncedAt": "2026-11-07T15:49:52.853Z",
+              "syncedAt": "2026-11-07T16:04:59.746Z",
               "note": ""
             }
-          ],
-          "hasMirror": true,
-          "arches": [
-            "x64",
-            "arm64",
-            "unknown"
           ]
         },
         "macos": {
@@ -2440,7 +2323,7 @@
               "verified": "github-digest",
               "verifiedLabel": "与 GitHub 资产摘要一致",
               "href": "/download/packages/throne/1.4.1/Throne-1.4.1-macos-arm64.zip",
-              "syncedAt": "2026-11-07T15:49:29.661Z",
+              "syncedAt": "2026-11-07T16:04:37.393Z",
               "note": ""
             },
             {
@@ -2463,14 +2346,9 @@
               "verified": "github-digest",
               "verifiedLabel": "与 GitHub 资产摘要一致",
               "href": "/download/packages/throne/1.4.1/Throne-1.4.1-macos-amd64.zip",
-              "syncedAt": "2026-11-07T15:49:21.066Z",
+              "syncedAt": "2026-11-07T16:04:32.267Z",
               "note": ""
             }
-          ],
-          "hasMirror": true,
-          "arches": [
-            "arm64",
-            "x64"
           ]
         }
       },

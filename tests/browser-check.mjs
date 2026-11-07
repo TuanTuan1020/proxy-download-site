@@ -291,6 +291,52 @@ try {
   record('卡片圆角 ≥ 16px', design.radius >= 16, `${design.radius}px`);
   record('系统选择卡片已渲染', design.osCards === 3, `${design.osCards} 个`);
 
+  // 6.8) 回归：任意 URL 形态都能加载数据（曾因相对路径解析失败而报“无法加载站点数据”）
+  const urlShapes = [];
+  for (const suffix of ['/index.html', '/foo', '/foo/']) {
+    await goto(browser, `${BASE}${suffix}`);
+    const probe = await browser.evaluate(`(() => ({
+      error: !document.querySelector('#error-panel').hidden,
+      cards: document.querySelectorAll('.card').length,
+      url: location.pathname,
+    }))()`);
+    urlShapes.push({ suffix, ...probe });
+  }
+  record(
+    '不同 URL 形态均能加载数据',
+    urlShapes.every((r) => !r.error && r.cards > 0),
+    urlShapes.map((r) => `${r.suffix}→${r.cards}卡`).join(' '),
+  );
+  record(
+    '未知路径会被归一到根路径',
+    urlShapes.filter((r) => r.suffix.startsWith('/foo')).every((r) => r.url === '/'),
+    urlShapes.map((r) => r.url).join(','),
+  );
+
+  // 6.9) 纯静态托管（无本站文件服务）时不得报错，且必须提示下载服务未部署
+  const staticPort = 8811 + Math.floor(Math.random() * 60);
+  const staticProc = spawn(process.execPath, ['scripts/preview-static.js', `--port=${staticPort}`], {
+    cwd: process.cwd(),
+    stdio: 'ignore',
+  });
+  try {
+    await new Promise((resolve) => setTimeout(resolve, 900));
+    await goto(browser, `http://127.0.0.1:${staticPort}/`);
+    const staticHost = await browser.evaluate(`(() => ({
+      error: !document.querySelector('#error-panel').hidden,
+      cards: document.querySelectorAll('.card').length,
+      warnings: [...document.querySelectorAll('.dl-note.info')].filter((n) => n.textContent.includes('纯静态部署')).length,
+    }))()`);
+    record('纯静态托管也能渲染页面', !staticHost.error && staticHost.cards > 0, `${staticHost.cards} 张卡片`);
+    record(
+      '静态托管时提示下载服务未部署',
+      staticHost.warnings > 0,
+      `${staticHost.warnings} 处提示`,
+    );
+  } finally {
+    staticProc.kill('SIGKILL');
+  }
+
   // 7) 手机宽度无横向溢出
   await goto(browser, `${BASE}/?platform=android`, 390, 900);
   const mobile = await browser.evaluate(`(() => ({
