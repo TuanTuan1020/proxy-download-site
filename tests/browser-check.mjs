@@ -258,6 +258,39 @@ try {
   })()`);
   record('可查看 SHA-256', sha.count > 0 && /^[0-9a-f]{64}$/.test(sha.sample), `${sha.count} 条`);
 
+  // 6.5) 设计指标：字号层级、栅格、渐变、对比度、圆角
+  const design = await browser.evaluate(`(() => {
+    const lum = (c) => {
+      const parts = c.match(/[0-9.]+/g).slice(0, 3).map(Number).map((v) => {
+        v /= 255;
+        return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4);
+      });
+      return 0.2126 * parts[0] + 0.7152 * parts[1] + 0.0722 * parts[2];
+    };
+    const ratio = (a, b) => {
+      const l1 = lum(a); const l2 = lum(b);
+      return (Math.max(l1, l2) + 0.05) / (Math.min(l1, l2) + 0.05);
+    };
+    const card = document.querySelector('.card');
+    const cardStyle = getComputedStyle(card);
+    const desc = getComputedStyle(document.querySelector('.card-desc'));
+    const btn = document.querySelector('.primary-btn');
+    return {
+      h1: parseFloat(getComputedStyle(document.querySelector('.hero h1')).fontSize),
+      grid: getComputedStyle(document.querySelector('#cards')).gridTemplateColumns.split(' ').length,
+      gradient: btn ? getComputedStyle(btn).backgroundImage.includes('linear-gradient') : false,
+      contrast: Number(ratio(desc.color, cardStyle.backgroundColor).toFixed(2)),
+      radius: parseFloat(cardStyle.borderRadius),
+      osCards: document.querySelectorAll('.os-card').length,
+    };
+  })()`);
+  record('标题达到大标题层级（≥30px）', design.h1 >= 30, `${design.h1}px`);
+  record('桌面端卡片为多列栅格', design.grid >= 3, `${design.grid} 列`);
+  record('主下载按钮使用品牌渐变', design.gradient === true);
+  record('卡片正文对比度 ≥ 4.5:1（WCAG AA）', design.contrast >= 4.5, `${design.contrast}:1`);
+  record('卡片圆角 ≥ 16px', design.radius >= 16, `${design.radius}px`);
+  record('系统选择卡片已渲染', design.osCards === 3, `${design.osCards} 个`);
+
   // 7) 手机宽度无横向溢出
   await goto(browser, `${BASE}/?platform=android`, 390, 900);
   const mobile = await browser.evaluate(`(() => ({
