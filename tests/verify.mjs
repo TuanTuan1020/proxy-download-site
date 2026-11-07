@@ -13,6 +13,7 @@ import { buildSiteData } from '../scripts/lib/publish.js';
 import { classifyRelease } from '../scripts/lib/classify.js';
 import { checkMagic, assertAllowedUrl } from '../scripts/lib/http.js';
 import { validateSources, loadSourcesConfig } from '../scripts/lib/config.js';
+import { storageIdentity } from '../scripts/lib/env.js';
 import { detectPlatform, pickPrimary, normalizeArch, MAGIC_SIGNATURES } from '../web/assets/shared.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -183,7 +184,7 @@ const demoRelease = (tag) => ({
   ],
 });
 
-const syncedRecord = (tag, filename, role, sha) => ({
+const syncedRecord = (tag, filename, role, sha, storageId = storageIdentity()) => ({
   filename,
   role,
   key: `packages/demo/${tag}/${filename}`,
@@ -191,6 +192,7 @@ const syncedRecord = (tag, filename, role, sha) => ({
   sha256: sha,
   verified: 'github-digest',
   syncedAt: '2026-01-02T00:00:00Z',
+  storageId,
   contentType: 'application/vnd.microsoft.portable-executable',
 });
 
@@ -269,6 +271,26 @@ test('未授权镜像的项目只提供官方入口', () => {
   assert(option.status === 'official-only', `应为 official-only，实际 ${option.status}`);
   assert(option.href === null, '不应生成本站下载地址');
   assert(data.items[0].syncState === 'official-only', '项目状态应为 official-only');
+});
+
+test('记录来自其他存储时不得标记为可下载（防止状态说已同步、链接却 404）', () => {
+  const data = buildWith({
+    'v2.0.0': {
+      syncedAt: '2026-01-02T00:00:00Z',
+      files: {
+        'App-2.0.0-setup.exe': syncedRecord(
+          'v2.0.0',
+          'App-2.0.0-setup.exe',
+          'windows|x64|exe|installer',
+          'c'.repeat(64),
+          's3:other-bucket@https://other.example.com',
+        ),
+      },
+    },
+  });
+  const option = data.items[0].downloads.windows.options[0];
+  assert(option.status === 'unavailable', `跨存储记录应为 unavailable，实际 ${option.status}`);
+  assert(option.href === null, '不应生成指向其他存储的下载地址');
 });
 
 test('站点数据包含每个项目的检查时间与同步时间（不被整体时间掩盖）', () => {
