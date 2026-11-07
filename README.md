@@ -315,6 +315,19 @@ curl -H "Authorization: Bearer $ADMIN_TOKEN" 'http://127.0.0.1:8787/api/admin/lo
 
 ---
 
+## 11.5 当前部署状态（已上线）
+
+| 项 | 值 |
+| --- | --- |
+| 仓库 | https://github.com/TuanTuan1020/proxy-download-site |
+| 站点 | https://tuantuan1020.github.io/proxy-download-site/ |
+| Actions | 每次 push 与每 10 分钟定时运行，成功采集 11 个项目（走 REST API，约 5 秒） |
+| Pages | 已启用（Source = GitHub Actions） |
+| 安装包存储 | ❌ 未配置 → 线上所有卡片显示“本站下载暂不可用”，主按钮为官方下载；横幅明确提示未配置存储 |
+| 下载域名 | ❌ 未配置 |
+
+> 线上站点目前是**诚实的降级状态**：不伪造任何“本站可下载”，也不产生死链（实测 0 个 `/download/` 链接）。
+
 ## 12. 上线还缺什么
 
 代码、配置模板、部署文档已就绪，**以下需要你确认/提供后我才能继续**：
