@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { env } from './env.js';
+import { env, storageIdentity } from './env.js';
 import { readState, updateState, getSourceState, pruneVersions } from './state.js';
 import { classifyRelease, filterByPlatform } from './classify.js';
 import { fetchOfficialChecksums } from './checksums.js';
@@ -155,6 +155,7 @@ export async function syncSource(source, options = {}) {
         officialUrl: asset.url,
         publishedAt: release.publishedAt || null,
         syncedAt: syncTime,
+        storageId: storageIdentity(),
         contentType: download.contentType || contentTypeForFilename(asset.name),
       };
 

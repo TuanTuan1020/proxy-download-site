@@ -31,7 +31,12 @@ const num = (value, fallback) => {
   return Number.isFinite(n) && n > 0 ? n : fallback;
 };
 
-const str = (value, fallback = '') => (typeof value === 'string' ? value.trim() : fallback);
+// 注意：CI 里未配置的变量会以空字符串传入，空值必须回退到默认值，
+// 否则会出现 PUBLIC_DOWNLOAD_BASE='' 导致下载链接变成 /packages/... 这类错误。
+const str = (value, fallback = '') => {
+  const v = typeof value === 'string' ? value.trim() : '';
+  return v || fallback;
+};
 
 const abs = (p, fallbackDir) => {
   const v = str(p);
@@ -88,6 +93,12 @@ export const SECRETS = [
   env.s3.accessKeyId,
   env.s3.secretAccessKey,
 ].filter((v) => typeof v === 'string' && v.length >= 4);
+
+/** 存储身份：用于判断已同步记录是否属于当前存储，避免切换存储后指向不存在的文件 */
+export function storageIdentity(cfg = env) {
+  if (cfg.storageDriver === 's3') return `s3:${cfg.s3.bucket || ''}@${cfg.s3.endpoint || ''}`;
+  return `local:${path.resolve(cfg.localStorageDir)}`;
+}
 
 export function hasStorageCredentials() {
   if (env.storageDriver === 'local') return true;

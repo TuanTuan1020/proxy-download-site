@@ -1,5 +1,5 @@
 import path from 'node:path';
-import { env, writeJsonAtomic } from './env.js';
+import { env, writeJsonAtomic, hasStorageCredentials, storageIdentity } from './env.js';
 import { classifyRelease, filterByPlatform } from './classify.js';
 import { ARCH_ORDER, archLabel, formatLabel, variantLabel } from '../../web/assets/shared.js';
 
@@ -22,6 +22,18 @@ function hrefFor(key) {
   return `${downloadBase()}/${String(key).replace(/^\/+/, '')}`;
 }
 
+const CURRENT_STORAGE = () => storageIdentity();
+
+/**
+ * 记录是否属于当前存储配置。
+ * 严格匹配 storageId：不同存储（本地目录 ↔ 对象存储 ↔ 换桶）的记录一律不算可用，
+ * 避免出现“状态说已同步、链接却 404”的情况。旧记录可用 scripts/migrate-state.js 迁移。
+ */
+function usableRecord(record) {
+  if (!record || !record.key) return false;
+  return record.storageId === CURRENT_STORAGE();
+}
+
 function findFallback(versions, role, excludeTag) {
   const tags = Object.keys(versions || {})
     .filter((tag) => tag !== excludeTag)
@@ -29,7 +41,7 @@ function findFallback(versions, role, excludeTag) {
   for (const tag of tags) {
     const files = versions[tag]?.files || {};
     for (const record of Object.values(files)) {
-      if (record.role === role && record.key) return { version: tag, record };
+      if (record.role === role && usableRecord(record)) return { version: tag, record };
     }
   }
   return null;
@@ -53,10 +65,11 @@ function compareOptions(a, b) {
   return a.filename.localeCompare(b.filename);
 }
 
-function buildOption(source, asset, sourceState, latestTag) {
+function buildOption(source, asset, sourceState, latestTag, storageReady) {
   const versions = sourceState.versions || {};
   const mirrorEnabled = Boolean(source.mirror?.enabled);
-  const exact = versions[latestTag]?.files?.[asset.name] || null;
+  const exactRaw = versions[latestTag]?.files?.[asset.name] || null;
+  const exact = usableRecord(exactRaw) ? exactRaw : null;
   const fallback = mirrorEnabled && !exact ? findFallback(versions, asset.role, latestTag) : null;
 
   const base = {
@@ -132,11 +145,13 @@ function buildOption(source, asset, sourceState, latestTag) {
     verifiedLabel: '',
     href: null,
     syncedAt: null,
-    note: '本站安装包正在同步，尚未校验完成；可先使用官方下载。',
+    note: storageReady
+      ? '本站安装包正在同步，尚未校验完成；可先使用官方下载。'
+      : '本站尚未配置安装包存储，暂不提供镜像下载；请使用官方下载。',
   };
 }
 
-function summarizeItem(source, downloads, sourceState) {
+function summarizeItem(source, downloads, sourceState, storageReady) {
   const options = Object.values(downloads).flatMap((p) => p.options);
   const scoped = options.length;
   const ready = options.filter((o) => o.status === 'ready').length;
@@ -148,6 +163,9 @@ function summarizeItem(source, downloads, sourceState) {
   if (!source.mirror?.enabled) {
     syncState = 'official-only';
     syncMessage = '按许可证/发布条款，本站仅提供官方下载入口';
+  } else if (!storageReady) {
+    syncState = 'pending';
+    syncMessage = '未配置安装包存储，仅提供官方下载入口';
   } else if (!sourceState.release) {
     if (sourceState.checkError) {
       syncState = 'failed';
@@ -180,8 +198,13 @@ export function buildSiteData({ sources, siteConfig, state, now = new Date() }) 
   const items = [];
   const dataSources = new Set();
   const warnings = [];
+  const storageReady = hasStorageCredentials();
 
-  if (env.storageDriver === 's3' && !env.s3PublicBaseUrl && !env.publicDownloadBase.startsWith('http')) {
+  if (!storageReady) {
+    warnings.push(
+      '本站尚未配置安装包存储（S3_* 或本地目录），因此不提供镜像下载，仅展示官方 GitHub 入口。',
+    );
+  } else if (env.storageDriver === 's3' && !env.s3PublicBaseUrl && !env.publicDownloadBase.startsWith('http')) {
     warnings.push('对象存储未配置公开访问前缀（S3_PUBLIC_BASE_URL），下载链接将走本站路由并依赖服务端签发。');
   }
 
@@ -199,7 +222,7 @@ export function buildSiteData({ sources, siteConfig, state, now = new Date() }) 
       const options = scoped
         .filter((asset) => asset.platform === platform)
         .map((asset) => {
-          const option = buildOption(source, asset, sourceState, release?.tag || '');
+          const option = buildOption(source, asset, sourceState, release?.tag || '', storageReady);
           return { ...option, __sort: optionSortKey(option, platform) };
         })
         .sort(compareOptions)
@@ -207,7 +230,7 @@ export function buildSiteData({ sources, siteConfig, state, now = new Date() }) 
       downloads[platform] = { options };
     }
 
-    const summary = summarizeItem(source, downloads, sourceState);
+    const summary = summarizeItem(source, downloads, sourceState, storageReady);
     if (release && scoped.length === 0) {
       warnings.push(`${source.name}: 最新版本 ${release.tag} 中没有匹配到任何安装包，请检查匹配规则。`);
     }
