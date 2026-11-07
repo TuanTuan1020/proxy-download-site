@@ -1,0 +1,17 @@
+# 依赖（本项目无第三方依赖，仅防误装）
+node_modules/
+
+# 本地密钥与私有配置
+.env
+.env.local
+
+# 运行期状态与临时文件
+state/*
+!state/state.json
+tmp/
+
+# 本地存储的安装包（体积大，不入库）
+storage/
+
+# 系统文件
+.DS_Store

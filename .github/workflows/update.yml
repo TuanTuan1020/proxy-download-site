@@ -1,0 +1,90 @@
+name: 定时采集与发布
+
+# 说明：
+# - GitHub Actions 的 schedule 不保证准时，*/10 实际常见延迟 5~20 分钟，高峰期可能更久，
+#   也可能因为仓库 60 天无提交而自动暂停。要严格 5~8 分钟粒度，请改用 VPS 上的 cron/systemd timer。
+# - 本工作流把同步状态（state/state.json）和站点数据（web/data/site.json）提交回仓库，
+#   这样每次运行都能复用 ETag 与已同步记录，不必重复下载。
+# - 安装包本体不上传到仓库，而是上传到对象存储（R2/S3 兼容），由下载域名/CDN 提供访问。
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: '强制重新同步（忽略“已同步且未变化”）'
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'web/data/site.json'
+      - 'state/state.json'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: site-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 校验项目清单配置
+        run: node -e "import('./scripts/lib/config.js').then(m=>{const e=m.validateSources();if(e.length){console.error(e);process.exit(1)}console.log('配置正常')})"
+
+      - name: 采集 + 同步 + 发布
+        env:
+          # GITHUB_TOKEN 由 Actions 提供；若想用个人令牌，改存到 secrets.PAT_TOKEN
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
+          STORAGE_DRIVER: s3
+          S3_ENDPOINT: ${{ secrets.S3_ENDPOINT }}
+          S3_REGION: ${{ vars.S3_REGION || 'auto' }}
+          S3_BUCKET: ${{ secrets.S3_BUCKET }}
+          S3_ACCESS_KEY_ID: ${{ secrets.S3_ACCESS_KEY_ID }}
+          S3_SECRET_ACCESS_KEY: ${{ secrets.S3_SECRET_ACCESS_KEY }}
+          S3_PUBLIC_BASE_URL: ${{ vars.S3_PUBLIC_BASE_URL }}
+          PUBLIC_DOWNLOAD_BASE: ${{ vars.PUBLIC_DOWNLOAD_BASE }}
+          CHECK_INTERVAL_MINUTES: '10'
+          STALE_AFTER_MINUTES: '40'
+        run: node scripts/update.js --reason=github-actions ${{ inputs.force && '--force' || '' }}
+
+      - name: 提交同步状态与站点数据
+        run: |
+          git config user.name "proxy-site-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/state.json web/data/site.json
+          if git diff --cached --quiet; then
+            echo "没有变化，跳过提交"
+          else
+            git commit -m "chore(data): 更新站点数据 $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
+
+      - name: 打包前端静态文件
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+
+  deploy:
+    needs: update
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

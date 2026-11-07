@@ -1,0 +1,22 @@
+{
+  "name": "proxy-client-download-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "面向国内用户的代理客户端下载站：静态前端 + GitHub Releases 采集 + 安装包同步 + 下载服务 + 定时任务",
+  "engines": {
+    "node": ">=20.11.0"
+  },
+  "scripts": {
+    "collect": "node scripts/collect.js",
+    "sync": "node scripts/sync.js",
+    "update": "node scripts/update.js",
+    "server": "node scripts/server.js",
+    "dev": "node scripts/server.js --update-on-start",
+    "cleanup": "node scripts/cleanup.js",
+    "cleanup:apply": "node scripts/cleanup.js --apply",
+    "test": "node tests/verify.mjs",
+    "test:browser": "node tests/browser-check.mjs http://127.0.0.1:8787"
+  },
+  "license": "MIT"
+}

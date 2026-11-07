@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>代理客户端下载站 · Windows / macOS / Android</title>
+    <meta
+      name="description"
+      content="收录 Windows、macOS、Android 上仍在维护的开源代理客户端，安装包来自官方 GitHub Release，支持系统与架构筛选、SHA-256 校验。"
+    />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%232563eb'/%3E%3Cpath d='M16 7v11m0 0 5-5m-5 5-5-5M9 24h14' stroke='white' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#cards">跳到客户端列表</a>
+
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true">
+              <rect width="32" height="32" rx="9" fill="currentColor" opacity="0.14" />
+              <path
+                d="M16 7v11m0 0 5-5m-5 5-5-5M9 24h14"
+                stroke="currentColor"
+                stroke-width="2.4"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                fill="none"
+              />
+            </svg>
+          </span>
+          <div>
+            <h1 id="site-name">代理客户端下载站</h1>
+            <p id="site-tagline" class="tagline">加载中…</p>
+          </div>
+        </div>
+        <button id="theme-toggle" class="ghost-btn" type="button" aria-label="切换深色或浅色主题">
+          <span id="theme-icon" aria-hidden="true">◐</span>
+          <span class="theme-label">主题</span>
+        </button>
+      </div>
+    </header>
+
+    <div class="controls" id="controls">
+      <div class="wrap">
+        <div class="control-row">
+          <div class="segmented" role="tablist" aria-label="选择操作系统">
+            <button class="seg" role="tab" data-platform="windows" aria-selected="false">Windows</button>
+            <button class="seg" role="tab" data-platform="macos" aria-selected="false">macOS</button>
+            <button class="seg" role="tab" data-platform="android" aria-selected="false">Android</button>
+            <button class="seg" role="tab" data-platform="all" aria-selected="true">全部</button>
+          </div>
+
+          <div class="field">
+            <label for="arch-select">架构</label>
+            <select id="arch-select">
+              <option value="">请先选择系统</option>
+            </select>
+          </div>
+
+          <div class="field grow">
+            <label for="search">搜索</label>
+            <input id="search" type="search" placeholder="输入客户端名称，例如 FlClash" autocomplete="off" />
+          </div>
+        </div>
+
+        <div class="control-row secondary">
+          <label class="check">
+            <input type="checkbox" id="only-maintained" />
+            <span>仅显示仍在维护的项目</span>
+          </label>
+          <label class="check">
+            <input type="checkbox" id="show-prerelease" />
+            <span>显示预发布版本信息</span>
+          </label>
+          <p class="detect-hint" id="detect-hint" role="status"></p>
+        </div>
+      </div>
+    </div>
+
+    <main class="wrap">
+      <div id="global-banner" class="banner" hidden></div>
+
+      <section class="overview" aria-labelledby="overview-title">
+        <h2 id="overview-title" class="sr-only">站点概况</h2>
+        <div class="stat">
+          <span class="stat-label">站点数据更新时间</span>
+          <strong id="site-updated" class="stat-value">加载中…</strong>
+          <span class="stat-note" id="site-updated-note"></span>
+        </div>
+        <div class="stat">
+          <span class="stat-label">收录项目</span>
+          <strong id="site-total" class="stat-value">—</strong>
+          <span class="stat-note" id="site-total-note"></span>
+        </div>
+        <div class="stat">
+          <span class="stat-label">本站可下载</span>
+          <strong id="site-ready" class="stat-value">—</strong>
+          <span class="stat-note" id="site-ready-note"></span>
+        </div>
+        <div class="stat">
+          <span class="stat-label">检查频率</span>
+          <strong id="site-interval" class="stat-value">—</strong>
+          <span class="stat-note">定时轮询，非实时</span>
+        </div>
+      </section>
+
+      <p class="scope-note" id="scope-note">
+        本站只做客户端获取与版本导航，不提供节点、订阅或账号交易。安装包原样同步自官方 GitHub Release，不修改、不重新打包。
+      </p>
+
+      <div id="loading" class="cards" aria-hidden="true">
+        <div class="card skeleton"></div>
+        <div class="card skeleton"></div>
+        <div class="card skeleton"></div>
+      </div>
+
+      <div id="error-panel" class="error-panel" hidden>
+        <h2>无法加载站点数据</h2>
+        <p id="error-message"></p>
+        <button type="button" id="retry" class="primary-btn">重新加载</button>
+      </div>
+
+      <div id="filter-summary" class="filter-summary" role="status" aria-live="polite"></div>
+
+      <section id="cards" class="cards" aria-label="客户端列表"></section>
+
+      <div id="empty" class="empty" hidden>
+        <h2>没有符合条件的客户端</h2>
+        <p>试试切换系统、清空搜索关键词，或取消“仅显示仍在维护的项目”。</p>
+        <button type="button" class="ghost-btn" id="reset-filters">重置筛选条件</button>
+      </div>
+
+      <section class="faq" aria-labelledby="faq-title">
+        <h2 id="faq-title">下载与安全说明</h2>
+        <div id="faq-body"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p id="footer-meta">—</p>
+        <p class="muted">
+          本站不承诺任何网络环境下都可下载。国内可用性取决于实际部署的下载域名与 CDN，需要部署后实测。
+        </p>
+      </div>
+    </footer>
+
+    <script type="module" src="assets/app.js"></script>
+  </body>
+</html>

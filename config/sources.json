@@ -1,0 +1,564 @@
+{
+  "$schema": "sources.schema.json",
+  "version": 1,
+  "notes": [
+    "本文件是唯一的项目清单与资产匹配规则来源，增删仓库只需改这里。",
+    "repo 必须逐一人工核实为作者官方仓库；不要凭记忆填写。",
+    "rules 按顺序匹配文件名（完整 basename），命中第一条即停止；arch 可用 $捕获组 引用命名分组。",
+    "exclude 在 rules 之前生效，用于排除签名、校验文件、源码包、Linux 包等。",
+    "license.redistribution：allowed=允许原样再分发；official-only=仅提供官方入口，不上传本站存储。",
+    "mirror.enabled=false 时，即使许可证允许，本站也不会同步/提供该项目的文件。"
+  ],
+  "sources": [
+    {
+      "id": "clash-verge-rev",
+      "name": "Clash Verge Rev",
+      "nameZh": "Clash Verge Rev",
+      "summary": "基于 Tauri 的 Mihomo（Clash Meta）图形客户端，支持订阅、规则与系统代理。",
+      "repo": "clash-verge-rev/clash-verge-rev",
+      "homepage": "https://clash-verge-rev.github.io/",
+      "platforms": ["windows", "macos"],
+      "kindLabel": "图形客户端（GUI）",
+      "status": "active",
+      "statusNote": "",
+      "license": {
+        "spdx": "GPL-3.0",
+        "label": "GPL-3.0",
+        "redistribution": "allowed",
+        "note": "GPL-3.0：允许原样再分发官方安装包，需保留版权声明并提供源码链接；本站不修改安装包。"
+      },
+      "mirror": { "enabled": true, "note": "" },
+      "exclude": [
+        "\\.sig$",
+        "\\.json$",
+        "\\.tar\\.gz$",
+        "\\.deb$",
+        "\\.rpm$",
+        "\\.AppImage$",
+        "armhf",
+        "armhfp"
+      ],
+      "rules": [
+        {
+          "match": "^Clash\\.Verge_[0-9.]+_(?<arch>x64|arm64)_fixed_webview2-setup\\.exe$",
+          "platform": "windows",
+          "format": "exe",
+          "variant": "fixed-webview2",
+          "arch": "$arch"
+        },
+        {
+          "match": "^Clash\\.Verge_[0-9.]+_(?<arch>x64|arm64)-setup\\.exe$",
+          "platform": "windows",
+          "format": "exe",
+          "variant": "installer",
+          "arch": "$arch"
+        },
+        {
+          "match": "^Clash\\.Verge_[0-9.]+_(?<arch>x64|aarch64)\\.dmg$",
+          "platform": "macos",
+          "format": "dmg",
+          "variant": "installer",
+          "arch": "$arch"
+        }
+      ],
+      "caveats": ["Windows 提供标准版与固定 WebView2 版本；后者用于系统 WebView2 异常的环境。"]
+    },
+    {
+      "id": "clash-party",
+      "name": "Clash Party",
+      "nameZh": "Clash Party（原 Mihomo Party）",
+      "summary": "Mihomo 内核的跨平台图形客户端，仓库由 mihomo-party 更名为 clash-party。",
+      "repo": "mihomo-party-org/clash-party",
+      "homepage": "https://clash-party.org/",
+      "platforms": ["windows", "macos"],
+      "kindLabel": "图形客户端（GUI）",
+      "status": "active",
+      "statusNote": "",
+      "license": {
+        "spdx": "GPL-3.0",
+        "label": "GPL-3.0",
+        "redistribution": "allowed",
+        "note": "GPL-3.0：允许原样再分发官方安装包，需保留版权声明并提供源码链接。"
+      },
+      "mirror": { "enabled": true, "note": "" },
+      "exclude": [
+        "\\.sha256$",
+        "linux-",
+        "catalina-",
+        "win7-",
+        "ia32",
+        "\\.deb$",
+        "\\.rpm$",
+        "\\.zst$"
+      ],
+      "rules": [
+        {
+          "match": "^clash-party-windows-[0-9.]+-(?<arch>x64|arm64)-setup\\.exe$",
+          "platform": "windows",
+          "format": "exe",
+          "variant": "installer",
+          "arch": "$arch"
+        },
+        {
+          "match": "^clash-party-windows-[0-9.]+-(?<arch>x64|arm64)-portable\\.7z$",
+          "platform": "windows",
+          "format": "7z",
+          "variant": "portable",
+          "arch": "$arch"
+        },
+        {
+          "match": "^clash-party-macos-[0-9.]+-(?<arch>arm64|x64)\\.pkg$",
+          "platform": "macos",
+          "format": "pkg",
+          "variant": "installer",
+          "arch": "$arch"
+        }
+      ],
+      "caveats": [
+        "项目仓库已从 mihomo-party-org/mihomo-party 更名为 mihomo-party-org/clash-party，本配置使用新地址。",
+        "便携版为 7z 压缩包，需用 7-Zip 等工具解压。"
+      ]
+    },
+    {
+      "id": "flclash",
+      "name": "FlClash",
+      "nameZh": "FlClash",
+      "summary": "Flutter 编写的 Mihomo 图形客户端，同时提供 Windows、macOS、Android 版本。",
+      "repo": "chen08209/FlClash",
+      "homepage": "https://github.com/chen08209/FlClash",
+      "platforms": ["windows", "macos", "android"],
+      "kindLabel": "图形客户端（GUI）",
+      "status": "active",
+      "statusNote": "",
+      "license": {
+        "spdx": "GPL-3.0",
+        "label": "GPL-3.0",
+        "redistribution": "allowed",
+        "note": "GPL-3.0：允许原样再分发官方安装包，需保留版权声明并提供源码链接。"
+      },
+      "mirror": { "enabled": true, "note": "" },
+      "checksum": { "type": "sumfile", "file": "SHA256SUMS" },
+      "exclude": ["^SHA256SUMS$", "linux-"],
+      "rules": [
+        {
+          "match": "^FlClash-[0-9.]+-windows-(?<arch>amd64|arm64)-setup\\.exe$",
+          "platform": "windows",
+          "format": "exe",
+          "variant": "installer",
+          "arch": "$arch"
+        },
+        {
+          "match": "^FlClash-[0-9.]+-windows-(?<arch>amd64|arm64)\\.zip$",
+          "platform": "windows",
+          "format": "zip",
+          "variant": "portable",
+          "arch": "$arch"
+        },
+        {
+          "match": "^FlClash-[0-9.]+-macos-(?<arch>arm64|amd64)\\.dmg$",
+          "platform": "macos",
+          "format": "dmg",
+          "variant": "installer",
+          "arch": "$arch"
+        },
+        {
+          "match": "^FlClash-[0-9.]+-android-(?<arch>arm64-v8a|armeabi-v7a|x86_64)\\.apk$",
+          "platform": "android",
+          "format": "apk",
+          "variant": "default",
+          "arch": "$arch"
+        }
+      ],
+      "caveats": ["发布页附带 SHA256SUMS，本站会用它核对下载文件。"]
+    },
+    {
+      "id": "clash-nyanpasu",
+      "name": "Clash Nyanpasu",
+      "nameZh": "Clash Nyanpasu",
+      "summary": "Mihomo 内核的桌面客户端，支持多配置、规则编辑与托盘切换。",
+      "repo": "LibNyanpasu/clash-nyanpasu",
+      "homepage": "https://github.com/LibNyanpasu/clash-nyanpasu",
+      "platforms": ["windows", "macos"],
+      "kindLabel": "图形客户端（GUI）",
+      "status": "active",
+      "statusNote": "",
+      "license": {
+        "spdx": "GPL-3.0",
+        "label": "GPL-3.0",
+        "redistribution": "allowed",
+        "note": "GPL-3.0：允许原样再分发官方安装包，需保留版权声明并提供源码链接。"
+      },
+      "mirror": { "enabled": true, "note": "" },
+      "exclude": [
+        "\\.sig$",
+        "\\.sha256$",
+        "symbols",
+        "AppImage",
+        "\\.deb$",
+        "\\.rpm$",
+        "\\.app\\.tar\\.gz$",
+        "updater\\.exe$",
+        "fixed-webview_portable"
+      ],
+      "rules": [
+        {
+          "match": "^Clash\\.Nyanpasu_[0-9.]+_fixed-webview-(?<arch>x64|arm64)-setup\\.exe$",
+          "platform": "windows",
+          "format": "exe",
+          "variant": "fixed-webview2",
+          "arch": "$arch"
+        },
+        {
+          "match": "^Clash\\.Nyanpasu_[0-9.]+_(?<arch>x64|arm64)-setup\\.exe$",
+          "platform": "windows",
+          "format": "exe",
+          "variant": "installer",
+          "arch": "$arch"
+        },
+        {
+          "match": "^Clash\\.Nyanpasu_[0-9.]+_(?<arch>x86_64|aarch64)_portable\\.zip$",
+          "platform": "windows",
+          "format": "zip",
+          "variant": "portable",
+          "arch": "$arch"
+        },
+        {
+          "match": "^Clash\\.Nyanpasu_[0-9.]+_(?<arch>x64|aarch64)\\.dmg$",
+          "platform": "macos",
+          "format": "dmg",
+          "variant": "installer",
+          "arch": "$arch"
+        }
+      ],
+      "caveats": ["开发版（Dev）与稳定版分开发布；本站默认展示稳定版。"]
+    },
+    {
+      "id": "v2rayn",
+      "name": "v2rayN",
+      "nameZh": "v2rayN",
+      "summary": "Windows/macOS 上使用 Xray、sing-box 等内核的图形客户端，含订阅与路由设置。",
+      "repo": "2dust/v2rayN",
+      "homepage": "https://github.com/2dust/v2rayN",
+      "platforms": ["windows", "macos"],
+      "kindLabel": "图形客户端（GUI）",
+      "status": "active",
+      "statusNote": "",
+      "license": {
+        "spdx": "GPL-3.0",
+        "label": "GPL-3.0",
+        "redistribution": "allowed",
+        "note": "GPL-3.0：允许原样再分发官方安装包，需保留版权声明并提供源码链接。"
+      },
+      "mirror": { "enabled": true, "note": "" },
+      "exclude": [
+        "\\.sig$",
+        "public-key",
+        "-linux",
+        "windows-86",
+        "macos-64\\.zip$",
+        "macos-arm64\\.zip$"
+      ],
+      "rules": [
+        {
+          "match": "^v2rayN-windows-64-desktop\\.zip$",
+          "platform": "windows",
+          "format": "zip",
+          "variant": "desktop",
+          "arch": "x64"
+        },
+        {
+          "match": "^v2rayN-windows-64\\.zip$",
+          "platform": "windows",
+          "format": "zip",
+          "variant": "portable",
+          "arch": "x64"
+        },
+        {
+          "match": "^v2rayN-windows-arm64-desktop\\.zip$",
+          "platform": "windows",
+          "format": "zip",
+          "variant": "desktop",
+          "arch": "arm64"
+        },
+        {
+          "match": "^v2rayN-windows-arm64\\.zip$",
+          "platform": "windows",
+          "format": "zip",
+          "variant": "portable",
+          "arch": "arm64"
+        },
+        {
+          "match": "^v2rayN-macos-(?<arch>64|arm64)\\.dmg$",
+          "platform": "macos",
+          "format": "dmg",
+          "variant": "installer",
+          "arch": "$arch"
+        }
+      ],
+      "caveats": [
+        "Windows 的 -desktop 版本依赖已安装的 .NET 桌面运行时，普通用户选不带 desktop 的压缩包即可。",
+        "v2rayN 是图形客户端；Xray、sing-box 等内核不在本站收录范围。"
+      ]
+    },
+    {
+      "id": "v2rayng",
+      "name": "v2rayNG",
+      "nameZh": "v2rayNG",
+      "summary": "Android 上使用 Xray 内核的图形客户端，支持订阅、分应用代理。",
+      "repo": "2dust/v2rayNG",
+      "homepage": "https://github.com/2dust/v2rayNG",
+      "platforms": ["android"],
+      "kindLabel": "图形客户端（GUI）",
+      "status": "active",
+      "statusNote": "",
+      "license": {
+        "spdx": "GPL-3.0",
+        "label": "GPL-3.0",
+        "redistribution": "allowed",
+        "note": "GPL-3.0：允许原样再分发官方安装包，需保留版权声明并提供源码链接。"
+      },
+      "mirror": { "enabled": true, "note": "" },
+      "exclude": ["fdroid", "\\.sig$", "public-key"],
+      "rules": [
+        {
+          "match": "^v2rayNG_[0-9.]+_(?<arch>arm64-v8a|armeabi-v7a|x86_64|universal)\\.apk$",
+          "platform": "android",
+          "format": "apk",
+          "variant": "default",
+          "arch": "$arch"
+        }
+      ],
+      "caveats": ["同时提供 Google Play 与 F-Droid 两个签名渠道的包；本站默认同步 Play 渠道包（文件名不含 fdroid）。"]
+    },
+    {
+      "id": "clash-meta-for-android",
+      "name": "Clash Meta for Android",
+      "nameZh": "Clash Meta for Android（CMFA）",
+      "summary": "Mihomo（Clash Meta）内核的 Android 图形客户端，支持 TUN 与规则分流。",
+      "repo": "MetaCubeX/ClashMetaForAndroid",
+      "homepage": "https://github.com/MetaCubeX/ClashMetaForAndroid",
+      "platforms": ["android"],
+      "kindLabel": "图形客户端（GUI）",
+      "status": "active",
+      "statusNote": "",
+      "license": {
+        "spdx": "GPL-3.0",
+        "label": "GPL-3.0",
+        "redistribution": "allowed",
+        "note": "GPL-3.0：允许原样再分发官方安装包，需保留版权声明并提供源码链接。"
+      },
+      "mirror": { "enabled": true, "note": "" },
+      "exclude": ["output-metadata\\.json$"],
+      "rules": [
+        {
+          "match": "^cmfa-[0-9.]+-meta-(?<arch>arm64-v8a|armeabi-v7a|x86_64|x86|universal)-release\\.apk$",
+          "platform": "android",
+          "format": "apk",
+          "variant": "default",
+          "arch": "$arch"
+        }
+      ],
+      "caveats": ["文件名中的 meta 指 Mihomo（Clash Meta）内核。"]
+    },
+    {
+      "id": "nekobox",
+      "name": "NekoBox for Android",
+      "nameZh": "NekoBox for Android",
+      "summary": "sing-box 内核的 Android 图形客户端，支持多种协议与订阅导入。",
+      "repo": "MatsuriDayo/NekoBoxForAndroid",
+      "homepage": "https://github.com/MatsuriDayo/NekoBoxForAndroid",
+      "platforms": ["android"],
+      "kindLabel": "图形客户端（GUI）",
+      "status": "slow",
+      "statusNote": "更新缓慢：最近发布版本为 2026-02，距今较久；上游另有 pre 测试版。",
+      "license": {
+        "spdx": "GPL-3.0",
+        "label": "GPL-3.0",
+        "redistribution": "allowed",
+        "note": "GPL-3.0：允许原样再分发官方安装包，需保留版权声明并提供源码链接。"
+      },
+      "mirror": { "enabled": true, "note": "" },
+      "exclude": [],
+      "rules": [
+        {
+          "match": "^NekoBox-[0-9.]+-(?<arch>arm64-v8a|armeabi-v7a|x86_64|x86)\\.apk$",
+          "platform": "android",
+          "format": "apk",
+          "variant": "default",
+          "arch": "$arch"
+        }
+      ],
+      "caveats": ["该项目发布节奏较慢，建议同时关注其他仍在频繁更新的客户端。"]
+    },
+    {
+      "id": "sing-box",
+      "name": "sing-box",
+      "nameZh": "sing-box（SFA / SFM / SFW）",
+      "summary": "sing-box 官方图形客户端：Android（SFA）、macOS（SFM）、Windows（SFW）。",
+      "repo": "SagerNet/sing-box",
+      "homepage": "https://sing-box.sagernet.org/",
+      "platforms": ["windows", "macos", "android"],
+      "kindLabel": "图形客户端（GUI）",
+      "status": "active",
+      "statusNote": "",
+      "license": {
+        "spdx": "GPL-3.0",
+        "label": "GPL-3.0 + 附加条款",
+        "redistribution": "allowed",
+        "note": "GPL-3.0，并附带“禁止衍生作品使用 sing-box 名称”的附加条款；原样再分发官方安装包不受影响。"
+      },
+      "mirror": { "enabled": true, "note": "" },
+      "exclude": [
+        "^sing-box-",
+        "legacy-android-5",
+        "^SFI-",
+        "\\.dSYMs",
+        "^SFL-",
+        "metadata\\.json$",
+        "\\.tar\\.gz$"
+      ],
+      "rules": [
+        {
+          "match": "^SFA-[0-9.]+-(?<arch>arm64-v8a|armeabi-v7a|x86_64|universal)\\.apk$",
+          "platform": "android",
+          "format": "apk",
+          "variant": "default",
+          "arch": "$arch"
+        },
+        {
+          "match": "^SFM-[0-9.]+-(?<arch>Apple|Intel|Universal)\\.pkg$",
+          "platform": "macos",
+          "format": "pkg",
+          "variant": "installer",
+          "arch": "$arch"
+        },
+        {
+          "match": "^SFW-[0-9.]+-(?<arch>x64|arm64)\\.exe$",
+          "platform": "windows",
+          "format": "exe",
+          "variant": "default",
+          "arch": "$arch"
+        }
+      ],
+      "caveats": [
+        "sing-box 主程序（sing-box-*.tar.gz、命令行）是核心程序，不是图形客户端，本站不作为客户端展示。",
+        "SFA/SFM/SFW 是官方提供的图形界面，覆盖 Android / macOS / Windows。"
+      ]
+    },
+    {
+      "id": "hiddify",
+      "name": "Hiddify",
+      "nameZh": "Hiddify",
+      "summary": "sing-box 内核的跨平台客户端，界面向导化，适合新手配置订阅。",
+      "repo": "hiddify/hiddify-app",
+      "homepage": "https://hiddify.com/",
+      "platforms": ["windows", "macos", "android"],
+      "kindLabel": "图形客户端（GUI）",
+      "status": "active",
+      "statusNote": "",
+      "license": {
+        "spdx": "GPL-3.0",
+        "label": "Hiddify Extended GPL-3.0",
+        "redistribution": "official-only",
+        "note": "GPL-3.0 之外附加了额外条款（Hiddify Extended GPL）。为稳妥起见，本站不上传镜像，只提供 GitHub 官方资产入口；如需镜像需先逐条确认附加条款。"
+      },
+      "mirror": { "enabled": false, "note": "许可证附加条款较复杂，默认仅提供官方入口。" },
+      "exclude": ["\\.ipa$", "AppStore", "Msix", "Debian", "Linux"],
+      "rules": [
+        {
+          "match": "^Hiddify-Windows-Setup-x64\\.exe$",
+          "platform": "windows",
+          "format": "exe",
+          "variant": "installer",
+          "arch": "x64"
+        },
+        {
+          "match": "^Hiddify-Windows-Portable-x64\\.zip$",
+          "platform": "windows",
+          "format": "zip",
+          "variant": "portable",
+          "arch": "x64"
+        },
+        {
+          "match": "^Hiddify-MacOS-Installer\\.pkg$",
+          "platform": "macos",
+          "format": "pkg",
+          "variant": "installer",
+          "arch": "unknown"
+        },
+        {
+          "match": "^Hiddify-MacOS\\.dmg$",
+          "platform": "macos",
+          "format": "dmg",
+          "variant": "installer",
+          "arch": "unknown"
+        },
+        {
+          "match": "^Hiddify-Android-(?<arch>arm64|arm7|universal|x86_64)\\.apk$",
+          "platform": "android",
+          "format": "apk",
+          "variant": "default",
+          "arch": "$arch"
+        }
+      ],
+      "caveats": [
+        "macOS 安装包文件名未标注 CPU 架构，本站按“架构未标注”展示，不做猜测。",
+        "项目不提供 iOS 版本（本站也不收录 iOS）。"
+      ]
+    },
+    {
+      "id": "throne",
+      "name": "Throne",
+      "nameZh": "Throne（NekoRay 后继项目）",
+      "summary": "NekoRay 的后续项目，基于 sing-box 与 Xray 的桌面图形客户端。",
+      "repo": "throneproj/Throne",
+      "homepage": "https://github.com/throneproj/Throne",
+      "platforms": ["windows", "macos"],
+      "kindLabel": "图形客户端（GUI）",
+      "status": "active",
+      "statusNote": "",
+      "license": {
+        "spdx": "GPL-3.0",
+        "label": "GPL-3.0",
+        "redistribution": "allowed",
+        "note": "GPL-3.0：允许原样再分发官方安装包，需保留版权声明并提供源码链接。"
+      },
+      "mirror": { "enabled": true, "note": "" },
+      "exclude": ["windows32", "legacy", "linux", "\\.deb$", "\\.rpm$"],
+      "rules": [
+        {
+          "match": "^Throne-[0-9.]+-windows64\\.zip$",
+          "platform": "windows",
+          "format": "zip",
+          "variant": "portable",
+          "arch": "x64"
+        },
+        {
+          "match": "^Throne-[0-9.]+-windows-arm64\\.zip$",
+          "platform": "windows",
+          "format": "zip",
+          "variant": "portable",
+          "arch": "arm64"
+        },
+        {
+          "match": "^Throne-[0-9.]+-windows-universal-installer\\.exe$",
+          "platform": "windows",
+          "format": "exe",
+          "variant": "installer",
+          "arch": "unknown"
+        },
+        {
+          "match": "^Throne-[0-9.]+-macos-(?<arch>arm64|amd64)\\.zip$",
+          "platform": "macos",
+          "format": "zip",
+          "variant": "portable",
+          "arch": "$arch"
+        }
+      ],
+      "caveats": [
+        "NekoRay（MatsuriDayo/nekoray）已于 2025-03 归档，本项目是其后续项目，故本站仅收录 Throne。",
+        "Windows/macOS 主分发为 zip 压缩包，解压后运行；universal-installer 未标注架构，本站按“架构未标注”展示。"
+      ]
+    }
+  ]
+}
