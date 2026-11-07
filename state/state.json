@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "createdAt": "2026-11-07T15:05:43.998Z",
-  "updatedAt": "2026-11-07T16:28:32.470Z",
+  "updatedAt": "2026-11-07T20:22:15.962Z",
   "sources": {
     "clash-verge-rev": {
-      "etag": "W/\"8c388641670f867e27334b39377bf45891163eb0eff44630c10a4524080d947c\"",
-      "lastCheckedAt": "2026-11-07T16:28:27.810Z",
-      "lastCheckOkAt": "2026-11-07T16:28:27.810Z",
+      "etag": "W/\"e386e5dcd996c66090bca6004eb64cd250e93be6599230208af69bb37595d115\"",
+      "lastCheckedAt": "2026-11-07T20:22:11.482Z",
+      "lastCheckOkAt": "2026-11-07T20:22:11.482Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -398,9 +398,9 @@
       "lastChangeAt": "2026-11-07T15:05:47.007Z"
     },
     "clash-party": {
-      "etag": "W/\"a1658f6ffc8c11a78851b41c0b9c6beb0a6ddda4075a189ae7c850fd885e8745\"",
-      "lastCheckedAt": "2026-11-07T16:28:28.506Z",
-      "lastCheckOkAt": "2026-11-07T16:28:28.506Z",
+      "etag": "W/\"d3d6c1ac1f63c9e700b0c73ccb7290b102f7c389520a88a890b21f9ed3ac6827\"",
+      "lastCheckedAt": "2026-11-07T20:22:12.136Z",
+      "lastCheckOkAt": "2026-11-07T20:22:12.136Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -1357,9 +1357,9 @@
       "lastChangeAt": "2026-11-07T15:07:32.292Z"
     },
     "flclash": {
-      "etag": "W/\"9f96206afad8e770c66f84e6510fbf55ebd2e77b465470087f620d9c7f107f48\"",
-      "lastCheckedAt": "2026-11-07T16:28:28.860Z",
-      "lastCheckOkAt": "2026-11-07T16:28:28.860Z",
+      "etag": "W/\"813d554462da5a7e92c8faa6bb748ce955ad8a68b71d0f305f25305236f84664\"",
+      "lastCheckedAt": "2026-11-07T20:22:12.472Z",
+      "lastCheckOkAt": "2026-11-07T20:22:12.472Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -1726,9 +1726,9 @@
       "lastChangeAt": "2026-11-07T15:07:34.037Z"
     },
     "clash-nyanpasu": {
-      "etag": "W/\"96d41c38ccba32c557de90efc8915cf2b3c5905558b1002eb4a781d509b50e43\"",
-      "lastCheckedAt": "2026-11-07T16:28:29.288Z",
-      "lastCheckOkAt": "2026-11-07T16:28:29.288Z",
+      "etag": "W/\"8e4b94aac594767b6db50d34187fd4f7fd5cc1859ddf8d949f9c6e742d7a0425\"",
+      "lastCheckedAt": "2026-11-07T20:22:12.917Z",
+      "lastCheckOkAt": "2026-11-07T20:22:12.917Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -2303,9 +2303,9 @@
       "lastChangeAt": "2026-11-07T15:07:36.850Z"
     },
     "v2rayn": {
-      "etag": "W/\"92f754176e1a0b8fbe9f86d58c506238c6fccbb1e9b02bbc1f080c90e3f3a217\"",
-      "lastCheckedAt": "2026-11-07T16:28:29.753Z",
-      "lastCheckOkAt": "2026-11-07T16:28:29.753Z",
+      "etag": "W/\"5aa3f40bfc0683f1935af2eeb23042a75096a3d988bdcb68cd9398469fed85ac\"",
+      "lastCheckedAt": "2026-11-07T20:22:13.370Z",
+      "lastCheckOkAt": "2026-11-07T20:22:13.370Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -2884,9 +2884,9 @@
       "lastChangeAt": "2026-11-07T15:07:38.921Z"
     },
     "v2rayng": {
-      "etag": "W/\"7244c8fe0a5d2402f3abcedfa43492ecb69233d00096cdeaf9f9f586053c555e\"",
-      "lastCheckedAt": "2026-11-07T16:28:30.131Z",
-      "lastCheckOkAt": "2026-11-07T16:28:30.131Z",
+      "etag": "W/\"d67bd2da700f02f24333371144422849d811829fa328805db603b98c850e9f87\"",
+      "lastCheckedAt": "2026-11-07T20:22:13.749Z",
+      "lastCheckOkAt": "2026-11-07T20:22:13.749Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -3225,9 +3225,9 @@
       "lastChangeAt": "2026-11-07T15:07:40.745Z"
     },
     "clash-meta-for-android": {
-      "etag": "W/\"bcc59ac27140674e397d86f5994d6acf5bba9900931e199cb7a989313259da8f\"",
-      "lastCheckedAt": "2026-11-07T16:28:30.466Z",
-      "lastCheckOkAt": "2026-11-07T16:28:30.466Z",
+      "etag": "W/\"86e7038c63c9030ea846c9223f3b14ed089ebc7903ca6aa00fc3f270007631ac\"",
+      "lastCheckedAt": "2026-11-07T20:22:14.006Z",
+      "lastCheckOkAt": "2026-11-07T20:22:14.006Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -3422,9 +3422,9 @@
       "lastChangeAt": "2026-11-07T15:07:42.630Z"
     },
     "nekobox": {
-      "etag": "W/\"6fdd8f7fd63ff11d79d6aab055d1bf96bc421867ef85353c7920478ccf769f3a\"",
-      "lastCheckedAt": "2026-11-07T16:28:30.753Z",
-      "lastCheckOkAt": "2026-11-07T16:28:30.753Z",
+      "etag": "W/\"e12f9e2b5567e91ebbd4b12b597ba4c0747f6581bd67933dd109bffbc4145da4\"",
+      "lastCheckedAt": "2026-11-07T20:22:14.273Z",
+      "lastCheckOkAt": "2026-11-07T20:22:14.273Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -3586,9 +3586,9 @@
       "lastChangeAt": "2026-11-07T15:07:44.615Z"
     },
     "sing-box": {
-      "etag": "W/\"38afbcdbbe70996389b1394aecdb441e9eb74fc211d333f8638cee92a4927cc2\"",
-      "lastCheckedAt": "2026-11-07T16:28:31.748Z",
-      "lastCheckOkAt": "2026-11-07T16:28:31.748Z",
+      "etag": "W/\"433b46ada1e6f2527b60da89e38a1211511e13283bd8eb52edadf1f647186a00\"",
+      "lastCheckedAt": "2026-11-07T20:22:15.191Z",
+      "lastCheckOkAt": "2026-11-07T20:22:15.191Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -5497,9 +5497,9 @@
       "lastChangeAt": "2026-11-07T15:07:46.511Z"
     },
     "hiddify": {
-      "etag": "W/\"e01fb5c2651969a8ac93d5c5af5215b97a817bf4a8ec0278ef84a9023baef58e\"",
-      "lastCheckedAt": "2026-11-07T16:28:32.081Z",
-      "lastCheckOkAt": "2026-11-07T16:28:32.081Z",
+      "etag": "W/\"7b7ca819bb22a5bfbbc8d96bb5561439b7993ef9981c1d086fa0343fba2d73a4\"",
+      "lastCheckedAt": "2026-11-07T20:22:15.593Z",
+      "lastCheckOkAt": "2026-11-07T20:22:15.593Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -5692,9 +5692,9 @@
       "lastChangeAt": "2026-11-07T15:07:48.174Z"
     },
     "throne": {
-      "etag": "W/\"37d46583fa8f6705d8582a0860383b63bfbc830c349db191e9fced72244a0f97\"",
-      "lastCheckedAt": "2026-11-07T16:28:32.456Z",
-      "lastCheckOkAt": "2026-11-07T16:28:32.456Z",
+      "etag": "W/\"d2d9308525fca34b7cf528635196abee81fa2f6f3ee6fa723edc7854d0979218\"",
+      "lastCheckedAt": "2026-11-07T20:22:15.948Z",
+      "lastCheckOkAt": "2026-11-07T20:22:15.948Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -6241,6 +6241,29 @@
       "startedAt": "2026-11-07T16:28:27.257Z",
       "finishedAt": "2026-11-07T16:28:32.469Z",
       "durationMs": 5212,
+      "projects": 11,
+      "collect": {
+        "ok": 11,
+        "failed": 0,
+        "notModified": 0,
+        "degraded": 0
+      },
+      "sync": {
+        "files": 0,
+        "skipped": 0,
+        "failed": 0
+      },
+      "storage": "unconfigured",
+      "warnings": [
+        "本站尚未配置安装包存储（S3_* 或本地目录），因此不提供镜像下载，仅展示官方 GitHub 入口。"
+      ],
+      "triggeredBy": "github-actions"
+    },
+    {
+      "reason": "github-actions",
+      "startedAt": "2026-11-07T20:22:10.985Z",
+      "finishedAt": "2026-11-07T20:22:15.961Z",
+      "durationMs": 4976,
       "projects": 11,
       "collect": {
         "ok": 11,
