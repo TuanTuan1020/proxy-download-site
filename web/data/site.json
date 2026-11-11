@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-11T15:05:11.881Z",
+  "generatedAt": "2026-11-11T21:51:55.074Z",
   "dataSource": "github-rest",
   "site": {
     "name": "代理客户端下载站",
@@ -101,8 +101,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-11T15:05:04.801Z",
-      "checkOkAt": "2026-11-11T15:05:04.801Z",
+      "checkedAt": "2026-11-11T21:51:49.709Z",
+      "checkOkAt": "2026-11-11T21:51:49.709Z",
       "syncedAt": "2026-11-07T16:01:23.574Z",
       "checkError": null,
       "syncError": null,
@@ -301,8 +301,8 @@
         "isPrereleaseTag": false
       },
       "prereleases": [],
-      "checkedAt": "2026-11-11T15:05:05.806Z",
-      "checkOkAt": "2026-11-11T15:05:05.806Z",
+      "checkedAt": "2026-11-11T21:51:50.447Z",
+      "checkOkAt": "2026-11-11T21:51:50.447Z",
       "syncedAt": "2026-11-07T16:01:43.452Z",
       "checkError": null,
       "syncError": null,
@@ -501,8 +501,8 @@
         "isPrereleaseTag": false
       },
       "prereleases": [],
-      "checkedAt": "2026-11-11T15:05:06.309Z",
-      "checkOkAt": "2026-11-11T15:05:06.309Z",
+      "checkedAt": "2026-11-11T21:51:50.923Z",
+      "checkOkAt": "2026-11-11T21:51:50.923Z",
       "syncedAt": "2026-11-07T16:02:26.426Z",
       "checkError": null,
       "syncError": null,
@@ -781,8 +781,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-11T15:05:06.948Z",
-      "checkOkAt": "2026-11-11T15:05:06.948Z",
+      "checkedAt": "2026-11-11T21:51:51.478Z",
+      "checkOkAt": "2026-11-11T21:51:51.478Z",
       "syncedAt": "2026-11-07T16:03:41.451Z",
       "checkError": null,
       "syncError": null,
@@ -1049,8 +1049,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-11T15:05:07.601Z",
-      "checkOkAt": "2026-11-11T15:05:07.601Z",
+      "checkedAt": "2026-11-11T21:51:52.069Z",
+      "checkOkAt": "2026-11-11T21:51:52.069Z",
       "syncedAt": "2026-11-07T16:03:58.120Z",
       "checkError": null,
       "syncError": null,
@@ -1269,8 +1269,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-11T15:05:08.186Z",
-      "checkOkAt": "2026-11-11T15:05:08.186Z",
+      "checkedAt": "2026-11-11T21:51:52.530Z",
+      "checkOkAt": "2026-11-11T21:51:52.530Z",
       "syncedAt": "2026-11-07T16:04:02.087Z",
       "checkError": null,
       "syncError": null,
@@ -1425,8 +1425,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-11T15:05:08.711Z",
-      "checkOkAt": "2026-11-11T15:05:08.711Z",
+      "checkedAt": "2026-11-11T21:51:52.808Z",
+      "checkOkAt": "2026-11-11T21:51:52.808Z",
       "syncedAt": "2026-11-07T16:04:25.410Z",
       "checkError": null,
       "syncError": null,
@@ -1611,8 +1611,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-11T15:05:09.284Z",
-      "checkOkAt": "2026-11-11T15:05:09.284Z",
+      "checkedAt": "2026-11-11T21:51:53.169Z",
+      "checkOkAt": "2026-11-11T21:51:53.169Z",
       "syncedAt": "2026-11-07T16:04:09.285Z",
       "checkError": null,
       "syncError": null,
@@ -1784,8 +1784,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-11T15:05:10.608Z",
-      "checkOkAt": "2026-11-11T15:05:10.608Z",
+      "checkedAt": "2026-11-11T21:51:54.266Z",
+      "checkOkAt": "2026-11-11T21:51:54.266Z",
       "syncedAt": "2026-11-07T16:05:13.266Z",
       "checkError": null,
       "syncError": null,
@@ -2080,8 +2080,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-11T15:05:11.283Z",
-      "checkOkAt": "2026-11-11T15:05:11.283Z",
+      "checkedAt": "2026-11-11T21:51:54.667Z",
+      "checkOkAt": "2026-11-11T21:51:54.667Z",
       "syncedAt": null,
       "checkError": null,
       "syncError": null,
@@ -2352,8 +2352,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-11T15:05:11.875Z",
-      "checkOkAt": "2026-11-11T15:05:11.875Z",
+      "checkedAt": "2026-11-11T21:51:55.068Z",
+      "checkOkAt": "2026-11-11T21:51:55.068Z",
       "syncedAt": "2026-11-07T16:05:08.410Z",
       "checkError": null,
       "syncError": null,
