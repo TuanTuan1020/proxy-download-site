@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "createdAt": "2026-11-07T15:05:43.998Z",
-  "updatedAt": "2026-11-11T00:35:54.212Z",
+  "updatedAt": "2026-11-11T07:01:56.043Z",
   "sources": {
     "clash-verge-rev": {
-      "etag": "W/\"9a64fa1530210441d0794cfb11a35f9cdef1e015de1c88bc1ec9c9f98dc8034b\"",
-      "lastCheckedAt": "2026-11-11T00:35:48.857Z",
-      "lastCheckOkAt": "2026-11-11T00:35:48.857Z",
+      "etag": "W/\"63fd555cf76a6a754f7fe5c17c5d11a9ae21d2078db4cb86aeb474d9b1b4e649\"",
+      "lastCheckedAt": "2026-11-11T07:01:50.894Z",
+      "lastCheckOkAt": "2026-11-11T07:01:50.894Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -398,9 +398,9 @@
       "lastChangeAt": "2026-11-07T15:05:47.007Z"
     },
     "clash-party": {
-      "etag": "W/\"247bf476c2e98d80b52e6417e0bdd93df80eefd8e2826688f94906ef59cfd9c7\"",
-      "lastCheckedAt": "2026-11-11T00:35:49.515Z",
-      "lastCheckOkAt": "2026-11-11T00:35:49.515Z",
+      "etag": "W/\"91df66130f55aa6e41d46ee1fd36105f767546b836ff17501a3ddeeac54004b8\"",
+      "lastCheckedAt": "2026-11-11T07:01:51.614Z",
+      "lastCheckOkAt": "2026-11-11T07:01:51.614Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -1357,9 +1357,9 @@
       "lastChangeAt": "2026-11-07T15:07:32.292Z"
     },
     "flclash": {
-      "etag": "W/\"68cbd12ab4507a195c0356148bfb0c265534fd8173771dc886b1286b803dc2e1\"",
-      "lastCheckedAt": "2026-11-11T00:35:49.931Z",
-      "lastCheckOkAt": "2026-11-11T00:35:49.931Z",
+      "etag": "W/\"58c60c3218c09390e964c93b19766ce56985aec14738cdd2fc0dac3e71c417c9\"",
+      "lastCheckedAt": "2026-11-11T07:01:51.996Z",
+      "lastCheckOkAt": "2026-11-11T07:01:51.996Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -1726,9 +1726,9 @@
       "lastChangeAt": "2026-11-07T15:07:34.037Z"
     },
     "clash-nyanpasu": {
-      "etag": "W/\"c434302314b66db580096da61919ba78efbfcdc2701ee1870b6c3dabede09e21\"",
-      "lastCheckedAt": "2026-11-11T00:35:50.457Z",
-      "lastCheckOkAt": "2026-11-11T00:35:50.457Z",
+      "etag": "W/\"449f44c2661f525298baa4126674c6a0e25725e5f47f3ea536f302619e9f52f2\"",
+      "lastCheckedAt": "2026-11-11T07:01:52.511Z",
+      "lastCheckOkAt": "2026-11-11T07:01:52.511Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -2303,9 +2303,9 @@
       "lastChangeAt": "2026-11-07T15:07:36.850Z"
     },
     "v2rayn": {
-      "etag": "W/\"c54c48077a36b0994066cc9f32ac740132ec6fa4e44817c3d36f5fc92e843196\"",
-      "lastCheckedAt": "2026-11-11T00:35:51.072Z",
-      "lastCheckOkAt": "2026-11-11T00:35:51.072Z",
+      "etag": "W/\"21aae008e8f10d450099f112c488abc86ac72b6f006dce2ade547d81d26d154d\"",
+      "lastCheckedAt": "2026-11-11T07:01:53.045Z",
+      "lastCheckOkAt": "2026-11-11T07:01:53.045Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -2884,9 +2884,9 @@
       "lastChangeAt": "2026-11-07T15:07:38.921Z"
     },
     "v2rayng": {
-      "etag": "W/\"0b77a61e8150bb9152c4a60dc8dd8ba519c4f4ed984c462f10cd69d40d007b94\"",
-      "lastCheckedAt": "2026-11-11T00:35:51.490Z",
-      "lastCheckOkAt": "2026-11-11T00:35:51.490Z",
+      "etag": "W/\"c4c8c586a9e03a5a16d1f6f57b54ea1e42b1b8c9a1797c540246213e5d6f4bea\"",
+      "lastCheckedAt": "2026-11-11T07:01:53.489Z",
+      "lastCheckOkAt": "2026-11-11T07:01:53.489Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -3225,78 +3225,78 @@
       "lastChangeAt": "2026-11-07T15:07:40.745Z"
     },
     "clash-meta-for-android": {
-      "etag": "W/\"b494ae79c44be3bf78802b9d1f3512d1bf53822f4992c574b2ebbca46fd22b5d\"",
-      "lastCheckedAt": "2026-11-11T00:35:51.825Z",
-      "lastCheckOkAt": "2026-11-11T00:35:51.825Z",
+      "etag": "W/\"3eca642faff82fb5a21586b908f59c55d19e4efb8a9832b5bd81407bbddc9f84\"",
+      "lastCheckedAt": "2026-11-11T07:01:53.786Z",
+      "lastCheckOkAt": "2026-11-11T07:01:53.786Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
       "release": {
-        "id": 419806409,
-        "tag": "v2.11.36",
-        "name": "v2.11.36",
-        "publishedAt": "2026-10-21T16:44:10Z",
-        "htmlUrl": "https://github.com/MetaCubeX/ClashMetaForAndroid/releases/tag/v2.11.36",
+        "id": 441325763,
+        "tag": "v2.11.37",
+        "name": "v2.11.37",
+        "publishedAt": "2026-11-11T06:52:15Z",
+        "htmlUrl": "https://github.com/MetaCubeX/ClashMetaForAndroid/releases/tag/v2.11.37",
         "assets": [
           {
-            "id": 663157507,
-            "name": "cmfa-2.11.36-meta-arm64-v8a-release.apk",
-            "size": 47623688,
+            "id": 734481010,
+            "name": "cmfa-2.11.37-meta-arm64-v8a-release.apk",
+            "size": 47672833,
             "sizeExact": true,
-            "digest": "7da3083c16af676f9a3e478e3f42098b91803cbd7cb637bff4117d4d50360f95",
-            "updatedAt": "2026-10-21T16:44:07Z",
+            "digest": "84be4f17a166a966828f1674a5e9a063211e855c6d066d660c72fc7489b053a4",
+            "updatedAt": "2026-11-11T06:52:12Z",
             "contentType": "application/vnd.android.package-archive",
-            "url": "https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.36/cmfa-2.11.36-meta-arm64-v8a-release.apk"
+            "url": "https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.37/cmfa-2.11.37-meta-arm64-v8a-release.apk"
           },
           {
-            "id": 663157503,
-            "name": "cmfa-2.11.36-meta-armeabi-v7a-release.apk",
-            "size": 47586709,
+            "id": 734481012,
+            "name": "cmfa-2.11.37-meta-armeabi-v7a-release.apk",
+            "size": 47637444,
             "sizeExact": true,
-            "digest": "bd500e3d04e619e8d85e8ca196c8fd42de285fc5d3811e4cd3ee5dc355cd7dea",
-            "updatedAt": "2026-10-21T16:44:09Z",
+            "digest": "8ff060ec3a0905e4e42b6a8e2aa3ddfcda84cb147e5d2940096b3800d8665538",
+            "updatedAt": "2026-11-11T06:52:12Z",
             "contentType": "application/vnd.android.package-archive",
-            "url": "https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.36/cmfa-2.11.36-meta-armeabi-v7a-release.apk"
+            "url": "https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.37/cmfa-2.11.37-meta-armeabi-v7a-release.apk"
           },
           {
-            "id": 663157512,
-            "name": "cmfa-2.11.36-meta-universal-release.apk",
-            "size": 123194776,
+            "id": 734481007,
+            "name": "cmfa-2.11.37-meta-universal-release.apk",
+            "size": 122896343,
             "sizeExact": true,
-            "digest": "8c0745deba065d32285955a8e2932e752f9a51747858c72d7a29882cd43cfbb5",
-            "updatedAt": "2026-10-21T16:44:08Z",
+            "digest": "2c76a5c88a150294f1dfcb79b2b54ce3c79c75a705b055087571c47a6907f76a",
+            "updatedAt": "2026-11-11T06:52:15Z",
             "contentType": "application/vnd.android.package-archive",
-            "url": "https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.36/cmfa-2.11.36-meta-universal-release.apk"
+            "url": "https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.37/cmfa-2.11.37-meta-universal-release.apk"
           },
           {
-            "id": 663157505,
-            "name": "cmfa-2.11.36-meta-x86-release.apk",
-            "size": 49768322,
+            "id": 734481008,
+            "name": "cmfa-2.11.37-meta-x86-release.apk",
+            "size": 49835831,
             "sizeExact": true,
-            "digest": "664f0a2f7fe197af4e4c11737e142fff7339628a5aa53c5eb1fc876229cee0a5",
-            "updatedAt": "2026-10-21T16:44:07Z",
+            "digest": "bc7e61a9603569945608d0425d86a751410335c10785fd1a2434be4a89aa4809",
+            "updatedAt": "2026-11-11T06:52:13Z",
             "contentType": "application/vnd.android.package-archive",
-            "url": "https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.36/cmfa-2.11.36-meta-x86-release.apk"
+            "url": "https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.37/cmfa-2.11.37-meta-x86-release.apk"
           },
           {
-            "id": 663157514,
-            "name": "cmfa-2.11.36-meta-x86_64-release.apk",
-            "size": 49543854,
+            "id": 734481011,
+            "name": "cmfa-2.11.37-meta-x86_64-release.apk",
+            "size": 49595628,
             "sizeExact": true,
-            "digest": "aa70600b1cdc4211b8fd314d44d32c830c2bd60ef1c4185457b9eb17a17ec83e",
-            "updatedAt": "2026-10-21T16:44:07Z",
+            "digest": "816acdd7a5abcd397efc6ebac9b76c2a563e851565996795161f4c33233bf178",
+            "updatedAt": "2026-11-11T06:52:13Z",
             "contentType": "application/vnd.android.package-archive",
-            "url": "https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.36/cmfa-2.11.36-meta-x86_64-release.apk"
+            "url": "https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.37/cmfa-2.11.37-meta-x86_64-release.apk"
           },
           {
-            "id": 663157506,
+            "id": 734481009,
             "name": "output-metadata.json",
             "size": 2552,
             "sizeExact": true,
-            "digest": "caa8e0942f10deaba5d3f12f7d3f0a8fb98308d376cdab69a68c56ac0fe1851b",
-            "updatedAt": "2026-10-21T16:44:04Z",
+            "digest": "476d342ef156613baccec500645225c0622578736e84b60de4d7753ef255a3a0",
+            "updatedAt": "2026-11-11T06:52:10Z",
             "contentType": "application/json",
-            "url": "https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.36/output-metadata.json"
+            "url": "https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.37/output-metadata.json"
           }
         ]
       },
@@ -3304,7 +3304,7 @@
         {
           "tag": "Prerelease-alpha",
           "name": "Prerelease-alpha",
-          "publishedAt": "2026-10-21T16:32:23Z",
+          "publishedAt": "2026-11-11T06:46:06Z",
           "htmlUrl": "https://github.com/MetaCubeX/ClashMetaForAndroid/releases/tag/Prerelease-alpha",
           "heuristic": false
         }
@@ -3419,12 +3419,12 @@
       "lastSyncedAt": "2026-11-07T16:04:25.410Z",
       "consecutiveFailures": 0,
       "nextRetryAt": null,
-      "lastChangeAt": "2026-11-07T15:07:42.630Z"
+      "lastChangeAt": "2026-11-11T07:01:53.786Z"
     },
     "nekobox": {
-      "etag": "W/\"be30d229d23eb0a7c0541b16cee1f28b8a5af9debc887ca662439da39d63becb\"",
-      "lastCheckedAt": "2026-11-11T00:35:52.143Z",
-      "lastCheckOkAt": "2026-11-11T00:35:52.143Z",
+      "etag": "W/\"dbfa2476a7bba8ce433b180d176228524d9a8e4a6d2f767ccde8b65090f525af\"",
+      "lastCheckedAt": "2026-11-11T07:01:54.113Z",
+      "lastCheckOkAt": "2026-11-11T07:01:54.113Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -3586,9 +3586,9 @@
       "lastChangeAt": "2026-11-07T15:07:44.615Z"
     },
     "sing-box": {
-      "etag": "W/\"735641b324f7bc01a45562d79d926aa9e0e202d42b834a1125c0f1f8ff0c9a8e\"",
-      "lastCheckedAt": "2026-11-11T00:35:53.349Z",
-      "lastCheckOkAt": "2026-11-11T00:35:53.349Z",
+      "etag": "W/\"fbad29e021c2863aef6f0e3d1834bbbe4129b327b34da3a8d60b2218f70ac111\"",
+      "lastCheckedAt": "2026-11-11T07:01:55.153Z",
+      "lastCheckOkAt": "2026-11-11T07:01:55.153Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -5497,9 +5497,9 @@
       "lastChangeAt": "2026-11-07T15:07:46.511Z"
     },
     "hiddify": {
-      "etag": "W/\"c5aeff47f66afea84bb86d7fd9342bfdc206ec8bcbd358d8a889d2d2062d99aa\"",
-      "lastCheckedAt": "2026-11-11T00:35:53.779Z",
-      "lastCheckOkAt": "2026-11-11T00:35:53.779Z",
+      "etag": "W/\"ce8f4794bdad09a23cc23ff64b853bfea52e98cf0d4f0c2dd5c01062156532bd\"",
+      "lastCheckedAt": "2026-11-11T07:01:55.554Z",
+      "lastCheckOkAt": "2026-11-11T07:01:55.554Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -5692,9 +5692,9 @@
       "lastChangeAt": "2026-11-07T15:07:48.174Z"
     },
     "throne": {
-      "etag": "W/\"a31bc7485634955592b9aee012ba44a94122e6ed30d4760ea8566625d1d0f693\"",
-      "lastCheckedAt": "2026-11-11T00:35:54.202Z",
-      "lastCheckOkAt": "2026-11-11T00:35:54.202Z",
+      "etag": "W/\"475aca1312c0b34ce5b004960def9a778ba6efd1b630e941add90e3477998340\"",
+      "lastCheckedAt": "2026-11-11T07:01:56.032Z",
+      "lastCheckOkAt": "2026-11-11T07:01:56.032Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -6563,6 +6563,29 @@
       "startedAt": "2026-11-11T00:35:48.238Z",
       "finishedAt": "2026-11-11T00:35:54.211Z",
       "durationMs": 5973,
+      "projects": 11,
+      "collect": {
+        "ok": 11,
+        "failed": 0,
+        "notModified": 0,
+        "degraded": 0
+      },
+      "sync": {
+        "files": 0,
+        "skipped": 0,
+        "failed": 0
+      },
+      "storage": "unconfigured",
+      "warnings": [
+        "本站尚未配置安装包存储（S3_* 或本地目录），因此不提供镜像下载，仅展示官方 GitHub 入口。"
+      ],
+      "triggeredBy": "github-actions"
+    },
+    {
+      "reason": "github-actions",
+      "startedAt": "2026-11-11T07:01:50.282Z",
+      "finishedAt": "2026-11-11T07:01:56.042Z",
+      "durationMs": 5760,
       "projects": 11,
       "collect": {
         "ok": 11,
