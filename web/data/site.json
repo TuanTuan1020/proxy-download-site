@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T18:40:20.479Z",
+  "generatedAt": "2026-11-13T23:52:03.509Z",
   "dataSource": "github-rest",
   "site": {
     "name": "代理客户端下载站",
@@ -101,8 +101,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-13T18:40:13.544Z",
-      "checkOkAt": "2026-11-13T18:40:13.544Z",
+      "checkedAt": "2026-11-13T23:51:56.257Z",
+      "checkOkAt": "2026-11-13T23:51:56.257Z",
       "syncedAt": "2026-11-07T16:01:23.574Z",
       "checkError": null,
       "syncError": null,
@@ -301,8 +301,8 @@
         "isPrereleaseTag": false
       },
       "prereleases": [],
-      "checkedAt": "2026-11-13T18:40:14.262Z",
-      "checkOkAt": "2026-11-13T18:40:14.262Z",
+      "checkedAt": "2026-11-13T23:51:56.913Z",
+      "checkOkAt": "2026-11-13T23:51:56.913Z",
       "syncedAt": "2026-11-07T16:01:43.452Z",
       "checkError": null,
       "syncError": null,
@@ -501,8 +501,8 @@
         "isPrereleaseTag": false
       },
       "prereleases": [],
-      "checkedAt": "2026-11-13T18:40:15.786Z",
-      "checkOkAt": "2026-11-13T18:40:15.786Z",
+      "checkedAt": "2026-11-13T23:51:57.274Z",
+      "checkOkAt": "2026-11-13T23:51:57.274Z",
       "syncedAt": "2026-11-07T16:02:26.426Z",
       "checkError": null,
       "syncError": null,
@@ -781,8 +781,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-13T18:40:16.353Z",
-      "checkOkAt": "2026-11-13T18:40:16.353Z",
+      "checkedAt": "2026-11-13T23:51:57.712Z",
+      "checkOkAt": "2026-11-13T23:51:57.712Z",
       "syncedAt": "2026-11-07T16:03:41.451Z",
       "checkError": null,
       "syncError": null,
@@ -1049,8 +1049,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-13T18:40:17.031Z",
-      "checkOkAt": "2026-11-13T18:40:17.031Z",
+      "checkedAt": "2026-11-13T23:51:58.146Z",
+      "checkOkAt": "2026-11-13T23:51:58.146Z",
       "syncedAt": "2026-11-07T16:03:58.120Z",
       "checkError": null,
       "syncError": null,
@@ -1269,8 +1269,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-13T18:40:17.430Z",
-      "checkOkAt": "2026-11-13T18:40:17.430Z",
+      "checkedAt": "2026-11-13T23:51:58.511Z",
+      "checkOkAt": "2026-11-13T23:51:58.511Z",
       "syncedAt": "2026-11-07T16:04:02.087Z",
       "checkError": null,
       "syncError": null,
@@ -1425,8 +1425,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-13T18:40:17.904Z",
-      "checkOkAt": "2026-11-13T18:40:17.904Z",
+      "checkedAt": "2026-11-13T23:51:58.935Z",
+      "checkOkAt": "2026-11-13T23:51:58.935Z",
       "syncedAt": "2026-11-07T16:04:25.410Z",
       "checkError": null,
       "syncError": null,
@@ -1611,8 +1611,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-13T18:40:18.368Z",
-      "checkOkAt": "2026-11-13T18:40:18.368Z",
+      "checkedAt": "2026-11-13T23:51:59.283Z",
+      "checkOkAt": "2026-11-13T23:51:59.283Z",
       "syncedAt": "2026-11-07T16:04:09.285Z",
       "checkError": null,
       "syncError": null,
@@ -1784,8 +1784,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-13T18:40:19.653Z",
-      "checkOkAt": "2026-11-13T18:40:19.653Z",
+      "checkedAt": "2026-11-13T23:52:01.628Z",
+      "checkOkAt": "2026-11-13T23:52:01.628Z",
       "syncedAt": "2026-11-07T16:05:13.266Z",
       "checkError": null,
       "syncError": null,
@@ -2061,8 +2061,15 @@
         {
           "tag": "draft",
           "name": "draft",
-          "publishedAt": "2026-11-13T16:43:00Z",
+          "publishedAt": "2026-11-13T22:07:18Z",
           "htmlUrl": "https://github.com/hiddify/hiddify-app/releases/tag/draft",
+          "heuristic": false
+        },
+        {
+          "tag": "v5.9.2",
+          "name": "v5.9.2",
+          "publishedAt": "2026-11-13T22:06:08Z",
+          "htmlUrl": "https://github.com/hiddify/hiddify-app/releases/tag/v5.9.2",
           "heuristic": false
         },
         {
@@ -2071,17 +2078,10 @@
           "publishedAt": "2026-11-13T16:42:17Z",
           "htmlUrl": "https://github.com/hiddify/hiddify-app/releases/tag/v5.9.1",
           "heuristic": false
-        },
-        {
-          "tag": "v5.9.0",
-          "name": "v5.9.0",
-          "publishedAt": "2026-11-12T18:26:16Z",
-          "htmlUrl": "https://github.com/hiddify/hiddify-app/releases/tag/v5.9.0",
-          "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-13T18:40:20.026Z",
-      "checkOkAt": "2026-11-13T18:40:20.026Z",
+      "checkedAt": "2026-11-13T23:52:03.126Z",
+      "checkOkAt": "2026-11-13T23:52:03.126Z",
       "syncedAt": null,
       "checkError": null,
       "syncError": null,
@@ -2352,8 +2352,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-13T18:40:20.476Z",
-      "checkOkAt": "2026-11-13T18:40:20.476Z",
+      "checkedAt": "2026-11-13T23:52:03.505Z",
+      "checkOkAt": "2026-11-13T23:52:03.505Z",
       "syncedAt": "2026-11-07T16:05:08.410Z",
       "checkError": null,
       "syncError": null,
