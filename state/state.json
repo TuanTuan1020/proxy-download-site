@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "createdAt": "2026-11-07T15:05:43.998Z",
-  "updatedAt": "2026-11-14T17:10:25.061Z",
+  "updatedAt": "2026-11-14T21:31:13.366Z",
   "sources": {
     "clash-verge-rev": {
-      "etag": "W/\"130f68bec6a34be3c98751b3c006c2d50f74baff9bf11ddcca333967aa19bf42\"",
-      "lastCheckedAt": "2026-11-14T17:10:19.662Z",
-      "lastCheckOkAt": "2026-11-14T17:10:19.662Z",
+      "etag": "W/\"ae1781caeaeca2a3be37ebbd4b2ab2c98491b9249d9b2f169ff82a7dc67016fe\"",
+      "lastCheckedAt": "2026-11-14T21:31:08.418Z",
+      "lastCheckOkAt": "2026-11-14T21:31:08.418Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -398,9 +398,9 @@
       "lastChangeAt": "2026-11-07T15:05:47.007Z"
     },
     "clash-party": {
-      "etag": "W/\"9bfe1a7c0004e9427cf5b33f1b4fd743ea2ca937b8d4c0626202755a673046fe\"",
-      "lastCheckedAt": "2026-11-14T17:10:20.447Z",
-      "lastCheckOkAt": "2026-11-14T17:10:20.447Z",
+      "etag": "W/\"09fa7f9f1c23e35883d296d67190af1ae9d5913717cf5057b241263c442dfbd3\"",
+      "lastCheckedAt": "2026-11-14T21:31:09.157Z",
+      "lastCheckOkAt": "2026-11-14T21:31:09.157Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -1357,9 +1357,9 @@
       "lastChangeAt": "2026-11-07T15:07:32.292Z"
     },
     "flclash": {
-      "etag": "W/\"4d6875d6dcd31977617fc52da1b110621191c37e5ac9d552038b2f3a5cc6517f\"",
-      "lastCheckedAt": "2026-11-14T17:10:20.805Z",
-      "lastCheckOkAt": "2026-11-14T17:10:20.805Z",
+      "etag": "W/\"6143c7fe2ba8a4e71a22feba0a2ecdebba96f1f0fac6015e20c06477ee54c2be\"",
+      "lastCheckedAt": "2026-11-14T21:31:09.543Z",
+      "lastCheckOkAt": "2026-11-14T21:31:09.543Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -1726,9 +1726,9 @@
       "lastChangeAt": "2026-11-07T15:07:34.037Z"
     },
     "clash-nyanpasu": {
-      "etag": "W/\"5513d7409b03bd518a43d8e5c641bb171bca0a301a57b8fc13c92d6bb4d84978\"",
-      "lastCheckedAt": "2026-11-14T17:10:21.304Z",
-      "lastCheckOkAt": "2026-11-14T17:10:21.304Z",
+      "etag": "W/\"56440d14e8e06e04daae4288dc1156616d89d7386438252c52e35d250e5ea3a9\"",
+      "lastCheckedAt": "2026-11-14T21:31:10.052Z",
+      "lastCheckOkAt": "2026-11-14T21:31:10.052Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -2303,9 +2303,9 @@
       "lastChangeAt": "2026-11-07T15:07:36.850Z"
     },
     "v2rayn": {
-      "etag": "W/\"87291d55e7d739022f1a3cbbdfa32a5dad1fcaf0fa360ddd34b3c66679b36c57\"",
-      "lastCheckedAt": "2026-11-14T17:10:21.904Z",
-      "lastCheckOkAt": "2026-11-14T17:10:21.904Z",
+      "etag": "W/\"be0621d58da65cd9a88bce1b4c99d3c7addb32abbdcac634ef136e0424d1e7d5\"",
+      "lastCheckedAt": "2026-11-14T21:31:10.485Z",
+      "lastCheckOkAt": "2026-11-14T21:31:10.485Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -2884,9 +2884,9 @@
       "lastChangeAt": "2026-11-07T15:07:38.921Z"
     },
     "v2rayng": {
-      "etag": "W/\"9ef3626e76ee241e9697ee81fdbdee4d99e6fce71abf35774de6b1c74445e75b\"",
-      "lastCheckedAt": "2026-11-14T17:10:22.337Z",
-      "lastCheckOkAt": "2026-11-14T17:10:22.337Z",
+      "etag": "W/\"90afbb8354cb02975b2dfbc283f9c12ba452a989d1a6ae266c5d6f1761104fe7\"",
+      "lastCheckedAt": "2026-11-14T21:31:10.862Z",
+      "lastCheckOkAt": "2026-11-14T21:31:10.862Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -3225,9 +3225,9 @@
       "lastChangeAt": "2026-11-07T15:07:40.745Z"
     },
     "clash-meta-for-android": {
-      "etag": "W/\"478c5fc7790f6d7241a21df27d06e94f93c279798c14aed9296b3e4b63ed4fd9\"",
-      "lastCheckedAt": "2026-11-14T17:10:22.657Z",
-      "lastCheckOkAt": "2026-11-14T17:10:22.657Z",
+      "etag": "W/\"d1a5b953b7f710487990ec81f7881f089bcfe52c7ca3173b0eabedb045e0f945\"",
+      "lastCheckedAt": "2026-11-14T21:31:11.160Z",
+      "lastCheckOkAt": "2026-11-14T21:31:11.160Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -3422,9 +3422,9 @@
       "lastChangeAt": "2026-11-11T07:01:53.786Z"
     },
     "nekobox": {
-      "etag": "W/\"cdfe6979d6e93f21e37f97dd408a802cd5fc438c3efe7660c065398b2b4be26c\"",
-      "lastCheckedAt": "2026-11-14T17:10:23.004Z",
-      "lastCheckOkAt": "2026-11-14T17:10:23.004Z",
+      "etag": "W/\"3a213232f95abb2556bcf8a70883cc95f975d802ba324d356cc62d30e65396b2\"",
+      "lastCheckedAt": "2026-11-14T21:31:11.420Z",
+      "lastCheckOkAt": "2026-11-14T21:31:11.420Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -3586,9 +3586,9 @@
       "lastChangeAt": "2026-11-07T15:07:44.615Z"
     },
     "sing-box": {
-      "etag": "W/\"1e11a8dfdb50f138366eb798ad99e862745b15a5eb20eb239b52d6cd33998344\"",
-      "lastCheckedAt": "2026-11-14T17:10:24.196Z",
-      "lastCheckOkAt": "2026-11-14T17:10:24.196Z",
+      "etag": "W/\"ec5613d07d22b3953804655d5fba6389d2234fb66fbce52789d3d445c588a25f\"",
+      "lastCheckedAt": "2026-11-14T21:31:12.632Z",
+      "lastCheckOkAt": "2026-11-14T21:31:12.632Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -5497,9 +5497,9 @@
       "lastChangeAt": "2026-11-07T15:07:46.511Z"
     },
     "hiddify": {
-      "etag": "W/\"9713fd70b131d35732da8127fbfc03c3f1c87eb30c17dc7a2d25123b2a897eab\"",
-      "lastCheckedAt": "2026-11-14T17:10:24.585Z",
-      "lastCheckOkAt": "2026-11-14T17:10:24.585Z",
+      "etag": "W/\"9531f91b5e1c5d4b127e373d54cb9b614398e92c564023de9481e139dc01a509\"",
+      "lastCheckedAt": "2026-11-14T21:31:12.957Z",
+      "lastCheckOkAt": "2026-11-14T21:31:12.957Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -5692,198 +5692,198 @@
       "lastChangeAt": "2026-11-07T15:07:48.174Z"
     },
     "throne": {
-      "etag": "W/\"46df64762492902b13dff94183a847627bfaf01924f2ca913b5c201346fbb92f\"",
-      "lastCheckedAt": "2026-11-14T17:10:25.049Z",
-      "lastCheckOkAt": "2026-11-14T17:10:25.049Z",
+      "etag": "W/\"187114971b1f1d4c865d16518aedc37c3ecb29050fc00f50595fd67d4429ae73\"",
+      "lastCheckedAt": "2026-11-14T21:31:13.357Z",
+      "lastCheckOkAt": "2026-11-14T21:31:13.357Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
       "release": {
-        "id": 437149409,
-        "tag": "1.4.1",
-        "name": "1.4.1",
-        "publishedAt": "2026-11-06T23:05:33Z",
-        "htmlUrl": "https://github.com/throneproj/Throne/releases/tag/1.4.1",
+        "id": 445593793,
+        "tag": "1.4.2",
+        "name": "1.4.2",
+        "publishedAt": "2026-11-14T21:13:49Z",
+        "htmlUrl": "https://github.com/throneproj/Throne/releases/tag/1.4.2",
         "assets": [
           {
-            "id": 718873901,
-            "name": "Throne-1.4.1-debian-amd64-system-qt.deb",
-            "size": 40126204,
+            "id": 748792359,
+            "name": "Throne-1.4.2-debian-amd64-system-qt.deb",
+            "size": 40846508,
             "sizeExact": true,
-            "digest": "c0c32925154f5b93fb5ca2b5d6a3008e5f39ec3504d5abf318f50995823fe8e3",
-            "updatedAt": "2026-11-06T23:05:23Z",
+            "digest": "6d3ad386e27bc90de4b5ebf400735166de11e7a99f7ae75e1704be89a247e28b",
+            "updatedAt": "2026-11-14T21:13:32Z",
             "contentType": "application/vnd.debian.binary-package",
-            "url": "https://github.com/throneproj/Throne/releases/download/1.4.1/Throne-1.4.1-debian-amd64-system-qt.deb"
+            "url": "https://github.com/throneproj/Throne/releases/download/1.4.2/Throne-1.4.2-debian-amd64-system-qt.deb"
           },
           {
-            "id": 718873908,
-            "name": "Throne-1.4.1-debian-amd64.deb",
-            "size": 56355080,
+            "id": 748792179,
+            "name": "Throne-1.4.2-debian-amd64.deb",
+            "size": 56982608,
             "sizeExact": true,
-            "digest": "69eff29fea363603cc8a8bb9810da2da65a66cbef93405131c7af89a2e15e1a6",
-            "updatedAt": "2026-11-06T23:05:23Z",
+            "digest": "5677967391f0282b88c3f9d5ebd409cbacbed781a90984ff3f3b498369299dc0",
+            "updatedAt": "2026-11-14T21:13:30Z",
             "contentType": "application/vnd.debian.binary-package",
-            "url": "https://github.com/throneproj/Throne/releases/download/1.4.1/Throne-1.4.1-debian-amd64.deb"
+            "url": "https://github.com/throneproj/Throne/releases/download/1.4.2/Throne-1.4.2-debian-amd64.deb"
           },
           {
-            "id": 718873927,
-            "name": "Throne-1.4.1-debian-arm64-system-qt.deb",
-            "size": 35040796,
+            "id": 748792371,
+            "name": "Throne-1.4.2-debian-arm64-system-qt.deb",
+            "size": 35727840,
             "sizeExact": true,
-            "digest": "155984c0065bed0e30f4fac97ea7a965fea6dac20749ed73b2140705b70987eb",
-            "updatedAt": "2026-11-06T23:05:23Z",
+            "digest": "a72b0205e8a3cacfdaee5288a583ed6ce2c9c89704c7932d8e079d4e8cf7da3e",
+            "updatedAt": "2026-11-14T21:13:33Z",
             "contentType": "application/vnd.debian.binary-package",
-            "url": "https://github.com/throneproj/Throne/releases/download/1.4.1/Throne-1.4.1-debian-arm64-system-qt.deb"
+            "url": "https://github.com/throneproj/Throne/releases/download/1.4.2/Throne-1.4.2-debian-arm64-system-qt.deb"
           },
           {
-            "id": 718873726,
-            "name": "Throne-1.4.1-debian-arm64.deb",
-            "size": 50838724,
+            "id": 748792190,
+            "name": "Throne-1.4.2-debian-arm64.deb",
+            "size": 51404828,
             "sizeExact": true,
-            "digest": "f3667728235ced72c00cd6304af875c83da7c3c9b4b998fa7971089835879c77",
-            "updatedAt": "2026-11-06T23:05:21Z",
+            "digest": "722be3758a6219bf3fcffb5e04ee71098fbfb6d822e8d2b3c6e0f9b08ef6c108",
+            "updatedAt": "2026-11-14T21:13:30Z",
             "contentType": "application/vnd.debian.binary-package",
-            "url": "https://github.com/throneproj/Throne/releases/download/1.4.1/Throne-1.4.1-debian-arm64.deb"
+            "url": "https://github.com/throneproj/Throne/releases/download/1.4.2/Throne-1.4.2-debian-arm64.deb"
           },
           {
-            "id": 718874393,
-            "name": "Throne-1.4.1-fedora-amd64-system-qt.rpm",
-            "size": 42455366,
+            "id": 748792166,
+            "name": "Throne-1.4.2-fedora-amd64-system-qt.rpm",
+            "size": 43258620,
             "sizeExact": true,
-            "digest": "456fe4bd1cc7fcaf32496ebd7d52b983d774f7584ba545a6457c3233285aad46",
-            "updatedAt": "2026-11-06T23:05:29Z",
+            "digest": "14e5659f04881e8e8bd1efe10139c413a2070aabf428f78d846b795d2b253f44",
+            "updatedAt": "2026-11-14T21:13:30Z",
             "contentType": "application/x-rpm",
-            "url": "https://github.com/throneproj/Throne/releases/download/1.4.1/Throne-1.4.1-fedora-amd64-system-qt.rpm"
+            "url": "https://github.com/throneproj/Throne/releases/download/1.4.2/Throne-1.4.2-fedora-amd64-system-qt.rpm"
           },
           {
-            "id": 718874385,
-            "name": "Throne-1.4.1-fedora-amd64.rpm",
-            "size": 59983494,
+            "id": 748792390,
+            "name": "Throne-1.4.2-fedora-amd64.rpm",
+            "size": 60755490,
             "sizeExact": true,
-            "digest": "ce36f849c00a19a987c51698198076a2f21fa3cd9b7b78431c54877d8e7b6c06",
-            "updatedAt": "2026-11-06T23:05:29Z",
+            "digest": "1ff43cb6aff164a77845742ae5f6ce9c9e9ba1c85d284b726813819d7adb85f5",
+            "updatedAt": "2026-11-14T21:13:34Z",
             "contentType": "application/x-rpm",
-            "url": "https://github.com/throneproj/Throne/releases/download/1.4.1/Throne-1.4.1-fedora-amd64.rpm"
+            "url": "https://github.com/throneproj/Throne/releases/download/1.4.2/Throne-1.4.2-fedora-amd64.rpm"
           },
           {
-            "id": 718874582,
-            "name": "Throne-1.4.1-fedora-arm64-system-qt.rpm",
-            "size": 38704367,
+            "id": 748792468,
+            "name": "Throne-1.4.2-fedora-arm64-system-qt.rpm",
+            "size": 39447008,
             "sizeExact": true,
-            "digest": "d5677cc9b16a9528d7f5ea6f6d5e95ea73d6923eb391e93e19d1305684c0d6ba",
-            "updatedAt": "2026-11-06T23:05:31Z",
+            "digest": "fb51d86874d8b219394b9fb30e075f0b6290a3d16c9cdcd6939fdc52c6994308",
+            "updatedAt": "2026-11-14T21:13:34Z",
             "contentType": "application/x-rpm",
-            "url": "https://github.com/throneproj/Throne/releases/download/1.4.1/Throne-1.4.1-fedora-arm64-system-qt.rpm"
+            "url": "https://github.com/throneproj/Throne/releases/download/1.4.2/Throne-1.4.2-fedora-arm64-system-qt.rpm"
           },
           {
-            "id": 718873728,
-            "name": "Throne-1.4.1-fedora-arm64.rpm",
-            "size": 56441592,
+            "id": 748792493,
+            "name": "Throne-1.4.2-fedora-arm64.rpm",
+            "size": 57154829,
             "sizeExact": true,
-            "digest": "640a956a36764a86dbd8bb68f1c230b96a41c3522b968995fbb2b46996a815ce",
-            "updatedAt": "2026-11-06T23:05:21Z",
+            "digest": "619ad85331767f26557336c1223e85a4e9e0a534d323e18ed280f346d4d6acf5",
+            "updatedAt": "2026-11-14T21:13:35Z",
             "contentType": "application/x-rpm",
-            "url": "https://github.com/throneproj/Throne/releases/download/1.4.1/Throne-1.4.1-fedora-arm64.rpm"
+            "url": "https://github.com/throneproj/Throne/releases/download/1.4.2/Throne-1.4.2-fedora-arm64.rpm"
           },
           {
-            "id": 718873723,
-            "name": "Throne-1.4.1-linux-amd64.zip",
-            "size": 74328494,
+            "id": 748792552,
+            "name": "Throne-1.4.2-linux-amd64.zip",
+            "size": 75343958,
             "sizeExact": true,
-            "digest": "de114f4a9e10a20cae68b676a3a21f4569f469b5c02a86cbb7e7e2308a0076de",
-            "updatedAt": "2026-11-06T23:05:21Z",
+            "digest": "e7a29891481c6f59acc3580957a34a5fd1c687cde0bc2b1ce0641176b956a7e9",
+            "updatedAt": "2026-11-14T21:13:41Z",
             "contentType": "application/zip",
-            "url": "https://github.com/throneproj/Throne/releases/download/1.4.1/Throne-1.4.1-linux-amd64.zip"
+            "url": "https://github.com/throneproj/Throne/releases/download/1.4.2/Throne-1.4.2-linux-amd64.zip"
           },
           {
-            "id": 718874124,
-            "name": "Throne-1.4.1-linux-arm64.zip",
-            "size": 70329889,
+            "id": 748792553,
+            "name": "Throne-1.4.2-linux-arm64.zip",
+            "size": 71249450,
             "sizeExact": true,
-            "digest": "853a9bb1c13612b2c2569f04762823427aceeb3e1fe0410def1c4426a2d53635",
-            "updatedAt": "2026-11-06T23:05:26Z",
+            "digest": "b8816d7ff470153abddd2734427e2b7e2c48a4211ecca24ba01b3d2ecf861c46",
+            "updatedAt": "2026-11-14T21:13:41Z",
             "contentType": "application/zip",
-            "url": "https://github.com/throneproj/Throne/releases/download/1.4.1/Throne-1.4.1-linux-arm64.zip"
+            "url": "https://github.com/throneproj/Throne/releases/download/1.4.2/Throne-1.4.2-linux-arm64.zip"
           },
           {
-            "id": 718874128,
-            "name": "Throne-1.4.1-macos-amd64.zip",
-            "size": 72103696,
+            "id": 748792383,
+            "name": "Throne-1.4.2-macos-amd64.zip",
+            "size": 73104449,
             "sizeExact": true,
-            "digest": "9980a1b8b27e39c184f0e49ca3e51392f39fc1f90a1c93411c90c673748366ac",
-            "updatedAt": "2026-11-06T23:05:27Z",
+            "digest": "b7ef9f8a2a0c8b8f798ae03bb76479ce2f24f835e0ee440a6beaa3e9ed2df938",
+            "updatedAt": "2026-11-14T21:13:35Z",
             "contentType": "application/zip",
-            "url": "https://github.com/throneproj/Throne/releases/download/1.4.1/Throne-1.4.1-macos-amd64.zip"
+            "url": "https://github.com/throneproj/Throne/releases/download/1.4.2/Throne-1.4.2-macos-amd64.zip"
           },
           {
-            "id": 718874160,
-            "name": "Throne-1.4.1-macos-arm64.zip",
-            "size": 67630267,
+            "id": 748792573,
+            "name": "Throne-1.4.2-macos-arm64.zip",
+            "size": 68531617,
             "sizeExact": true,
-            "digest": "50766e6563878810c8a43f1e42ae9a79c94c9e2e57122e48a57427d745bcc755",
-            "updatedAt": "2026-11-06T23:05:26Z",
+            "digest": "c56b99af9153e09ad152b42cfd2975027a097a364ddc65f66f8ea6c4476f4c0d",
+            "updatedAt": "2026-11-14T21:13:40Z",
             "contentType": "application/zip",
-            "url": "https://github.com/throneproj/Throne/releases/download/1.4.1/Throne-1.4.1-macos-arm64.zip"
+            "url": "https://github.com/throneproj/Throne/releases/download/1.4.2/Throne-1.4.2-macos-arm64.zip"
           },
           {
-            "id": 718873937,
-            "name": "Throne-1.4.1-macoslegacy-amd64.zip",
-            "size": 69709808,
+            "id": 748792756,
+            "name": "Throne-1.4.2-macoslegacy-amd64.zip",
+            "size": 70692302,
             "sizeExact": true,
-            "digest": "01ce8d1b85760eaf23d0e022df1cc11234f6d554d55da6a8dbe2221ee66d25fa",
-            "updatedAt": "2026-11-06T23:05:25Z",
+            "digest": "6c40c24fcb06e6ca58310f457a429733c3e7c1f67e79b6d70fa330f11e7f3e9a",
+            "updatedAt": "2026-11-14T21:13:46Z",
             "contentType": "application/zip",
-            "url": "https://github.com/throneproj/Throne/releases/download/1.4.1/Throne-1.4.1-macoslegacy-amd64.zip"
+            "url": "https://github.com/throneproj/Throne/releases/download/1.4.2/Throne-1.4.2-macoslegacy-amd64.zip"
           },
           {
-            "id": 718874322,
-            "name": "Throne-1.4.1-windows-arm64.zip",
-            "size": 52827107,
+            "id": 748792764,
+            "name": "Throne-1.4.2-windows-arm64.zip",
+            "size": 53644829,
             "sizeExact": true,
-            "digest": "2078094210d92115617198a2f43c83776904b09501b6c146eee709d51904cc24",
-            "updatedAt": "2026-11-06T23:05:28Z",
+            "digest": "1208a8c6e99d482c4f2dd33eb4c38fec399de813990ac0bfce569635d8be471b",
+            "updatedAt": "2026-11-14T21:13:45Z",
             "contentType": "application/zip",
-            "url": "https://github.com/throneproj/Throne/releases/download/1.4.1/Throne-1.4.1-windows-arm64.zip"
+            "url": "https://github.com/throneproj/Throne/releases/download/1.4.2/Throne-1.4.2-windows-arm64.zip"
           },
           {
-            "id": 718874263,
-            "name": "Throne-1.4.1-windows-universal-installer.exe",
-            "size": 154532497,
+            "id": 748792702,
+            "name": "Throne-1.4.2-windows-universal-installer.exe",
+            "size": 156847120,
             "sizeExact": true,
-            "digest": "1f0d27b38abcb0dbe89408fa194cf96279ef259c8008be311db94bd66fc9c26a",
-            "updatedAt": "2026-11-06T23:05:32Z",
+            "digest": "f77a0f87ec936c0f8ef862be4ed1f58ba3e23f52c4d34bc21c5677433eca6ab5",
+            "updatedAt": "2026-11-14T21:13:48Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/throneproj/Throne/releases/download/1.4.1/Throne-1.4.1-windows-universal-installer.exe"
+            "url": "https://github.com/throneproj/Throne/releases/download/1.4.2/Throne-1.4.2-windows-universal-installer.exe"
           },
           {
-            "id": 718874513,
-            "name": "Throne-1.4.1-windows32.zip",
-            "size": 46469118,
+            "id": 748792588,
+            "name": "Throne-1.4.2-windows32.zip",
+            "size": 47357805,
             "sizeExact": true,
-            "digest": "d23d2caa9706071860d896d78fa051d4d454f2d4b81d2ec601da16abd07e8ff1",
-            "updatedAt": "2026-11-06T23:05:32Z",
+            "digest": "cef6c2b2d38649270b22774f82d32e9b58e3853340f50dcec4c45b8b9229a1e5",
+            "updatedAt": "2026-11-14T21:13:39Z",
             "contentType": "application/zip",
-            "url": "https://github.com/throneproj/Throne/releases/download/1.4.1/Throne-1.4.1-windows32.zip"
+            "url": "https://github.com/throneproj/Throne/releases/download/1.4.2/Throne-1.4.2-windows32.zip"
           },
           {
-            "id": 718874615,
-            "name": "Throne-1.4.1-windows64.zip",
-            "size": 57680457,
+            "id": 748792711,
+            "name": "Throne-1.4.2-windows64.zip",
+            "size": 58556319,
             "sizeExact": true,
-            "digest": "c0fb62af75fd6a100a216c019b167a3bd924ebdc059b2bbbe68a684702293890",
-            "updatedAt": "2026-11-06T23:05:32Z",
+            "digest": "9bd8d0f660c55b2c195baa69ed7d67c6857b6a929ea576d64d1cf12ef4b55459",
+            "updatedAt": "2026-11-14T21:13:44Z",
             "contentType": "application/zip",
-            "url": "https://github.com/throneproj/Throne/releases/download/1.4.1/Throne-1.4.1-windows64.zip"
+            "url": "https://github.com/throneproj/Throne/releases/download/1.4.2/Throne-1.4.2-windows64.zip"
           },
           {
-            "id": 718873725,
-            "name": "Throne-1.4.1-windowslegacy64.zip",
-            "size": 49242504,
+            "id": 748792183,
+            "name": "Throne-1.4.2-windowslegacy64.zip",
+            "size": 50118626,
             "sizeExact": true,
-            "digest": "9cba32710211c6bcd2594cb4464f6efb1a5d8d59f68650407abc22fc6cc5399a",
-            "updatedAt": "2026-11-06T23:05:21Z",
+            "digest": "ca4986c4b32c980e265a18108c68d96a0dc4f5b6c3c3f409d0d51f37d7a2ee3f",
+            "updatedAt": "2026-11-14T21:13:30Z",
             "contentType": "application/zip",
-            "url": "https://github.com/throneproj/Throne/releases/download/1.4.1/Throne-1.4.1-windowslegacy64.zip"
+            "url": "https://github.com/throneproj/Throne/releases/download/1.4.2/Throne-1.4.2-windowslegacy64.zip"
           }
         ]
       },
@@ -6020,33 +6020,10 @@
       "lastSyncedAt": "2026-11-07T16:05:08.410Z",
       "consecutiveFailures": 0,
       "nextRetryAt": null,
-      "lastChangeAt": "2026-11-07T15:07:49.983Z"
+      "lastChangeAt": "2026-11-14T21:31:13.357Z"
     }
   },
   "runs": [
-    {
-      "reason": "github-actions",
-      "startedAt": "2026-11-07T16:25:19.837Z",
-      "finishedAt": "2026-11-07T16:25:25.501Z",
-      "durationMs": 5664,
-      "projects": 11,
-      "collect": {
-        "ok": 11,
-        "failed": 0,
-        "notModified": 0,
-        "degraded": 0
-      },
-      "sync": {
-        "files": 0,
-        "skipped": 0,
-        "failed": 0
-      },
-      "storage": "unconfigured",
-      "warnings": [
-        "本站尚未配置安装包存储（S3_* 或本地目录），因此不提供镜像下载，仅展示官方 GitHub 入口。"
-      ],
-      "triggeredBy": "github-actions"
-    },
     {
       "reason": "github-actions",
       "startedAt": "2026-11-07T16:28:27.257Z",
@@ -6696,6 +6673,29 @@
       "startedAt": "2026-11-14T17:10:19.093Z",
       "finishedAt": "2026-11-14T17:10:25.060Z",
       "durationMs": 5967,
+      "projects": 11,
+      "collect": {
+        "ok": 11,
+        "failed": 0,
+        "notModified": 0,
+        "degraded": 0
+      },
+      "sync": {
+        "files": 0,
+        "skipped": 0,
+        "failed": 0
+      },
+      "storage": "unconfigured",
+      "warnings": [
+        "本站尚未配置安装包存储（S3_* 或本地目录），因此不提供镜像下载，仅展示官方 GitHub 入口。"
+      ],
+      "triggeredBy": "github-actions"
+    },
+    {
+      "reason": "github-actions",
+      "startedAt": "2026-11-14T21:31:07.935Z",
+      "finishedAt": "2026-11-14T21:31:13.366Z",
+      "durationMs": 5431,
       "projects": 11,
       "collect": {
         "ok": 11,
