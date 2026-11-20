@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "createdAt": "2026-11-07T15:05:43.998Z",
-  "updatedAt": "2026-11-20T01:05:23.656Z",
+  "updatedAt": "2026-11-20T08:25:15.487Z",
   "sources": {
     "clash-verge-rev": {
-      "etag": "W/\"3b5dd04cc3578466e2773e8d9228f7fa672a8f77661b213020def463618e7fa6\"",
-      "lastCheckedAt": "2026-11-20T01:05:17.762Z",
-      "lastCheckOkAt": "2026-11-20T01:05:17.762Z",
+      "etag": "W/\"366fff46bb304a98e2e61ad9d3e48a14b9035080c5ad464206be61ab78638287\"",
+      "lastCheckedAt": "2026-11-20T08:25:09.837Z",
+      "lastCheckOkAt": "2026-11-20T08:25:09.837Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -398,828 +398,908 @@
       "lastChangeAt": "2026-11-07T15:05:47.007Z"
     },
     "clash-party": {
-      "etag": "W/\"8bb33bf2e9c398a2742f8ac958759032d912431b2c7d05554bacab772bbb3755\"",
-      "lastCheckedAt": "2026-11-20T01:05:18.742Z",
-      "lastCheckOkAt": "2026-11-20T01:05:18.742Z",
+      "etag": "W/\"28376b4d15dff05e6f0124fad35af9de046f769ac63259ffc8f883d88fae8ccc\"",
+      "lastCheckedAt": "2026-11-20T08:25:10.779Z",
+      "lastCheckOkAt": "2026-11-20T08:25:10.779Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
       "release": {
-        "id": 416431983,
-        "tag": "v2.0.4",
-        "name": "v2.0.4",
-        "publishedAt": "2026-10-18T12:17:04Z",
-        "htmlUrl": "https://github.com/mihomo-party-org/clash-party/releases/tag/v2.0.4",
+        "id": 452256257,
+        "tag": "v2.0.5",
+        "name": "v2.0.5",
+        "publishedAt": "2026-11-20T04:09:45Z",
+        "htmlUrl": "https://github.com/mihomo-party-org/clash-party/releases/tag/v2.0.5",
         "assets": [
           {
-            "id": 653422966,
-            "name": "clash-party-catalina-2.0.4-arm64.pkg",
-            "size": 219920329,
+            "id": 770397618,
+            "name": "clash-party-catalina-2.0.5-arm64.pkg",
+            "size": 222472089,
             "sizeExact": true,
-            "digest": "1155af1e8821239c70ea8de64e4af317c25dac1f29408005820e9edb96be2428",
-            "updatedAt": "2026-10-18T12:17:30Z",
+            "digest": "59a34a0edaea7b8177cfab3f2d0afceb8cacd25631c440511948d0a236055541",
+            "updatedAt": "2026-11-20T04:09:50Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-catalina-2.0.4-arm64.pkg"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-catalina-2.0.5-arm64.pkg"
           },
           {
-            "id": 653422965,
-            "name": "clash-party-catalina-2.0.4-arm64.pkg.sha256",
+            "id": 770397615,
+            "name": "clash-party-catalina-2.0.5-arm64.pkg.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "55a0d311ca696177679227378dc574bdcb771ed8a2656d805c9a68f09e92e430",
-            "updatedAt": "2026-10-18T12:17:21Z",
+            "digest": "74a5bcdb6f1e41e527b97161a1eaf4e7a2fb8308d28d6fd412ad26b7c6e6b8eb",
+            "updatedAt": "2026-11-20T04:09:38Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-catalina-2.0.4-arm64.pkg.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-catalina-2.0.5-arm64.pkg.sha256"
           },
           {
-            "id": 653424621,
-            "name": "clash-party-catalina-2.0.4-x64.pkg",
-            "size": 238098380,
+            "id": 770398983,
+            "name": "clash-party-catalina-2.0.5-x64.pkg",
+            "size": 240715320,
             "sizeExact": true,
-            "digest": "e0f9ff85219b7579dd4e2ce41355006ca19ef6fdee97879a02a7fd94ef213f9c",
-            "updatedAt": "2026-10-18T12:18:33Z",
+            "digest": "be18e15b905ddfac0f8c22fe266ccd74e28e6cb71e8b9f930f904b547a38535e",
+            "updatedAt": "2026-11-20T04:10:20Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-catalina-2.0.4-x64.pkg"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-catalina-2.0.5-x64.pkg"
           },
           {
-            "id": 653424615,
-            "name": "clash-party-catalina-2.0.4-x64.pkg.sha256",
+            "id": 770398995,
+            "name": "clash-party-catalina-2.0.5-x64.pkg.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "af3aeee6ea999c112299130b419a1cde916a5d27109386444c5f16d6e2b17c9f",
-            "updatedAt": "2026-10-18T12:18:22Z",
+            "digest": "b7b785ad854c146f6d117c54c652cd2625aa9df1eb0d502d3c5395d5a3e36ad9",
+            "updatedAt": "2026-11-20T04:10:06Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-catalina-2.0.4-x64.pkg.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-catalina-2.0.5-x64.pkg.sha256"
           },
           {
-            "id": 653422791,
-            "name": "clash-party-linux-2.0.4-aarch64.pkg.tar.zst",
-            "size": 234988644,
+            "id": 770407732,
+            "name": "clash-party-linux-2.0.5-aarch64.pkg.tar.zst",
+            "size": 237754982,
             "sizeExact": true,
-            "digest": "ebacf4e1c2f6d027b6276879b1225ab590b37ac8625be8f875007ae4f7cf78a4",
-            "updatedAt": "2026-10-18T12:17:27Z",
+            "digest": "53844030146df774acc22751fcee56aa2a013bdd13cc20688feec3396fdf3f81",
+            "updatedAt": "2026-11-20T04:13:19Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-linux-2.0.4-aarch64.pkg.tar.zst"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-linux-2.0.5-aarch64.pkg.tar.zst"
           },
           {
-            "id": 653422789,
-            "name": "clash-party-linux-2.0.4-aarch64.pkg.tar.zst.sha256",
+            "id": 770407718,
+            "name": "clash-party-linux-2.0.5-aarch64.pkg.tar.zst.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "47901a228bef3c1498a09da186c7d64d44303a1bab20313d6aacaf2ab51f378f",
-            "updatedAt": "2026-10-18T12:17:16Z",
+            "digest": "fe02324ae875fb12efd82fea16c521bdadeb7132720e0d6a877494aaf0a06234",
+            "updatedAt": "2026-11-20T04:13:06Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-linux-2.0.4-aarch64.pkg.tar.zst.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-linux-2.0.5-aarch64.pkg.tar.zst.sha256"
           },
           {
-            "id": 653422785,
-            "name": "clash-party-linux-2.0.4-aarch64.rpm",
-            "size": 151920701,
+            "id": 770407721,
+            "name": "clash-party-linux-2.0.5-aarch64.rpm",
+            "size": 155581235,
             "sizeExact": true,
-            "digest": "aa5540da49e218fe380f5cacb64c8f5ca7c4cc357027747de72fcad4afa0b395",
-            "updatedAt": "2026-10-18T12:17:24Z",
+            "digest": "2c8bfd0ed262570f8b723914a45a3c4f456be32ffb5cccf18890661153b98ea1",
+            "updatedAt": "2026-11-20T04:13:15Z",
             "contentType": "application/x-redhat-package-manager",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-linux-2.0.4-aarch64.rpm"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-linux-2.0.5-aarch64.rpm"
           },
           {
-            "id": 653422780,
-            "name": "clash-party-linux-2.0.4-aarch64.rpm.sha256",
+            "id": 770407734,
+            "name": "clash-party-linux-2.0.5-aarch64.rpm.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "84848a602157c6359bdca3098a733ffc60d03ee7ebbedc5ab3c7829ddf298b93",
-            "updatedAt": "2026-10-18T12:17:16Z",
+            "digest": "c32bc859e1d47e4def1bb037536a51b00d725005ab8ec3bec189cd477b6fdb1e",
+            "updatedAt": "2026-11-20T04:13:06Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-linux-2.0.4-aarch64.rpm.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-linux-2.0.5-aarch64.rpm.sha256"
           },
           {
-            "id": 653424206,
-            "name": "clash-party-linux-2.0.4-amd64.deb",
-            "size": 202066144,
+            "id": 770408652,
+            "name": "clash-party-linux-2.0.5-amd64.deb",
+            "size": 204913880,
             "sizeExact": true,
-            "digest": "33f3b75a8c0ed91c09499c0b9f2e0eb755e5ae13f69d6ffabab713fbb9bbf3a4",
-            "updatedAt": "2026-10-18T12:18:22Z",
+            "digest": "277a9cd9d41c946dc1a1b52231a6b32d88fd874d041371518f7da02874b4cdc6",
+            "updatedAt": "2026-11-20T04:13:41Z",
             "contentType": "application/x-debian-package",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-linux-2.0.4-amd64.deb"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-linux-2.0.5-amd64.deb"
           },
           {
-            "id": 653424209,
-            "name": "clash-party-linux-2.0.4-amd64.deb.sha256",
+            "id": 770408635,
+            "name": "clash-party-linux-2.0.5-amd64.deb.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "e2c118f1e41786ea67170dd3a90fe7bd3466148fa621ef872e23a06ea6b346b8",
-            "updatedAt": "2026-10-18T12:18:10Z",
+            "digest": "a0eccd6abaa98f75a6994379276c40002d85f7fba6e99a11e8c5d52a5dc79ae7",
+            "updatedAt": "2026-11-20T04:13:28Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-linux-2.0.4-amd64.deb.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-linux-2.0.5-amd64.deb.sha256"
           },
           {
-            "id": 653422793,
-            "name": "clash-party-linux-2.0.4-arm64.deb",
-            "size": 187146692,
+            "id": 770407726,
+            "name": "clash-party-linux-2.0.5-arm64.deb",
+            "size": 190623596,
             "sizeExact": true,
-            "digest": "cc1f38075a2c4d223d80f679699b7004279e63efa12828e0e18026578731452c",
-            "updatedAt": "2026-10-18T12:17:24Z",
+            "digest": "e82979aff40897c864f477e1c095017c19f411213ea63491a28310207c807268",
+            "updatedAt": "2026-11-20T04:13:17Z",
             "contentType": "application/x-debian-package",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-linux-2.0.4-arm64.deb"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-linux-2.0.5-arm64.deb"
           },
           {
-            "id": 653422786,
-            "name": "clash-party-linux-2.0.4-arm64.deb.sha256",
+            "id": 770407729,
+            "name": "clash-party-linux-2.0.5-arm64.deb.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "d48a188d11321af0689a354de3af45836f7718efc68c303721acc709d55cec29",
-            "updatedAt": "2026-10-18T12:17:16Z",
+            "digest": "fb431f7178fac5c4b38b81b4ee7f5a75162c65f85c9c79fec1fc824afb053334",
+            "updatedAt": "2026-11-20T04:13:06Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-linux-2.0.4-arm64.deb.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-linux-2.0.5-arm64.deb.sha256"
           },
           {
-            "id": 653424210,
-            "name": "clash-party-linux-2.0.4-x64.pkg.tar.zst",
-            "size": 244070087,
+            "id": 770407728,
+            "name": "clash-party-linux-2.0.5-arm64.tar.gz",
+            "size": 237681923,
             "sizeExact": true,
-            "digest": "c2df7d73ace292d7667e76fd42464c16c464ede58c0b805d86eb9271b10e803b",
-            "updatedAt": "2026-10-18T12:18:23Z",
-            "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-linux-2.0.4-x64.pkg.tar.zst"
+            "digest": "f7afd750539299bb081faafc2613ea134669406b437e0ecb011c0f1585f6fb09",
+            "updatedAt": "2026-11-20T04:13:21Z",
+            "contentType": "application/gzip",
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-linux-2.0.5-arm64.tar.gz"
           },
           {
-            "id": 653424201,
-            "name": "clash-party-linux-2.0.4-x64.pkg.tar.zst.sha256",
+            "id": 770407719,
+            "name": "clash-party-linux-2.0.5-arm64.tar.gz.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "cda5bd3d6e51a2b3278289d785183425261fbc8dffdc810231c004011bffe25f",
-            "updatedAt": "2026-10-18T12:18:10Z",
+            "digest": "360ea0481237e4704a6e43ac91ecab2bfc93c50a437998fc5e26d5ef1d64d10a",
+            "updatedAt": "2026-11-20T04:13:06Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-linux-2.0.4-x64.pkg.tar.zst.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-linux-2.0.5-arm64.tar.gz.sha256"
           },
           {
-            "id": 653424207,
-            "name": "clash-party-linux-2.0.4-x86_64.rpm",
-            "size": 166154201,
+            "id": 770408646,
+            "name": "clash-party-linux-2.0.5-x64.pkg.tar.zst",
+            "size": 245626266,
             "sizeExact": true,
-            "digest": "59f32ac2819090c25474cc9ec1e32c3f52d91a39ec454036f833fdb726b6e6bc",
-            "updatedAt": "2026-10-18T12:18:19Z",
+            "digest": "84d16fd30addd0f6aacbc31540d009b0b0b6986d8413eeec47480d7525e023be",
+            "updatedAt": "2026-11-20T04:13:42Z",
+            "contentType": "application/octet-stream",
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-linux-2.0.5-x64.pkg.tar.zst"
+          },
+          {
+            "id": 770408639,
+            "name": "clash-party-linux-2.0.5-x64.pkg.tar.zst.sha256",
+            "size": 64,
+            "sizeExact": true,
+            "digest": "f7d2b28f77e1cf350c0b5ac2841f7cc0105e0b4771c460dfba432e52c52aac07",
+            "updatedAt": "2026-11-20T04:13:28Z",
+            "contentType": "application/octet-stream",
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-linux-2.0.5-x64.pkg.tar.zst.sha256"
+          },
+          {
+            "id": 770408648,
+            "name": "clash-party-linux-2.0.5-x64.tar.gz",
+            "size": 245693770,
+            "sizeExact": true,
+            "digest": "cf61df234356c6c1b918b7c24ada5d4d5b7cab86e792de5bcc074f838cc72d5c",
+            "updatedAt": "2026-11-20T04:13:41Z",
+            "contentType": "application/gzip",
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-linux-2.0.5-x64.tar.gz"
+          },
+          {
+            "id": 770408643,
+            "name": "clash-party-linux-2.0.5-x64.tar.gz.sha256",
+            "size": 64,
+            "sizeExact": true,
+            "digest": "c90c28ce86620dabcab508a85a702cab895c7807ee262b937feea980f553d416",
+            "updatedAt": "2026-11-20T04:13:29Z",
+            "contentType": "application/octet-stream",
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-linux-2.0.5-x64.tar.gz.sha256"
+          },
+          {
+            "id": 770408654,
+            "name": "clash-party-linux-2.0.5-x86_64.rpm",
+            "size": 167849047,
+            "sizeExact": true,
+            "digest": "915b56227533964a153b25b5ca0d4c3300a4f66bb04802ce373f2110dbc1cd5f",
+            "updatedAt": "2026-11-20T04:13:38Z",
             "contentType": "application/x-redhat-package-manager",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-linux-2.0.4-x86_64.rpm"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-linux-2.0.5-x86_64.rpm"
           },
           {
-            "id": 653424202,
-            "name": "clash-party-linux-2.0.4-x86_64.rpm.sha256",
+            "id": 770408638,
+            "name": "clash-party-linux-2.0.5-x86_64.rpm.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "37b55d7e1bd902dbf4454b804472ee3dced8c49e3f19b801263ab5274cd06522",
-            "updatedAt": "2026-10-18T12:18:10Z",
+            "digest": "5316159ec7c8da367e96f70e1b8f52fafde4765548cc4b8ee4b9e364230a6384",
+            "updatedAt": "2026-11-20T04:13:28Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-linux-2.0.4-x86_64.rpm.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-linux-2.0.5-x86_64.rpm.sha256"
           },
           {
-            "id": 653421711,
-            "name": "clash-party-macos-2.0.4-arm64.pkg",
-            "size": 243393267,
+            "id": 770402586,
+            "name": "clash-party-macos-2.0.5-arm64.pkg",
+            "size": 246082466,
             "sizeExact": true,
-            "digest": "174b4b19b02151b2ef84517da0b192e834e43fb4c0ca7fe8700363162cabf7e1",
-            "updatedAt": "2026-10-18T12:17:04Z",
+            "digest": "3c2c595d7ac7c3df295da6c32ab6b970d31d2aa9c746b489daabc2851114d080",
+            "updatedAt": "2026-11-20T04:11:32Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-macos-2.0.4-arm64.pkg"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-macos-2.0.5-arm64.pkg"
           },
           {
-            "id": 653421707,
-            "name": "clash-party-macos-2.0.4-arm64.pkg.sha256",
+            "id": 770402581,
+            "name": "clash-party-macos-2.0.5-arm64.pkg.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "b2b085731bbcf1af3db38f61566a94b91fa212cddadd68471b9b25b90725bbff",
-            "updatedAt": "2026-10-18T12:16:40Z",
+            "digest": "9558e6e4ba2f753a594828b314fc2d5a3a9385a78ddb26e34d56290feb70e18f",
+            "updatedAt": "2026-11-20T04:11:20Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-macos-2.0.4-arm64.pkg.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-macos-2.0.5-arm64.pkg.sha256"
           },
           {
-            "id": 653423747,
-            "name": "clash-party-macos-2.0.4-x64.pkg",
-            "size": 261748060,
+            "id": 770404599,
+            "name": "clash-party-macos-2.0.5-x64.pkg",
+            "size": 264392791,
             "sizeExact": true,
-            "digest": "b93a845ecc0eb95da80184e8d3ebb2b94f5d2b9024df7065f9cdf1f23c868432",
-            "updatedAt": "2026-10-18T12:18:06Z",
+            "digest": "c12c59b82191a151df9e16248c2d3033a3c54b188da96b4aa1ba24c16008f2ca",
+            "updatedAt": "2026-11-20T04:12:01Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-macos-2.0.4-x64.pkg"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-macos-2.0.5-x64.pkg"
           },
           {
-            "id": 653423748,
-            "name": "clash-party-macos-2.0.4-x64.pkg.sha256",
+            "id": 770404600,
+            "name": "clash-party-macos-2.0.5-x64.pkg.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "5ebd309eeba04c7a1d229eb10d9080f307bed1e590c48e343a9f4c30f290715e",
-            "updatedAt": "2026-10-18T12:17:53Z",
+            "digest": "96dd61e6cd10cb6804f35e777692cc26503dc13af39ec256b1468573040022ae",
+            "updatedAt": "2026-11-20T04:11:50Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-macos-2.0.4-x64.pkg.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-macos-2.0.5-x64.pkg.sha256"
           },
           {
-            "id": 653423373,
-            "name": "clash-party-win7-2.0.4-ia32-portable.7z",
-            "size": 134945709,
+            "id": 770398466,
+            "name": "clash-party-win7-2.0.5-ia32-portable.7z",
+            "size": 136651449,
             "sizeExact": true,
-            "digest": "9a040e7cc45c3f8df7d13faca6950b8a205d688fb3289c18856dcc0b8b6ecad9",
-            "updatedAt": "2026-10-18T12:17:44Z",
+            "digest": "02385fa3f58be0374bf4a299f6123c03b97513ffca9b746709eb7f8a9b89102e",
+            "updatedAt": "2026-11-20T04:10:00Z",
             "contentType": "application/x-7z-compressed",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-win7-2.0.4-ia32-portable.7z"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-win7-2.0.5-ia32-portable.7z"
           },
           {
-            "id": 653423367,
-            "name": "clash-party-win7-2.0.4-ia32-portable.7z.sha256",
+            "id": 770398458,
+            "name": "clash-party-win7-2.0.5-ia32-portable.7z.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "ace3730bacdb8ae867c13ede128b7d7ecbe79381f0adcb9e9675c12e16f4d1b5",
-            "updatedAt": "2026-10-18T12:17:38Z",
+            "digest": "8861c983a90c864e48060fc56b18acbeafa76176c63b72817eb3535193ba5cc6",
+            "updatedAt": "2026-11-20T04:09:54Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-win7-2.0.4-ia32-portable.7z.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-win7-2.0.5-ia32-portable.7z.sha256"
           },
           {
-            "id": 653423369,
-            "name": "clash-party-win7-2.0.4-ia32-setup.exe",
-            "size": 162554745,
+            "id": 770398463,
+            "name": "clash-party-win7-2.0.5-ia32-setup.exe",
+            "size": 164410002,
             "sizeExact": true,
-            "digest": "841570d88774ac1bd04ffb2fed1f2eedcc5700c1411f568c1b0e1eca67e57bbd",
-            "updatedAt": "2026-10-18T12:17:46Z",
+            "digest": "f187451cbe64536b312ae3bd6153c2aa9cc66227b2663811d90246c08f425f9c",
+            "updatedAt": "2026-11-20T04:10:00Z",
             "contentType": "application/x-msdos-program",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-win7-2.0.4-ia32-setup.exe"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-win7-2.0.5-ia32-setup.exe"
           },
           {
-            "id": 653423366,
-            "name": "clash-party-win7-2.0.4-ia32-setup.exe.sha256",
+            "id": 770398462,
+            "name": "clash-party-win7-2.0.5-ia32-setup.exe.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "4e7211a558dbd7e8b88687bd810210ac18c99249032517c60e1332f208a83786",
-            "updatedAt": "2026-10-18T12:17:38Z",
+            "digest": "6808e258af95d235362d21d71b26deec84dbd54569cd386dc24f4df7ad9cc9e9",
+            "updatedAt": "2026-11-20T04:09:54Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-win7-2.0.4-ia32-setup.exe.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-win7-2.0.5-ia32-setup.exe.sha256"
           },
           {
-            "id": 653423107,
-            "name": "clash-party-win7-2.0.4-x64-portable.7z",
-            "size": 144108881,
+            "id": 770401789,
+            "name": "clash-party-win7-2.0.5-x64-portable.7z",
+            "size": 145605760,
             "sizeExact": true,
-            "digest": "33a2db60c885784c80a50989f729fff6ee20f5ec68e93db3cb9aa20da5cb49c2",
-            "updatedAt": "2026-10-18T12:17:33Z",
+            "digest": "254a8ef83d68e1980877e068874e6bf40843556a592f2d95eefe470cf2b9aebd",
+            "updatedAt": "2026-11-20T04:11:10Z",
             "contentType": "application/x-7z-compressed",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-win7-2.0.4-x64-portable.7z"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-win7-2.0.5-x64-portable.7z"
           },
           {
-            "id": 653423104,
-            "name": "clash-party-win7-2.0.4-x64-portable.7z.sha256",
+            "id": 770401781,
+            "name": "clash-party-win7-2.0.5-x64-portable.7z.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "3ebb0b81d7cd2a8ca8d5e0e28165e4dd8905854c3d6e81e50c4dc6c796d3be5f",
-            "updatedAt": "2026-10-18T12:17:27Z",
+            "digest": "307387fc06aa4b645b344baa6b0983666931a9c05b9f90b7b07efac685a3bc2f",
+            "updatedAt": "2026-11-20T04:11:04Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-win7-2.0.4-x64-portable.7z.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-win7-2.0.5-x64-portable.7z.sha256"
           },
           {
-            "id": 653423110,
-            "name": "clash-party-win7-2.0.4-x64-setup.exe",
-            "size": 170157918,
+            "id": 770401793,
+            "name": "clash-party-win7-2.0.5-x64-setup.exe",
+            "size": 172006822,
             "sizeExact": true,
-            "digest": "b68a070b9b7d75b5986a4e99b8fee9911dd3c85d71510a6763f6dca36458691a",
-            "updatedAt": "2026-10-18T12:17:33Z",
+            "digest": "081d02fb094e5cad7f485d982be5449eda22c63cf6454680753da0114f74edb7",
+            "updatedAt": "2026-11-20T04:11:11Z",
             "contentType": "application/x-msdos-program",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-win7-2.0.4-x64-setup.exe"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-win7-2.0.5-x64-setup.exe"
           },
           {
-            "id": 653423106,
-            "name": "clash-party-win7-2.0.4-x64-setup.exe.sha256",
+            "id": 770401787,
+            "name": "clash-party-win7-2.0.5-x64-setup.exe.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "84b3212d19dc1e4d193a346665a1bb96b96bc5332b4d7f491b77d9485b82abc1",
-            "updatedAt": "2026-10-18T12:17:27Z",
+            "digest": "0ace64b7f943acb5b71b11797b773efcb82109de370063b0a577c56a09cd5191",
+            "updatedAt": "2026-11-20T04:11:04Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-win7-2.0.4-x64-setup.exe.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-win7-2.0.5-x64-setup.exe.sha256"
           },
           {
-            "id": 653426226,
-            "name": "clash-party-windows-2.0.4-arm64-portable.7z",
-            "size": 147096448,
+            "id": 770397611,
+            "name": "clash-party-windows-2.0.5-arm64-portable.7z",
+            "size": 148512834,
             "sizeExact": true,
-            "digest": "c3c702bc77523611330a5a6c9e5424bdcfa662ca18ce7234826a9aaa676addb6",
-            "updatedAt": "2026-10-18T12:19:18Z",
+            "digest": "645d2e9737f1f5fcf8806dad5d2ea855977eb4df5b922a255b2cc7baac4480db",
+            "updatedAt": "2026-11-20T04:09:42Z",
             "contentType": "application/x-7z-compressed",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-windows-2.0.4-arm64-portable.7z"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-windows-2.0.5-arm64-portable.7z"
           },
           {
-            "id": 653426219,
-            "name": "clash-party-windows-2.0.4-arm64-portable.7z.sha256",
+            "id": 770397604,
+            "name": "clash-party-windows-2.0.5-arm64-portable.7z.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "2786faef97387abfcb13c7855169e3c626cbbe896d4ff3abad0ec49b336d3be7",
-            "updatedAt": "2026-10-18T12:19:10Z",
+            "digest": "c5df04a90f60189242b09b56b5ef3718c75966be1d882b5d698919ce2da781f8",
+            "updatedAt": "2026-11-20T04:09:38Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-windows-2.0.4-arm64-portable.7z.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-windows-2.0.5-arm64-portable.7z.sha256"
           },
           {
-            "id": 653426231,
-            "name": "clash-party-windows-2.0.4-arm64-setup.exe",
-            "size": 195100445,
+            "id": 770397603,
+            "name": "clash-party-windows-2.0.5-arm64-setup.exe",
+            "size": 196768791,
             "sizeExact": true,
-            "digest": "0fceece48d2de76767b4d9277f1feae8518565aa869a124eb3b1647fadd76a51",
-            "updatedAt": "2026-10-18T12:19:18Z",
+            "digest": "168fe8c774aeb850d57a57522d2e47ce56976cc671d87031a62929153f6f333c",
+            "updatedAt": "2026-11-20T04:09:45Z",
             "contentType": "application/x-msdos-program",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-windows-2.0.4-arm64-setup.exe"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-windows-2.0.5-arm64-setup.exe"
           },
           {
-            "id": 653426218,
-            "name": "clash-party-windows-2.0.4-arm64-setup.exe.sha256",
+            "id": 770397602,
+            "name": "clash-party-windows-2.0.5-arm64-setup.exe.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "ecefa67b92571889569c2490fa60579b5881f88e039b5bfb5a6f0e2d0041f975",
-            "updatedAt": "2026-10-18T12:19:10Z",
+            "digest": "5ca9e740008bbe846d4baf8a408c56417a4520f14a69a7763bf55329c7d681f4",
+            "updatedAt": "2026-11-20T04:09:38Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-windows-2.0.4-arm64-setup.exe.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-windows-2.0.5-arm64-setup.exe.sha256"
           },
           {
-            "id": 653425249,
-            "name": "clash-party-windows-2.0.4-ia32-portable.7z",
-            "size": 158368384,
+            "id": 770401940,
+            "name": "clash-party-windows-2.0.5-ia32-portable.7z",
+            "size": 159896008,
             "sizeExact": true,
-            "digest": "19905e796f373660651b2b9b83c37e5087cda6a2e03c5cde05ee3f5fa717741c",
-            "updatedAt": "2026-10-18T12:18:46Z",
+            "digest": "6bd93fee9741cb12f5dace0809973aefd952297f8dc2497563cbd22ed96a11d7",
+            "updatedAt": "2026-11-20T04:11:15Z",
             "contentType": "application/x-7z-compressed",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-windows-2.0.4-ia32-portable.7z"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-windows-2.0.5-ia32-portable.7z"
           },
           {
-            "id": 653425254,
-            "name": "clash-party-windows-2.0.4-ia32-portable.7z.sha256",
+            "id": 770401946,
+            "name": "clash-party-windows-2.0.5-ia32-portable.7z.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "1629ca07a739383118a057c0eb1a7a26b81811581fbbde8d0224802e8795617c",
-            "updatedAt": "2026-10-18T12:18:38Z",
+            "digest": "214ac6037c83d47a7ea94e9bef1e5795eb09448712ba5e372fa7d11a8e3442f8",
+            "updatedAt": "2026-11-20T04:11:05Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-windows-2.0.4-ia32-portable.7z.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-windows-2.0.5-ia32-portable.7z.sha256"
           },
           {
-            "id": 653425256,
-            "name": "clash-party-windows-2.0.4-ia32-setup.exe",
-            "size": 191105794,
+            "id": 770401938,
+            "name": "clash-party-windows-2.0.5-ia32-setup.exe",
+            "size": 192570040,
             "sizeExact": true,
-            "digest": "3038f09617e7fea6fc81eb6c9f1a7533afe4d62af2c17f83cb9efecc4f79c656",
-            "updatedAt": "2026-10-18T12:18:47Z",
+            "digest": "1f396b5f9c1e98706c3672fefe643b083447453dbac8f636e128726f2a2bc908",
+            "updatedAt": "2026-11-20T04:11:16Z",
             "contentType": "application/x-msdos-program",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-windows-2.0.4-ia32-setup.exe"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-windows-2.0.5-ia32-setup.exe"
           },
           {
-            "id": 653425255,
-            "name": "clash-party-windows-2.0.4-ia32-setup.exe.sha256",
+            "id": 770401942,
+            "name": "clash-party-windows-2.0.5-ia32-setup.exe.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "96c5c62c75ad53d60b1371286641788d1b13c517e45524ee00fec28e5b9f7bff",
-            "updatedAt": "2026-10-18T12:18:38Z",
+            "digest": "c7636fc1ae57cc5fd323aecc8e4082a2aa27eded196d5b8d8343ed2518aee0ef",
+            "updatedAt": "2026-11-20T04:11:05Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-windows-2.0.4-ia32-setup.exe.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-windows-2.0.5-ia32-setup.exe.sha256"
           },
           {
-            "id": 653422391,
-            "name": "clash-party-windows-2.0.4-x64-portable.7z",
-            "size": 175672213,
+            "id": 770405664,
+            "name": "clash-party-windows-2.0.5-x64-portable.7z",
+            "size": 177057188,
             "sizeExact": true,
-            "digest": "182063a60b9a06535d176742d627f8b8c95a99aae85fc8752c880efee7da5157",
-            "updatedAt": "2026-10-18T12:17:09Z",
+            "digest": "1d06b90dcf7bfd0e75dd97392629e68fc96b3096f1213b4c37cc943d82e666f2",
+            "updatedAt": "2026-11-20T04:12:22Z",
             "contentType": "application/x-7z-compressed",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-windows-2.0.4-x64-portable.7z"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-windows-2.0.5-x64-portable.7z"
           },
           {
-            "id": 653422384,
-            "name": "clash-party-windows-2.0.4-x64-portable.7z.sha256",
+            "id": 770405646,
+            "name": "clash-party-windows-2.0.5-x64-portable.7z.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "6cc528c5ba5fe0ba27440441d9857c4d702d953d95febd8dd3c648bd6969cfee",
-            "updatedAt": "2026-10-18T12:17:03Z",
+            "digest": "ce53af1896631ecd5af50948be371e4bcaf72afa2803adac084a39c21730bf05",
+            "updatedAt": "2026-11-20T04:12:14Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-windows-2.0.4-x64-portable.7z.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-windows-2.0.5-x64-portable.7z.sha256"
           },
           {
-            "id": 653422394,
-            "name": "clash-party-windows-2.0.4-x64-setup.exe",
-            "size": 208304471,
+            "id": 770405644,
+            "name": "clash-party-windows-2.0.5-x64-setup.exe",
+            "size": 209864254,
             "sizeExact": true,
-            "digest": "f7cac1e588851197833c456a827cb611b6145e76be53dfd0f4df56e214c764d3",
-            "updatedAt": "2026-10-18T12:17:09Z",
+            "digest": "f496eb22f3af1f65e99b447b25d287d3e95d31e7838c4d6e3c3475b41f79c48c",
+            "updatedAt": "2026-11-20T04:12:23Z",
             "contentType": "application/x-msdos-program",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-windows-2.0.4-x64-setup.exe"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-windows-2.0.5-x64-setup.exe"
           },
           {
-            "id": 653422389,
-            "name": "clash-party-windows-2.0.4-x64-setup.exe.sha256",
+            "id": 770405654,
+            "name": "clash-party-windows-2.0.5-x64-setup.exe.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "9d13d59b75d4083d604487a404e90dead09fad569388639ab15da484a068539f",
-            "updatedAt": "2026-10-18T12:17:03Z",
+            "digest": "f5ea8c115beccd5b1d02d73474b0562cd79eff56383b3c037e881a24cdcde130",
+            "updatedAt": "2026-11-20T04:12:14Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/clash-party-windows-2.0.4-x64-setup.exe.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/clash-party-windows-2.0.5-x64-setup.exe.sha256"
           },
           {
-            "id": 653427473,
+            "id": 770411655,
             "name": "latest.yml",
-            "size": 1598,
+            "size": 1900,
             "sizeExact": true,
-            "digest": "95bf75920eac53140e7e86f4f21acb810498a7aaa48b329d26fedb070326974a",
-            "updatedAt": "2026-10-18T12:19:55Z",
+            "digest": "ebaa0ebc6661e33eaed208f4a643b0592dd8d31efcbabb612edcbb2acdc6cb9d",
+            "updatedAt": "2026-11-20T04:14:30Z",
             "contentType": "text/yaml",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/latest.yml"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/latest.yml"
           },
           {
-            "id": 653422964,
-            "name": "mihomo-party-catalina-2.0.4-arm64.pkg",
-            "size": 219920329,
+            "id": 770397620,
+            "name": "mihomo-party-catalina-2.0.5-arm64.pkg",
+            "size": 222472089,
             "sizeExact": true,
-            "digest": "1155af1e8821239c70ea8de64e4af317c25dac1f29408005820e9edb96be2428",
-            "updatedAt": "2026-10-18T12:17:30Z",
+            "digest": "59a34a0edaea7b8177cfab3f2d0afceb8cacd25631c440511948d0a236055541",
+            "updatedAt": "2026-11-20T04:09:50Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-catalina-2.0.4-arm64.pkg"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-catalina-2.0.5-arm64.pkg"
           },
           {
-            "id": 653422963,
-            "name": "mihomo-party-catalina-2.0.4-arm64.pkg.sha256",
+            "id": 770397617,
+            "name": "mihomo-party-catalina-2.0.5-arm64.pkg.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "55a0d311ca696177679227378dc574bdcb771ed8a2656d805c9a68f09e92e430",
-            "updatedAt": "2026-10-18T12:17:21Z",
+            "digest": "74a5bcdb6f1e41e527b97161a1eaf4e7a2fb8308d28d6fd412ad26b7c6e6b8eb",
+            "updatedAt": "2026-11-20T04:09:38Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-catalina-2.0.4-arm64.pkg.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-catalina-2.0.5-arm64.pkg.sha256"
           },
           {
-            "id": 653424622,
-            "name": "mihomo-party-catalina-2.0.4-x64.pkg",
-            "size": 238098380,
+            "id": 770398994,
+            "name": "mihomo-party-catalina-2.0.5-x64.pkg",
+            "size": 240715320,
             "sizeExact": true,
-            "digest": "e0f9ff85219b7579dd4e2ce41355006ca19ef6fdee97879a02a7fd94ef213f9c",
-            "updatedAt": "2026-10-18T12:18:32Z",
+            "digest": "be18e15b905ddfac0f8c22fe266ccd74e28e6cb71e8b9f930f904b547a38535e",
+            "updatedAt": "2026-11-20T04:10:18Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-catalina-2.0.4-x64.pkg"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-catalina-2.0.5-x64.pkg"
           },
           {
-            "id": 653424616,
-            "name": "mihomo-party-catalina-2.0.4-x64.pkg.sha256",
+            "id": 770398989,
+            "name": "mihomo-party-catalina-2.0.5-x64.pkg.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "af3aeee6ea999c112299130b419a1cde916a5d27109386444c5f16d6e2b17c9f",
-            "updatedAt": "2026-10-18T12:18:22Z",
+            "digest": "b7b785ad854c146f6d117c54c652cd2625aa9df1eb0d502d3c5395d5a3e36ad9",
+            "updatedAt": "2026-11-20T04:10:06Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-catalina-2.0.4-x64.pkg.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-catalina-2.0.5-x64.pkg.sha256"
           },
           {
-            "id": 653422790,
-            "name": "mihomo-party-linux-2.0.4-aarch64.pkg.tar.zst",
-            "size": 234988644,
+            "id": 770407731,
+            "name": "mihomo-party-linux-2.0.5-aarch64.pkg.tar.zst",
+            "size": 237754982,
             "sizeExact": true,
-            "digest": "ebacf4e1c2f6d027b6276879b1225ab590b37ac8625be8f875007ae4f7cf78a4",
-            "updatedAt": "2026-10-18T12:17:27Z",
+            "digest": "53844030146df774acc22751fcee56aa2a013bdd13cc20688feec3396fdf3f81",
+            "updatedAt": "2026-11-20T04:13:21Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-linux-2.0.4-aarch64.pkg.tar.zst"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-linux-2.0.5-aarch64.pkg.tar.zst"
           },
           {
-            "id": 653422783,
-            "name": "mihomo-party-linux-2.0.4-aarch64.pkg.tar.zst.sha256",
+            "id": 770407730,
+            "name": "mihomo-party-linux-2.0.5-aarch64.pkg.tar.zst.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "47901a228bef3c1498a09da186c7d64d44303a1bab20313d6aacaf2ab51f378f",
-            "updatedAt": "2026-10-18T12:17:16Z",
+            "digest": "fe02324ae875fb12efd82fea16c521bdadeb7132720e0d6a877494aaf0a06234",
+            "updatedAt": "2026-11-20T04:13:06Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-linux-2.0.4-aarch64.pkg.tar.zst.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-linux-2.0.5-aarch64.pkg.tar.zst.sha256"
           },
           {
-            "id": 653422792,
-            "name": "mihomo-party-linux-2.0.4-aarch64.rpm",
-            "size": 151920701,
+            "id": 770407733,
+            "name": "mihomo-party-linux-2.0.5-aarch64.rpm",
+            "size": 155581235,
             "sizeExact": true,
-            "digest": "aa5540da49e218fe380f5cacb64c8f5ca7c4cc357027747de72fcad4afa0b395",
-            "updatedAt": "2026-10-18T12:17:23Z",
+            "digest": "2c8bfd0ed262570f8b723914a45a3c4f456be32ffb5cccf18890661153b98ea1",
+            "updatedAt": "2026-11-20T04:13:15Z",
             "contentType": "application/x-redhat-package-manager",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-linux-2.0.4-aarch64.rpm"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-linux-2.0.5-aarch64.rpm"
           },
           {
-            "id": 653422787,
-            "name": "mihomo-party-linux-2.0.4-aarch64.rpm.sha256",
+            "id": 770407713,
+            "name": "mihomo-party-linux-2.0.5-aarch64.rpm.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "84848a602157c6359bdca3098a733ffc60d03ee7ebbedc5ab3c7829ddf298b93",
-            "updatedAt": "2026-10-18T12:17:16Z",
+            "digest": "c32bc859e1d47e4def1bb037536a51b00d725005ab8ec3bec189cd477b6fdb1e",
+            "updatedAt": "2026-11-20T04:13:06Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-linux-2.0.4-aarch64.rpm.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-linux-2.0.5-aarch64.rpm.sha256"
           },
           {
-            "id": 653424208,
-            "name": "mihomo-party-linux-2.0.4-amd64.deb",
-            "size": 202066144,
+            "id": 770408651,
+            "name": "mihomo-party-linux-2.0.5-amd64.deb",
+            "size": 204913880,
             "sizeExact": true,
-            "digest": "33f3b75a8c0ed91c09499c0b9f2e0eb755e5ae13f69d6ffabab713fbb9bbf3a4",
-            "updatedAt": "2026-10-18T12:18:20Z",
+            "digest": "277a9cd9d41c946dc1a1b52231a6b32d88fd874d041371518f7da02874b4cdc6",
+            "updatedAt": "2026-11-20T04:13:39Z",
             "contentType": "application/x-debian-package",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-linux-2.0.4-amd64.deb"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-linux-2.0.5-amd64.deb"
           },
           {
-            "id": 653424211,
-            "name": "mihomo-party-linux-2.0.4-amd64.deb.sha256",
+            "id": 770408636,
+            "name": "mihomo-party-linux-2.0.5-amd64.deb.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "e2c118f1e41786ea67170dd3a90fe7bd3466148fa621ef872e23a06ea6b346b8",
-            "updatedAt": "2026-10-18T12:18:10Z",
+            "digest": "a0eccd6abaa98f75a6994379276c40002d85f7fba6e99a11e8c5d52a5dc79ae7",
+            "updatedAt": "2026-11-20T04:13:28Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-linux-2.0.4-amd64.deb.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-linux-2.0.5-amd64.deb.sha256"
           },
           {
-            "id": 653422788,
-            "name": "mihomo-party-linux-2.0.4-arm64.deb",
-            "size": 187146692,
+            "id": 770407720,
+            "name": "mihomo-party-linux-2.0.5-arm64.deb",
+            "size": 190623596,
             "sizeExact": true,
-            "digest": "cc1f38075a2c4d223d80f679699b7004279e63efa12828e0e18026578731452c",
-            "updatedAt": "2026-10-18T12:17:25Z",
+            "digest": "e82979aff40897c864f477e1c095017c19f411213ea63491a28310207c807268",
+            "updatedAt": "2026-11-20T04:13:18Z",
             "contentType": "application/x-debian-package",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-linux-2.0.4-arm64.deb"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-linux-2.0.5-arm64.deb"
           },
           {
-            "id": 653422784,
-            "name": "mihomo-party-linux-2.0.4-arm64.deb.sha256",
+            "id": 770407714,
+            "name": "mihomo-party-linux-2.0.5-arm64.deb.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "d48a188d11321af0689a354de3af45836f7718efc68c303721acc709d55cec29",
-            "updatedAt": "2026-10-18T12:17:16Z",
+            "digest": "fb431f7178fac5c4b38b81b4ee7f5a75162c65f85c9c79fec1fc824afb053334",
+            "updatedAt": "2026-11-20T04:13:06Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-linux-2.0.4-arm64.deb.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-linux-2.0.5-arm64.deb.sha256"
           },
           {
-            "id": 653424205,
-            "name": "mihomo-party-linux-2.0.4-x64.pkg.tar.zst",
-            "size": 244070087,
+            "id": 770407725,
+            "name": "mihomo-party-linux-2.0.5-arm64.tar.gz",
+            "size": 237681923,
             "sizeExact": true,
-            "digest": "c2df7d73ace292d7667e76fd42464c16c464ede58c0b805d86eb9271b10e803b",
-            "updatedAt": "2026-10-18T12:18:25Z",
-            "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-linux-2.0.4-x64.pkg.tar.zst"
+            "digest": "f7afd750539299bb081faafc2613ea134669406b437e0ecb011c0f1585f6fb09",
+            "updatedAt": "2026-11-20T04:13:20Z",
+            "contentType": "application/gzip",
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-linux-2.0.5-arm64.tar.gz"
           },
           {
-            "id": 653424215,
-            "name": "mihomo-party-linux-2.0.4-x64.pkg.tar.zst.sha256",
+            "id": 770407727,
+            "name": "mihomo-party-linux-2.0.5-arm64.tar.gz.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "cda5bd3d6e51a2b3278289d785183425261fbc8dffdc810231c004011bffe25f",
-            "updatedAt": "2026-10-18T12:18:10Z",
+            "digest": "360ea0481237e4704a6e43ac91ecab2bfc93c50a437998fc5e26d5ef1d64d10a",
+            "updatedAt": "2026-11-20T04:13:06Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-linux-2.0.4-x64.pkg.tar.zst.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-linux-2.0.5-arm64.tar.gz.sha256"
           },
           {
-            "id": 653424203,
-            "name": "mihomo-party-linux-2.0.4-x86_64.rpm",
-            "size": 166154201,
+            "id": 770408653,
+            "name": "mihomo-party-linux-2.0.5-x64.pkg.tar.zst",
+            "size": 245626266,
             "sizeExact": true,
-            "digest": "59f32ac2819090c25474cc9ec1e32c3f52d91a39ec454036f833fdb726b6e6bc",
-            "updatedAt": "2026-10-18T12:18:20Z",
+            "digest": "84d16fd30addd0f6aacbc31540d009b0b0b6986d8413eeec47480d7525e023be",
+            "updatedAt": "2026-11-20T04:13:41Z",
+            "contentType": "application/octet-stream",
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-linux-2.0.5-x64.pkg.tar.zst"
+          },
+          {
+            "id": 770408640,
+            "name": "mihomo-party-linux-2.0.5-x64.pkg.tar.zst.sha256",
+            "size": 64,
+            "sizeExact": true,
+            "digest": "f7d2b28f77e1cf350c0b5ac2841f7cc0105e0b4771c460dfba432e52c52aac07",
+            "updatedAt": "2026-11-20T04:13:28Z",
+            "contentType": "application/octet-stream",
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-linux-2.0.5-x64.pkg.tar.zst.sha256"
+          },
+          {
+            "id": 770408650,
+            "name": "mihomo-party-linux-2.0.5-x64.tar.gz",
+            "size": 245693770,
+            "sizeExact": true,
+            "digest": "cf61df234356c6c1b918b7c24ada5d4d5b7cab86e792de5bcc074f838cc72d5c",
+            "updatedAt": "2026-11-20T04:13:42Z",
+            "contentType": "application/gzip",
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-linux-2.0.5-x64.tar.gz"
+          },
+          {
+            "id": 770408642,
+            "name": "mihomo-party-linux-2.0.5-x64.tar.gz.sha256",
+            "size": 64,
+            "sizeExact": true,
+            "digest": "c90c28ce86620dabcab508a85a702cab895c7807ee262b937feea980f553d416",
+            "updatedAt": "2026-11-20T04:13:28Z",
+            "contentType": "application/octet-stream",
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-linux-2.0.5-x64.tar.gz.sha256"
+          },
+          {
+            "id": 770408647,
+            "name": "mihomo-party-linux-2.0.5-x86_64.rpm",
+            "size": 167849047,
+            "sizeExact": true,
+            "digest": "915b56227533964a153b25b5ca0d4c3300a4f66bb04802ce373f2110dbc1cd5f",
+            "updatedAt": "2026-11-20T04:13:40Z",
             "contentType": "application/x-redhat-package-manager",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-linux-2.0.4-x86_64.rpm"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-linux-2.0.5-x86_64.rpm"
           },
           {
-            "id": 653424200,
-            "name": "mihomo-party-linux-2.0.4-x86_64.rpm.sha256",
+            "id": 770408645,
+            "name": "mihomo-party-linux-2.0.5-x86_64.rpm.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "37b55d7e1bd902dbf4454b804472ee3dced8c49e3f19b801263ab5274cd06522",
-            "updatedAt": "2026-10-18T12:18:10Z",
+            "digest": "5316159ec7c8da367e96f70e1b8f52fafde4765548cc4b8ee4b9e364230a6384",
+            "updatedAt": "2026-11-20T04:13:28Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-linux-2.0.4-x86_64.rpm.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-linux-2.0.5-x86_64.rpm.sha256"
           },
           {
-            "id": 653421710,
-            "name": "mihomo-party-macos-2.0.4-arm64.pkg",
-            "size": 243393267,
+            "id": 770402583,
+            "name": "mihomo-party-macos-2.0.5-arm64.pkg",
+            "size": 246082466,
             "sizeExact": true,
-            "digest": "174b4b19b02151b2ef84517da0b192e834e43fb4c0ca7fe8700363162cabf7e1",
-            "updatedAt": "2026-10-18T12:16:51Z",
+            "digest": "3c2c595d7ac7c3df295da6c32ab6b970d31d2aa9c746b489daabc2851114d080",
+            "updatedAt": "2026-11-20T04:11:30Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-macos-2.0.4-arm64.pkg"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-macos-2.0.5-arm64.pkg"
           },
           {
-            "id": 653421706,
-            "name": "mihomo-party-macos-2.0.4-arm64.pkg.sha256",
+            "id": 770402590,
+            "name": "mihomo-party-macos-2.0.5-arm64.pkg.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "b2b085731bbcf1af3db38f61566a94b91fa212cddadd68471b9b25b90725bbff",
-            "updatedAt": "2026-10-18T12:16:40Z",
+            "digest": "9558e6e4ba2f753a594828b314fc2d5a3a9385a78ddb26e34d56290feb70e18f",
+            "updatedAt": "2026-11-20T04:11:20Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-macos-2.0.4-arm64.pkg.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-macos-2.0.5-arm64.pkg.sha256"
           },
           {
-            "id": 653423745,
-            "name": "mihomo-party-macos-2.0.4-x64.pkg",
-            "size": 261748060,
+            "id": 770404593,
+            "name": "mihomo-party-macos-2.0.5-x64.pkg",
+            "size": 264392791,
             "sizeExact": true,
-            "digest": "b93a845ecc0eb95da80184e8d3ebb2b94f5d2b9024df7065f9cdf1f23c868432",
-            "updatedAt": "2026-10-18T12:18:06Z",
+            "digest": "c12c59b82191a151df9e16248c2d3033a3c54b188da96b4aa1ba24c16008f2ca",
+            "updatedAt": "2026-11-20T04:12:03Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-macos-2.0.4-x64.pkg"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-macos-2.0.5-x64.pkg"
           },
           {
-            "id": 653423743,
-            "name": "mihomo-party-macos-2.0.4-x64.pkg.sha256",
+            "id": 770404594,
+            "name": "mihomo-party-macos-2.0.5-x64.pkg.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "5ebd309eeba04c7a1d229eb10d9080f307bed1e590c48e343a9f4c30f290715e",
-            "updatedAt": "2026-10-18T12:17:53Z",
+            "digest": "96dd61e6cd10cb6804f35e777692cc26503dc13af39ec256b1468573040022ae",
+            "updatedAt": "2026-11-20T04:11:50Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-macos-2.0.4-x64.pkg.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-macos-2.0.5-x64.pkg.sha256"
           },
           {
-            "id": 653423372,
-            "name": "mihomo-party-win7-2.0.4-ia32-portable.7z",
-            "size": 134945709,
+            "id": 770398465,
+            "name": "mihomo-party-win7-2.0.5-ia32-portable.7z",
+            "size": 136651449,
             "sizeExact": true,
-            "digest": "9a040e7cc45c3f8df7d13faca6950b8a205d688fb3289c18856dcc0b8b6ecad9",
-            "updatedAt": "2026-10-18T12:17:44Z",
+            "digest": "02385fa3f58be0374bf4a299f6123c03b97513ffca9b746709eb7f8a9b89102e",
+            "updatedAt": "2026-11-20T04:09:59Z",
             "contentType": "application/x-7z-compressed",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-win7-2.0.4-ia32-portable.7z"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-win7-2.0.5-ia32-portable.7z"
           },
           {
-            "id": 653423374,
-            "name": "mihomo-party-win7-2.0.4-ia32-portable.7z.sha256",
+            "id": 770398459,
+            "name": "mihomo-party-win7-2.0.5-ia32-portable.7z.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "ace3730bacdb8ae867c13ede128b7d7ecbe79381f0adcb9e9675c12e16f4d1b5",
-            "updatedAt": "2026-10-18T12:17:38Z",
+            "digest": "8861c983a90c864e48060fc56b18acbeafa76176c63b72817eb3535193ba5cc6",
+            "updatedAt": "2026-11-20T04:09:54Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-win7-2.0.4-ia32-portable.7z.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-win7-2.0.5-ia32-portable.7z.sha256"
           },
           {
-            "id": 653423371,
-            "name": "mihomo-party-win7-2.0.4-ia32-setup.exe",
-            "size": 162554745,
+            "id": 770398461,
+            "name": "mihomo-party-win7-2.0.5-ia32-setup.exe",
+            "size": 164410002,
             "sizeExact": true,
-            "digest": "841570d88774ac1bd04ffb2fed1f2eedcc5700c1411f568c1b0e1eca67e57bbd",
-            "updatedAt": "2026-10-18T12:17:45Z",
+            "digest": "f187451cbe64536b312ae3bd6153c2aa9cc66227b2663811d90246c08f425f9c",
+            "updatedAt": "2026-11-20T04:10:00Z",
             "contentType": "application/x-msdos-program",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-win7-2.0.4-ia32-setup.exe"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-win7-2.0.5-ia32-setup.exe"
           },
           {
-            "id": 653423370,
-            "name": "mihomo-party-win7-2.0.4-ia32-setup.exe.sha256",
+            "id": 770398460,
+            "name": "mihomo-party-win7-2.0.5-ia32-setup.exe.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "4e7211a558dbd7e8b88687bd810210ac18c99249032517c60e1332f208a83786",
-            "updatedAt": "2026-10-18T12:17:38Z",
+            "digest": "6808e258af95d235362d21d71b26deec84dbd54569cd386dc24f4df7ad9cc9e9",
+            "updatedAt": "2026-11-20T04:09:54Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-win7-2.0.4-ia32-setup.exe.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-win7-2.0.5-ia32-setup.exe.sha256"
           },
           {
-            "id": 653423113,
-            "name": "mihomo-party-win7-2.0.4-x64-portable.7z",
-            "size": 144108881,
+            "id": 770401786,
+            "name": "mihomo-party-win7-2.0.5-x64-portable.7z",
+            "size": 145605760,
             "sizeExact": true,
-            "digest": "33a2db60c885784c80a50989f729fff6ee20f5ec68e93db3cb9aa20da5cb49c2",
-            "updatedAt": "2026-10-18T12:17:34Z",
+            "digest": "254a8ef83d68e1980877e068874e6bf40843556a592f2d95eefe470cf2b9aebd",
+            "updatedAt": "2026-11-20T04:11:10Z",
             "contentType": "application/x-7z-compressed",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-win7-2.0.4-x64-portable.7z"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-win7-2.0.5-x64-portable.7z"
           },
           {
-            "id": 653423108,
-            "name": "mihomo-party-win7-2.0.4-x64-portable.7z.sha256",
+            "id": 770401788,
+            "name": "mihomo-party-win7-2.0.5-x64-portable.7z.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "3ebb0b81d7cd2a8ca8d5e0e28165e4dd8905854c3d6e81e50c4dc6c796d3be5f",
-            "updatedAt": "2026-10-18T12:17:27Z",
+            "digest": "307387fc06aa4b645b344baa6b0983666931a9c05b9f90b7b07efac685a3bc2f",
+            "updatedAt": "2026-11-20T04:11:04Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-win7-2.0.4-x64-portable.7z.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-win7-2.0.5-x64-portable.7z.sha256"
           },
           {
-            "id": 653423112,
-            "name": "mihomo-party-win7-2.0.4-x64-setup.exe",
-            "size": 170157918,
+            "id": 770401790,
+            "name": "mihomo-party-win7-2.0.5-x64-setup.exe",
+            "size": 172006822,
             "sizeExact": true,
-            "digest": "b68a070b9b7d75b5986a4e99b8fee9911dd3c85d71510a6763f6dca36458691a",
-            "updatedAt": "2026-10-18T12:17:33Z",
+            "digest": "081d02fb094e5cad7f485d982be5449eda22c63cf6454680753da0114f74edb7",
+            "updatedAt": "2026-11-20T04:11:10Z",
             "contentType": "application/x-msdos-program",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-win7-2.0.4-x64-setup.exe"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-win7-2.0.5-x64-setup.exe"
           },
           {
-            "id": 653423111,
-            "name": "mihomo-party-win7-2.0.4-x64-setup.exe.sha256",
+            "id": 770401782,
+            "name": "mihomo-party-win7-2.0.5-x64-setup.exe.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "84b3212d19dc1e4d193a346665a1bb96b96bc5332b4d7f491b77d9485b82abc1",
-            "updatedAt": "2026-10-18T12:17:27Z",
+            "digest": "0ace64b7f943acb5b71b11797b773efcb82109de370063b0a577c56a09cd5191",
+            "updatedAt": "2026-11-20T04:11:04Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-win7-2.0.4-x64-setup.exe.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-win7-2.0.5-x64-setup.exe.sha256"
           },
           {
-            "id": 653426225,
-            "name": "mihomo-party-windows-2.0.4-arm64-portable.7z",
-            "size": 147096448,
+            "id": 770397606,
+            "name": "mihomo-party-windows-2.0.5-arm64-portable.7z",
+            "size": 148512834,
             "sizeExact": true,
-            "digest": "c3c702bc77523611330a5a6c9e5424bdcfa662ca18ce7234826a9aaa676addb6",
-            "updatedAt": "2026-10-18T12:19:17Z",
+            "digest": "645d2e9737f1f5fcf8806dad5d2ea855977eb4df5b922a255b2cc7baac4480db",
+            "updatedAt": "2026-11-20T04:09:42Z",
             "contentType": "application/x-7z-compressed",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-windows-2.0.4-arm64-portable.7z"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-windows-2.0.5-arm64-portable.7z"
           },
           {
-            "id": 653426217,
-            "name": "mihomo-party-windows-2.0.4-arm64-portable.7z.sha256",
+            "id": 770397607,
+            "name": "mihomo-party-windows-2.0.5-arm64-portable.7z.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "2786faef97387abfcb13c7855169e3c626cbbe896d4ff3abad0ec49b336d3be7",
-            "updatedAt": "2026-10-18T12:19:10Z",
+            "digest": "c5df04a90f60189242b09b56b5ef3718c75966be1d882b5d698919ce2da781f8",
+            "updatedAt": "2026-11-20T04:09:38Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-windows-2.0.4-arm64-portable.7z.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-windows-2.0.5-arm64-portable.7z.sha256"
           },
           {
-            "id": 653426221,
-            "name": "mihomo-party-windows-2.0.4-arm64-setup.exe",
-            "size": 195100445,
+            "id": 770397605,
+            "name": "mihomo-party-windows-2.0.5-arm64-setup.exe",
+            "size": 196768791,
             "sizeExact": true,
-            "digest": "0fceece48d2de76767b4d9277f1feae8518565aa869a124eb3b1647fadd76a51",
-            "updatedAt": "2026-10-18T12:19:19Z",
+            "digest": "168fe8c774aeb850d57a57522d2e47ce56976cc671d87031a62929153f6f333c",
+            "updatedAt": "2026-11-20T04:09:45Z",
             "contentType": "application/x-msdos-program",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-windows-2.0.4-arm64-setup.exe"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-windows-2.0.5-arm64-setup.exe"
           },
           {
-            "id": 653426222,
-            "name": "mihomo-party-windows-2.0.4-arm64-setup.exe.sha256",
+            "id": 770397608,
+            "name": "mihomo-party-windows-2.0.5-arm64-setup.exe.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "ecefa67b92571889569c2490fa60579b5881f88e039b5bfb5a6f0e2d0041f975",
-            "updatedAt": "2026-10-18T12:19:10Z",
+            "digest": "5ca9e740008bbe846d4baf8a408c56417a4520f14a69a7763bf55329c7d681f4",
+            "updatedAt": "2026-11-20T04:09:38Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-windows-2.0.4-arm64-setup.exe.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-windows-2.0.5-arm64-setup.exe.sha256"
           },
           {
-            "id": 653425247,
-            "name": "mihomo-party-windows-2.0.4-ia32-portable.7z",
-            "size": 158368384,
+            "id": 770401939,
+            "name": "mihomo-party-windows-2.0.5-ia32-portable.7z",
+            "size": 159896008,
             "sizeExact": true,
-            "digest": "19905e796f373660651b2b9b83c37e5087cda6a2e03c5cde05ee3f5fa717741c",
-            "updatedAt": "2026-10-18T12:18:46Z",
+            "digest": "6bd93fee9741cb12f5dace0809973aefd952297f8dc2497563cbd22ed96a11d7",
+            "updatedAt": "2026-11-20T04:11:14Z",
             "contentType": "application/x-7z-compressed",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-windows-2.0.4-ia32-portable.7z"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-windows-2.0.5-ia32-portable.7z"
           },
           {
-            "id": 653425251,
-            "name": "mihomo-party-windows-2.0.4-ia32-portable.7z.sha256",
+            "id": 770401945,
+            "name": "mihomo-party-windows-2.0.5-ia32-portable.7z.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "1629ca07a739383118a057c0eb1a7a26b81811581fbbde8d0224802e8795617c",
-            "updatedAt": "2026-10-18T12:18:38Z",
+            "digest": "214ac6037c83d47a7ea94e9bef1e5795eb09448712ba5e372fa7d11a8e3442f8",
+            "updatedAt": "2026-11-20T04:11:05Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-windows-2.0.4-ia32-portable.7z.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-windows-2.0.5-ia32-portable.7z.sha256"
           },
           {
-            "id": 653425248,
-            "name": "mihomo-party-windows-2.0.4-ia32-setup.exe",
-            "size": 191105794,
+            "id": 770401950,
+            "name": "mihomo-party-windows-2.0.5-ia32-setup.exe",
+            "size": 192570040,
             "sizeExact": true,
-            "digest": "3038f09617e7fea6fc81eb6c9f1a7533afe4d62af2c17f83cb9efecc4f79c656",
-            "updatedAt": "2026-10-18T12:18:47Z",
+            "digest": "1f396b5f9c1e98706c3672fefe643b083447453dbac8f636e128726f2a2bc908",
+            "updatedAt": "2026-11-20T04:11:16Z",
             "contentType": "application/x-msdos-program",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-windows-2.0.4-ia32-setup.exe"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-windows-2.0.5-ia32-setup.exe"
           },
           {
-            "id": 653425246,
-            "name": "mihomo-party-windows-2.0.4-ia32-setup.exe.sha256",
+            "id": 770401936,
+            "name": "mihomo-party-windows-2.0.5-ia32-setup.exe.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "96c5c62c75ad53d60b1371286641788d1b13c517e45524ee00fec28e5b9f7bff",
-            "updatedAt": "2026-10-18T12:18:38Z",
+            "digest": "c7636fc1ae57cc5fd323aecc8e4082a2aa27eded196d5b8d8343ed2518aee0ef",
+            "updatedAt": "2026-11-20T04:11:05Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-windows-2.0.4-ia32-setup.exe.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-windows-2.0.5-ia32-setup.exe.sha256"
           },
           {
-            "id": 653422393,
-            "name": "mihomo-party-windows-2.0.4-x64-portable.7z",
-            "size": 175672213,
+            "id": 770405665,
+            "name": "mihomo-party-windows-2.0.5-x64-portable.7z",
+            "size": 177057188,
             "sizeExact": true,
-            "digest": "182063a60b9a06535d176742d627f8b8c95a99aae85fc8752c880efee7da5157",
-            "updatedAt": "2026-10-18T12:17:08Z",
+            "digest": "1d06b90dcf7bfd0e75dd97392629e68fc96b3096f1213b4c37cc943d82e666f2",
+            "updatedAt": "2026-11-20T04:12:22Z",
             "contentType": "application/x-7z-compressed",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-windows-2.0.4-x64-portable.7z"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-windows-2.0.5-x64-portable.7z"
           },
           {
-            "id": 653422386,
-            "name": "mihomo-party-windows-2.0.4-x64-portable.7z.sha256",
+            "id": 770405642,
+            "name": "mihomo-party-windows-2.0.5-x64-portable.7z.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "6cc528c5ba5fe0ba27440441d9857c4d702d953d95febd8dd3c648bd6969cfee",
-            "updatedAt": "2026-10-18T12:17:03Z",
+            "digest": "ce53af1896631ecd5af50948be371e4bcaf72afa2803adac084a39c21730bf05",
+            "updatedAt": "2026-11-20T04:12:14Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-windows-2.0.4-x64-portable.7z.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-windows-2.0.5-x64-portable.7z.sha256"
           },
           {
-            "id": 653422390,
-            "name": "mihomo-party-windows-2.0.4-x64-setup.exe",
-            "size": 208304471,
+            "id": 770405655,
+            "name": "mihomo-party-windows-2.0.5-x64-setup.exe",
+            "size": 209864254,
             "sizeExact": true,
-            "digest": "f7cac1e588851197833c456a827cb611b6145e76be53dfd0f4df56e214c764d3",
-            "updatedAt": "2026-10-18T12:17:08Z",
+            "digest": "f496eb22f3af1f65e99b447b25d287d3e95d31e7838c4d6e3c3475b41f79c48c",
+            "updatedAt": "2026-11-20T04:12:27Z",
             "contentType": "application/x-msdos-program",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-windows-2.0.4-x64-setup.exe"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-windows-2.0.5-x64-setup.exe"
           },
           {
-            "id": 653422388,
-            "name": "mihomo-party-windows-2.0.4-x64-setup.exe.sha256",
+            "id": 770405643,
+            "name": "mihomo-party-windows-2.0.5-x64-setup.exe.sha256",
             "size": 64,
             "sizeExact": true,
-            "digest": "9d13d59b75d4083d604487a404e90dead09fad569388639ab15da484a068539f",
-            "updatedAt": "2026-10-18T12:17:03Z",
+            "digest": "f5ea8c115beccd5b1d02d73474b0562cd79eff56383b3c037e881a24cdcde130",
+            "updatedAt": "2026-11-20T04:12:14Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.4/mihomo-party-windows-2.0.4-x64-setup.exe.sha256"
+            "url": "https://github.com/mihomo-party-org/clash-party/releases/download/v2.0.5/mihomo-party-windows-2.0.5-x64-setup.exe.sha256"
           }
         ]
       },
@@ -1354,12 +1434,12 @@
       "lastSyncedAt": "2026-11-07T16:01:43.452Z",
       "consecutiveFailures": 0,
       "nextRetryAt": null,
-      "lastChangeAt": "2026-11-07T15:07:32.292Z"
+      "lastChangeAt": "2026-11-20T08:25:10.779Z"
     },
     "flclash": {
-      "etag": "W/\"b02e6a1769be3bdd0415191ca558978d8a9a5769cde10365025a99d49da454fe\"",
-      "lastCheckedAt": "2026-11-20T01:05:19.202Z",
-      "lastCheckOkAt": "2026-11-20T01:05:19.202Z",
+      "etag": "W/\"46092ab3c60da886eaf97dabd02338fe036b36b78eeba232ab873e13879c37e2\"",
+      "lastCheckedAt": "2026-11-20T08:25:11.224Z",
+      "lastCheckOkAt": "2026-11-20T08:25:11.224Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -1796,9 +1876,9 @@
       "lastChangeAt": "2026-11-19T10:10:43.350Z"
     },
     "clash-nyanpasu": {
-      "etag": "W/\"6d8480d6f9535739c1ce3d631d9fe77fa14d2f3fa916f599ceeb3436d30c5d9d\"",
-      "lastCheckedAt": "2026-11-20T01:05:19.756Z",
-      "lastCheckOkAt": "2026-11-20T01:05:19.756Z",
+      "etag": "W/\"925a76a0785dbf046794594a9dd98194305cb3f90f2b76e5549d0b69200b3e56\"",
+      "lastCheckedAt": "2026-11-20T08:25:11.820Z",
+      "lastCheckOkAt": "2026-11-20T08:25:11.820Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -2373,9 +2453,9 @@
       "lastChangeAt": "2026-11-07T15:07:36.850Z"
     },
     "v2rayn": {
-      "etag": "W/\"c98ad648dd74962f7dfdd62e99dd735a63bfb587c90f9615920b8f870e6e70a5\"",
-      "lastCheckedAt": "2026-11-20T01:05:20.237Z",
-      "lastCheckOkAt": "2026-11-20T01:05:20.237Z",
+      "etag": "W/\"d7bc8819acb8e2d224be383bbfd2b23866989d39a756aeb3143a4ecf01d54290\"",
+      "lastCheckedAt": "2026-11-20T08:25:12.294Z",
+      "lastCheckOkAt": "2026-11-20T08:25:12.294Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -2954,9 +3034,9 @@
       "lastChangeAt": "2026-11-07T15:07:38.921Z"
     },
     "v2rayng": {
-      "etag": "W/\"9a5fd95851c6aaa3a3f6cfd40a8407b9ce0c7c19a1ee50b2cd6127bae7742362\"",
-      "lastCheckedAt": "2026-11-20T01:05:20.663Z",
-      "lastCheckOkAt": "2026-11-20T01:05:20.663Z",
+      "etag": "W/\"c6b03cb0462897898a60a8d20afca545cc76ddce6d55a0689da526cfc2c3e740\"",
+      "lastCheckedAt": "2026-11-20T08:25:12.727Z",
+      "lastCheckOkAt": "2026-11-20T08:25:12.727Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -3295,9 +3375,9 @@
       "lastChangeAt": "2026-11-07T15:07:40.745Z"
     },
     "clash-meta-for-android": {
-      "etag": "W/\"8aed5a54842b878a0f5d1680f3575d6b672a58f3d8de869c6bc70ff8d49f6dd5\"",
-      "lastCheckedAt": "2026-11-20T01:05:21.031Z",
-      "lastCheckOkAt": "2026-11-20T01:05:21.031Z",
+      "etag": "W/\"4ab5603a7c25222953f504ec28b35251e71335461bd2f039968c445d7e2c83d9\"",
+      "lastCheckedAt": "2026-11-20T08:25:13.018Z",
+      "lastCheckOkAt": "2026-11-20T08:25:13.018Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -3492,9 +3572,9 @@
       "lastChangeAt": "2026-11-11T07:01:53.786Z"
     },
     "nekobox": {
-      "etag": "W/\"36758ceba9b4c6960117e17dec2997528950cd2af42acb7a06a6c1ba4ca365b6\"",
-      "lastCheckedAt": "2026-11-20T01:05:21.420Z",
-      "lastCheckOkAt": "2026-11-20T01:05:21.420Z",
+      "etag": "W/\"74d5c4bfa89e7f703e641a1b0f9c010d9d19d6d9253f8d64da042f0e29388580\"",
+      "lastCheckedAt": "2026-11-20T08:25:13.352Z",
+      "lastCheckOkAt": "2026-11-20T08:25:13.352Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -3656,9 +3736,9 @@
       "lastChangeAt": "2026-11-07T15:07:44.615Z"
     },
     "sing-box": {
-      "etag": "W/\"4ad3d108a59e3bb99f54e3af69c7cbd4ce368e71cd08fa501accfdd406b1a829\"",
-      "lastCheckedAt": "2026-11-20T01:05:22.643Z",
-      "lastCheckOkAt": "2026-11-20T01:05:22.643Z",
+      "etag": "W/\"8edff27f79dd8bc0075a5a6cc48be0976a32cf7842cf1dda8fd6efc5941f8af0\"",
+      "lastCheckedAt": "2026-11-20T08:25:14.526Z",
+      "lastCheckOkAt": "2026-11-20T08:25:14.526Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -5567,9 +5647,9 @@
       "lastChangeAt": "2026-11-07T15:07:46.511Z"
     },
     "hiddify": {
-      "etag": "W/\"605120da11a0a8d097cbcef08cf6e70acfd6c2cb0d8eac277bfff22d6fabb70c\"",
-      "lastCheckedAt": "2026-11-20T01:05:23.116Z",
-      "lastCheckOkAt": "2026-11-20T01:05:23.116Z",
+      "etag": "W/\"270cd7507b19c414b79e102b8929a69a6294628c0eb8d214370ec06876c87d43\"",
+      "lastCheckedAt": "2026-11-20T08:25:15.057Z",
+      "lastCheckOkAt": "2026-11-20T08:25:15.057Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -5762,9 +5842,9 @@
       "lastChangeAt": "2026-11-07T15:07:48.174Z"
     },
     "throne": {
-      "etag": "W/\"ec69a2d6e1acd1b9eee04f09874d14e6e6651f2b35cea6e0878bee07cb1e897e\"",
-      "lastCheckedAt": "2026-11-20T01:05:23.636Z",
-      "lastCheckOkAt": "2026-11-20T01:05:23.636Z",
+      "etag": "W/\"60b8c42c7a9ff6107042a10be43c539b77d42a689061b90b6a9a3799d7d5f045\"",
+      "lastCheckedAt": "2026-11-20T08:25:15.475Z",
+      "lastCheckOkAt": "2026-11-20T08:25:15.475Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -6094,29 +6174,6 @@
     }
   },
   "runs": [
-    {
-      "reason": "github-actions",
-      "startedAt": "2026-11-12T02:36:21.930Z",
-      "finishedAt": "2026-11-12T02:36:27.217Z",
-      "durationMs": 5287,
-      "projects": 11,
-      "collect": {
-        "ok": 11,
-        "failed": 0,
-        "notModified": 0,
-        "degraded": 0
-      },
-      "sync": {
-        "files": 0,
-        "skipped": 0,
-        "failed": 0
-      },
-      "storage": "unconfigured",
-      "warnings": [
-        "本站尚未配置安装包存储（S3_* 或本地目录），因此不提供镜像下载，仅展示官方 GitHub 入口。"
-      ],
-      "triggeredBy": "github-actions"
-    },
     {
       "reason": "github-actions",
       "startedAt": "2026-11-12T10:14:16.583Z",
@@ -6766,6 +6823,29 @@
       "startedAt": "2026-11-20T01:05:16.968Z",
       "finishedAt": "2026-11-20T01:05:23.655Z",
       "durationMs": 6687,
+      "projects": 11,
+      "collect": {
+        "ok": 11,
+        "failed": 0,
+        "notModified": 0,
+        "degraded": 0
+      },
+      "sync": {
+        "files": 0,
+        "skipped": 0,
+        "failed": 0
+      },
+      "storage": "unconfigured",
+      "warnings": [
+        "本站尚未配置安装包存储（S3_* 或本地目录），因此不提供镜像下载，仅展示官方 GitHub 入口。"
+      ],
+      "triggeredBy": "github-actions"
+    },
+    {
+      "reason": "github-actions",
+      "startedAt": "2026-11-20T08:25:09.216Z",
+      "finishedAt": "2026-11-20T08:25:15.486Z",
+      "durationMs": 6270,
       "projects": 11,
       "collect": {
         "ok": 11,
