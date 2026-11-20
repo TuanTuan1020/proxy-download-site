@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-20T08:25:15.480Z",
+  "generatedAt": "2026-11-20T17:04:13.343Z",
   "dataSource": "github-rest",
   "site": {
     "name": "代理客户端下载站",
@@ -101,8 +101,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-20T08:25:09.837Z",
-      "checkOkAt": "2026-11-20T08:25:09.837Z",
+      "checkedAt": "2026-11-20T17:04:07.699Z",
+      "checkOkAt": "2026-11-20T17:04:07.699Z",
       "syncedAt": "2026-11-07T16:01:23.574Z",
       "checkError": null,
       "syncError": null,
@@ -301,8 +301,8 @@
         "isPrereleaseTag": false
       },
       "prereleases": [],
-      "checkedAt": "2026-11-20T08:25:10.779Z",
-      "checkOkAt": "2026-11-20T08:25:10.779Z",
+      "checkedAt": "2026-11-20T17:04:08.447Z",
+      "checkOkAt": "2026-11-20T17:04:08.447Z",
       "syncedAt": "2026-11-07T16:01:43.452Z",
       "checkError": null,
       "syncError": null,
@@ -501,15 +501,15 @@
         "isPrereleaseTag": false
       },
       "prereleases": [],
-      "checkedAt": "2026-11-20T08:25:11.224Z",
-      "checkOkAt": "2026-11-20T08:25:11.224Z",
+      "checkedAt": "2026-11-20T17:04:08.918Z",
+      "checkOkAt": "2026-11-20T17:04:08.918Z",
       "syncedAt": "2026-11-07T16:02:26.426Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
       "dataSourceNote": "",
       "nextRetryAt": null,
-      "ignoredFiles": 18,
+      "ignoredFiles": 14,
       "downloads": {
         "windows": {
           "options": [
@@ -562,7 +562,54 @@
           ]
         },
         "macos": {
-          "options": []
+          "options": [
+            {
+              "arch": "arm64",
+              "rawArch": "arm64",
+              "archLabel": "Apple Silicon（M 系列）",
+              "format": "dmg",
+              "formatLabel": "DMG",
+              "variant": "installer",
+              "variantLabel": "安装版",
+              "officialUrl": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-0.9.4-macos-arm64.dmg",
+              "officialSize": 55625224,
+              "officialSizeExact": true,
+              "officialDigest": "db0784e7e5a69fc93da85accf4d8d80812e7e014f2082609da395ba6124195c5",
+              "status": "unavailable",
+              "version": "v0.9.4",
+              "filename": "FlClash-0.9.4-macos-arm64.dmg",
+              "size": 55625224,
+              "sha256": null,
+              "verified": null,
+              "verifiedLabel": "",
+              "href": null,
+              "syncedAt": null,
+              "note": "本站尚未配置安装包存储，暂不提供镜像下载；请使用官方下载。"
+            },
+            {
+              "arch": "x64",
+              "rawArch": "amd64",
+              "archLabel": "Intel 处理器",
+              "format": "dmg",
+              "formatLabel": "DMG",
+              "variant": "installer",
+              "variantLabel": "安装版",
+              "officialUrl": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-0.9.4-macos-amd64.dmg",
+              "officialSize": 59502497,
+              "officialSizeExact": true,
+              "officialDigest": "481f742112572a6488a5ec40ddd071283dc59eb4d91da1e399be25acaf79e8eb",
+              "status": "unavailable",
+              "version": "v0.9.4",
+              "filename": "FlClash-0.9.4-macos-amd64.dmg",
+              "size": 59502497,
+              "sha256": null,
+              "verified": null,
+              "verifiedLabel": "",
+              "href": null,
+              "syncedAt": null,
+              "note": "本站尚未配置安装包存储，暂不提供镜像下载；请使用官方下载。"
+            }
+          ]
         },
         "android": {
           "options": [
@@ -641,7 +688,7 @@
       "syncState": "pending",
       "syncMessage": "未配置安装包存储，仅提供官方下载入口",
       "counts": {
-        "total": 5,
+        "total": 7,
         "ready": 0,
         "stale": 0
       }
@@ -688,8 +735,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-20T08:25:11.820Z",
-      "checkOkAt": "2026-11-20T08:25:11.820Z",
+      "checkedAt": "2026-11-20T17:04:09.404Z",
+      "checkOkAt": "2026-11-20T17:04:09.404Z",
       "syncedAt": "2026-11-07T16:03:41.451Z",
       "checkError": null,
       "syncError": null,
@@ -956,8 +1003,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-20T08:25:12.294Z",
-      "checkOkAt": "2026-11-20T08:25:12.294Z",
+      "checkedAt": "2026-11-20T17:04:09.944Z",
+      "checkOkAt": "2026-11-20T17:04:09.944Z",
       "syncedAt": "2026-11-07T16:03:58.120Z",
       "checkError": null,
       "syncError": null,
@@ -1176,8 +1223,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-20T08:25:12.727Z",
-      "checkOkAt": "2026-11-20T08:25:12.727Z",
+      "checkedAt": "2026-11-20T17:04:10.602Z",
+      "checkOkAt": "2026-11-20T17:04:10.602Z",
       "syncedAt": "2026-11-07T16:04:02.087Z",
       "checkError": null,
       "syncError": null,
@@ -1332,8 +1379,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-20T08:25:13.018Z",
-      "checkOkAt": "2026-11-20T08:25:13.018Z",
+      "checkedAt": "2026-11-20T17:04:11.017Z",
+      "checkOkAt": "2026-11-20T17:04:11.017Z",
       "syncedAt": "2026-11-07T16:04:25.410Z",
       "checkError": null,
       "syncError": null,
@@ -1518,8 +1565,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-20T08:25:13.352Z",
-      "checkOkAt": "2026-11-20T08:25:13.352Z",
+      "checkedAt": "2026-11-20T17:04:11.380Z",
+      "checkOkAt": "2026-11-20T17:04:11.380Z",
       "syncedAt": "2026-11-07T16:04:09.285Z",
       "checkError": null,
       "syncError": null,
@@ -1691,8 +1738,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-20T08:25:14.526Z",
-      "checkOkAt": "2026-11-20T08:25:14.526Z",
+      "checkedAt": "2026-11-20T17:04:12.485Z",
+      "checkOkAt": "2026-11-20T17:04:12.485Z",
       "syncedAt": "2026-11-07T16:05:13.266Z",
       "checkError": null,
       "syncError": null,
@@ -1987,8 +2034,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-20T08:25:15.057Z",
-      "checkOkAt": "2026-11-20T08:25:15.057Z",
+      "checkedAt": "2026-11-20T17:04:12.938Z",
+      "checkOkAt": "2026-11-20T17:04:12.938Z",
       "syncedAt": null,
       "checkError": null,
       "syncError": null,
@@ -2259,8 +2306,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-20T08:25:15.475Z",
-      "checkOkAt": "2026-11-20T08:25:15.475Z",
+      "checkedAt": "2026-11-20T17:04:13.337Z",
+      "checkOkAt": "2026-11-20T17:04:13.337Z",
       "syncedAt": "2026-11-07T16:05:08.410Z",
       "checkError": null,
       "syncError": null,

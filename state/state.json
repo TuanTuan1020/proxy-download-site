@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "createdAt": "2026-11-07T15:05:43.998Z",
-  "updatedAt": "2026-11-20T08:25:15.487Z",
+  "updatedAt": "2026-11-20T17:04:13.355Z",
   "sources": {
     "clash-verge-rev": {
-      "etag": "W/\"366fff46bb304a98e2e61ad9d3e48a14b9035080c5ad464206be61ab78638287\"",
-      "lastCheckedAt": "2026-11-20T08:25:09.837Z",
-      "lastCheckOkAt": "2026-11-20T08:25:09.837Z",
+      "etag": "W/\"73261e556ae9baad06a40b0c4989135828e562de516ca5e0266670e2103119fc\"",
+      "lastCheckedAt": "2026-11-20T17:04:07.699Z",
+      "lastCheckOkAt": "2026-11-20T17:04:07.699Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -398,9 +398,9 @@
       "lastChangeAt": "2026-11-07T15:05:47.007Z"
     },
     "clash-party": {
-      "etag": "W/\"28376b4d15dff05e6f0124fad35af9de046f769ac63259ffc8f883d88fae8ccc\"",
-      "lastCheckedAt": "2026-11-20T08:25:10.779Z",
-      "lastCheckOkAt": "2026-11-20T08:25:10.779Z",
+      "etag": "W/\"a4662f10d36704defdd4a28fac73a8ce2205317da6c5cb14e524ebdcda07f222\"",
+      "lastCheckedAt": "2026-11-20T17:04:08.447Z",
+      "lastCheckOkAt": "2026-11-20T17:04:08.447Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -1437,9 +1437,9 @@
       "lastChangeAt": "2026-11-20T08:25:10.779Z"
     },
     "flclash": {
-      "etag": "W/\"46092ab3c60da886eaf97dabd02338fe036b36b78eeba232ab873e13879c37e2\"",
-      "lastCheckedAt": "2026-11-20T08:25:11.224Z",
-      "lastCheckOkAt": "2026-11-20T08:25:11.224Z",
+      "etag": "W/\"ff4b9abb945510eea690e22fc6087af68b7c633ea0f390386233806c55407114\"",
+      "lastCheckedAt": "2026-11-20T17:04:08.918Z",
+      "lastCheckOkAt": "2026-11-20T17:04:08.918Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -1451,6 +1451,16 @@
         "htmlUrl": "https://github.com/chen08209/FlClash/releases/tag/v0.9.4",
         "assets": [
           {
+            "id": 766702713,
+            "name": "FlClash-0.9.4-android-amd64.apk",
+            "size": 63439629,
+            "sizeExact": true,
+            "digest": "d064bf1f4fc5902d7e1a1f6b7d90786972fcac92cfed01a89a4954b82afeba65",
+            "updatedAt": "2026-11-20T10:06:19Z",
+            "contentType": "application/vnd.android.package-archive",
+            "url": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-0.9.4-android-amd64.apk"
+          },
+          {
             "id": 766702721,
             "name": "FlClash-0.9.4-android-arm64-v8a.apk",
             "size": 60863675,
@@ -1459,6 +1469,16 @@
             "updatedAt": "2026-11-19T07:30:59Z",
             "contentType": "application/vnd.android.package-archive",
             "url": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-0.9.4-android-arm64-v8a.apk"
+          },
+          {
+            "id": 766702720,
+            "name": "FlClash-0.9.4-android-arm64.apk",
+            "size": 60863675,
+            "sizeExact": true,
+            "digest": "86fb6f66b5f4d36a3423adeadca625b147da0e782400b6af69aafe58c603a947",
+            "updatedAt": "2026-11-20T10:06:21Z",
+            "contentType": "application/vnd.android.package-archive",
+            "url": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-0.9.4-android-arm64.apk"
           },
           {
             "id": 766702716,
@@ -1471,6 +1491,16 @@
             "url": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-0.9.4-android-armeabi-v7a.apk"
           },
           {
+            "id": 766702714,
+            "name": "FlClash-0.9.4-android-armv7.apk",
+            "size": 60920111,
+            "sizeExact": true,
+            "digest": "ebda76824a86149bb80ca1ce81f0a7682296e356c8acaf0fb842076b642166a6",
+            "updatedAt": "2026-11-20T10:06:22Z",
+            "contentType": "application/vnd.android.package-archive",
+            "url": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-0.9.4-android-armv7.apk"
+          },
+          {
             "id": 766702732,
             "name": "FlClash-0.9.4-android-x86_64.apk",
             "size": 63439629,
@@ -1481,192 +1511,142 @@
             "url": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-0.9.4-android-x86_64.apk"
           },
           {
-            "id": 766702734,
+            "id": 766702722,
+            "name": "FlClash-0.9.4-linux-amd64.AppImage",
+            "size": 69264576,
+            "sizeExact": true,
+            "digest": "62fee41f01c74ef97508b809a15eec72487f07ac6536bde7a7cf5c60c9373d08",
+            "updatedAt": "2026-11-20T10:06:24Z",
+            "contentType": "application/octet-stream",
+            "url": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-0.9.4-linux-amd64.AppImage"
+          },
+          {
+            "id": 766702726,
+            "name": "FlClash-0.9.4-linux-amd64.deb",
+            "size": 40854652,
+            "sizeExact": true,
+            "digest": "72c6b892d7467aefdc67cd8a3b0515fa5a337e88d192d372cda1c21c9d24d47f",
+            "updatedAt": "2026-11-20T10:06:26Z",
+            "contentType": "application/x-debian-package",
+            "url": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-0.9.4-linux-amd64.deb"
+          },
+          {
+            "id": 766702729,
+            "name": "FlClash-0.9.4-linux-amd64.rpm",
+            "size": 60352134,
+            "sizeExact": true,
+            "digest": "8a8ac9314c4f2d864748a1ebc8a7ef13a847b56c5286640c0e09a51a49552415",
+            "updatedAt": "2026-11-20T10:06:27Z",
+            "contentType": "application/x-redhat-package-manager",
+            "url": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-0.9.4-linux-amd64.rpm"
+          },
+          {
+            "id": 766702715,
+            "name": "FlClash-0.9.4-linux-arm64.AppImage",
+            "size": 66253184,
+            "sizeExact": true,
+            "digest": "6f4696b47c7e7ebd1960d0c3eaa6dd786c13e2aaa46ec16cdf6f1e165a7d5329",
+            "updatedAt": "2026-11-20T10:06:28Z",
+            "contentType": "application/octet-stream",
+            "url": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-0.9.4-linux-arm64.AppImage"
+          },
+          {
+            "id": 766702717,
+            "name": "FlClash-0.9.4-linux-arm64.deb",
+            "size": 37198700,
+            "sizeExact": true,
+            "digest": "8882ca6e0c21784dacd52351ee457193e4b208d112a1e18143abc6c99a76ece7",
+            "updatedAt": "2026-11-20T10:06:30Z",
+            "contentType": "application/x-debian-package",
+            "url": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-0.9.4-linux-arm64.deb"
+          },
+          {
+            "id": 766702728,
+            "name": "FlClash-0.9.4-linux-arm64.rpm",
+            "size": 57515937,
+            "sizeExact": true,
+            "digest": "364d339d2fd395044950f6c7e9c4d5bcefde7671c0d208b3e6641bac6513f4de",
+            "updatedAt": "2026-11-20T10:06:31Z",
+            "contentType": "application/x-redhat-package-manager",
+            "url": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-0.9.4-linux-arm64.rpm"
+          },
+          {
+            "id": 766702718,
+            "name": "FlClash-0.9.4-macos-amd64.dmg",
+            "size": 59502497,
+            "sizeExact": true,
+            "digest": "481f742112572a6488a5ec40ddd071283dc59eb4d91da1e399be25acaf79e8eb",
+            "updatedAt": "2026-11-20T10:06:33Z",
+            "contentType": "application/x-apple-diskimage",
+            "url": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-0.9.4-macos-amd64.dmg"
+          },
+          {
+            "id": 766702712,
+            "name": "FlClash-0.9.4-macos-arm64.dmg",
+            "size": 55625224,
+            "sizeExact": true,
+            "digest": "db0784e7e5a69fc93da85accf4d8d80812e7e014f2082609da395ba6124195c5",
+            "updatedAt": "2026-11-20T10:06:34Z",
+            "contentType": "application/x-apple-diskimage",
+            "url": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-0.9.4-macos-arm64.dmg"
+          },
+          {
+            "id": 771329442,
+            "name": "FlClash-0.9.4-SHA256SUMS",
+            "size": 1494,
+            "sizeExact": true,
+            "digest": "32da059e79f70de05def5c3a1e94ff4cece413ef54b83869d2929aee32c4c1c0",
+            "updatedAt": "2026-11-20T10:06:59Z",
+            "contentType": "application/octet-stream",
+            "url": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-0.9.4-SHA256SUMS"
+          },
+          {
+            "id": 766702725,
+            "name": "FlClash-0.9.4-windows-amd64-portable.zip",
+            "size": 68988667,
+            "sizeExact": true,
+            "digest": "8fab8ab4edead33a6c6d4f249fd90a287acbf66a99cc5bd207fcfc034f3b1224",
+            "updatedAt": "2026-11-20T10:06:36Z",
+            "contentType": "application/zip",
+            "url": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-0.9.4-windows-amd64-portable.zip"
+          },
+          {
+            "id": 766702730,
             "name": "FlClash-0.9.4-windows-amd64-setup.exe",
             "size": 43132829,
             "sizeExact": true,
             "digest": "77f84fdf24ccb1499e6c0275b713c3a81031f157496e1c5305366184da1ac68a",
-            "updatedAt": "2026-11-19T07:30:58Z",
+            "updatedAt": "2026-11-20T10:06:38Z",
             "contentType": "application/x-msdos-program",
             "url": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-0.9.4-windows-amd64-setup.exe"
           },
           {
-            "id": 766702724,
+            "id": 766702719,
+            "name": "FlClash-0.9.4-windows-arm64-portable.zip",
+            "size": 65274779,
+            "sizeExact": true,
+            "digest": "146796803c160ce50f915ed73cd52b35a0b75a4c8cbf15e8fb68ec98e514d4b5",
+            "updatedAt": "2026-11-20T10:06:40Z",
+            "contentType": "application/zip",
+            "url": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-0.9.4-windows-arm64-portable.zip"
+          },
+          {
+            "id": 766702711,
             "name": "FlClash-0.9.4-windows-arm64-setup.exe",
             "size": 40094374,
             "sizeExact": true,
             "digest": "a83f564e0cacec0d5eea01b221f115bc7f02fdb2a16be6d09448128e430b28ed",
-            "updatedAt": "2026-11-19T07:30:58Z",
+            "updatedAt": "2026-11-20T10:06:41Z",
             "contentType": "application/x-msdos-program",
             "url": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-0.9.4-windows-arm64-setup.exe"
           },
           {
-            "id": 766702713,
-            "name": "FlClash-dev-0.9.4-android-amd64.apk",
-            "size": 63439629,
-            "sizeExact": true,
-            "digest": "d064bf1f4fc5902d7e1a1f6b7d90786972fcac92cfed01a89a4954b82afeba65",
-            "updatedAt": "2026-11-19T07:31:00Z",
-            "contentType": "application/vnd.android.package-archive",
-            "url": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-dev-0.9.4-android-amd64.apk"
-          },
-          {
-            "id": 766702720,
-            "name": "FlClash-dev-0.9.4-android-arm64.apk",
-            "size": 60863675,
-            "sizeExact": true,
-            "digest": "86fb6f66b5f4d36a3423adeadca625b147da0e782400b6af69aafe58c603a947",
-            "updatedAt": "2026-11-19T07:30:59Z",
-            "contentType": "application/vnd.android.package-archive",
-            "url": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-dev-0.9.4-android-arm64.apk"
-          },
-          {
-            "id": 766702714,
-            "name": "FlClash-dev-0.9.4-android-armv7.apk",
-            "size": 60920111,
-            "sizeExact": true,
-            "digest": "ebda76824a86149bb80ca1ce81f0a7682296e356c8acaf0fb842076b642166a6",
-            "updatedAt": "2026-11-19T07:30:59Z",
-            "contentType": "application/vnd.android.package-archive",
-            "url": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-dev-0.9.4-android-armv7.apk"
-          },
-          {
-            "id": 766702722,
-            "name": "FlClash-dev-0.9.4-linux-amd64.AppImage",
-            "size": 69264576,
-            "sizeExact": true,
-            "digest": "62fee41f01c74ef97508b809a15eec72487f07ac6536bde7a7cf5c60c9373d08",
-            "updatedAt": "2026-11-19T07:30:59Z",
-            "contentType": "application/octet-stream",
-            "url": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-dev-0.9.4-linux-amd64.AppImage"
-          },
-          {
-            "id": 766702726,
-            "name": "FlClash-dev-0.9.4-linux-amd64.deb",
-            "size": 40854652,
-            "sizeExact": true,
-            "digest": "72c6b892d7467aefdc67cd8a3b0515fa5a337e88d192d372cda1c21c9d24d47f",
-            "updatedAt": "2026-11-19T07:30:58Z",
-            "contentType": "application/x-debian-package",
-            "url": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-dev-0.9.4-linux-amd64.deb"
-          },
-          {
-            "id": 766702729,
-            "name": "FlClash-dev-0.9.4-linux-amd64.rpm",
-            "size": 60352134,
-            "sizeExact": true,
-            "digest": "8a8ac9314c4f2d864748a1ebc8a7ef13a847b56c5286640c0e09a51a49552415",
-            "updatedAt": "2026-11-19T07:30:59Z",
-            "contentType": "application/x-redhat-package-manager",
-            "url": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-dev-0.9.4-linux-amd64.rpm"
-          },
-          {
-            "id": 766702715,
-            "name": "FlClash-dev-0.9.4-linux-arm64.AppImage",
-            "size": 66253184,
-            "sizeExact": true,
-            "digest": "6f4696b47c7e7ebd1960d0c3eaa6dd786c13e2aaa46ec16cdf6f1e165a7d5329",
-            "updatedAt": "2026-11-19T07:31:00Z",
-            "contentType": "application/octet-stream",
-            "url": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-dev-0.9.4-linux-arm64.AppImage"
-          },
-          {
-            "id": 766702717,
-            "name": "FlClash-dev-0.9.4-linux-arm64.deb",
-            "size": 37198700,
-            "sizeExact": true,
-            "digest": "8882ca6e0c21784dacd52351ee457193e4b208d112a1e18143abc6c99a76ece7",
-            "updatedAt": "2026-11-19T07:30:57Z",
-            "contentType": "application/x-debian-package",
-            "url": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-dev-0.9.4-linux-arm64.deb"
-          },
-          {
-            "id": 766702728,
-            "name": "FlClash-dev-0.9.4-linux-arm64.rpm",
-            "size": 57515937,
-            "sizeExact": true,
-            "digest": "364d339d2fd395044950f6c7e9c4d5bcefde7671c0d208b3e6641bac6513f4de",
-            "updatedAt": "2026-11-19T07:30:59Z",
-            "contentType": "application/x-redhat-package-manager",
-            "url": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-dev-0.9.4-linux-arm64.rpm"
-          },
-          {
-            "id": 766702718,
-            "name": "FlClash-dev-0.9.4-macos-amd64.dmg",
-            "size": 59502497,
-            "sizeExact": true,
-            "digest": "481f742112572a6488a5ec40ddd071283dc59eb4d91da1e399be25acaf79e8eb",
-            "updatedAt": "2026-11-19T07:31:00Z",
-            "contentType": "application/x-apple-diskimage",
-            "url": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-dev-0.9.4-macos-amd64.dmg"
-          },
-          {
-            "id": 766702712,
-            "name": "FlClash-dev-0.9.4-macos-arm64.dmg",
-            "size": 55625224,
-            "sizeExact": true,
-            "digest": "db0784e7e5a69fc93da85accf4d8d80812e7e014f2082609da395ba6124195c5",
-            "updatedAt": "2026-11-19T07:30:58Z",
-            "contentType": "application/x-apple-diskimage",
-            "url": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-dev-0.9.4-macos-arm64.dmg"
-          },
-          {
-            "id": 766702736,
-            "name": "FlClash-dev-0.9.4-SHA256SUMS",
-            "size": 1554,
-            "sizeExact": true,
-            "digest": "ea3ea7c706df0ef6d270cee308c39e4f316c971979d0c3216b1657bc26ab5eb4",
-            "updatedAt": "2026-11-19T07:30:54Z",
-            "contentType": "application/octet-stream",
-            "url": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-dev-0.9.4-SHA256SUMS"
-          },
-          {
-            "id": 766702725,
-            "name": "FlClash-dev-0.9.4-windows-amd64-portable.zip",
-            "size": 68988667,
-            "sizeExact": true,
-            "digest": "8fab8ab4edead33a6c6d4f249fd90a287acbf66a99cc5bd207fcfc034f3b1224",
-            "updatedAt": "2026-11-19T07:30:59Z",
-            "contentType": "application/zip",
-            "url": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-dev-0.9.4-windows-amd64-portable.zip"
-          },
-          {
-            "id": 766702730,
-            "name": "FlClash-dev-0.9.4-windows-amd64-setup.exe",
-            "size": 43132829,
-            "sizeExact": true,
-            "digest": "77f84fdf24ccb1499e6c0275b713c3a81031f157496e1c5305366184da1ac68a",
-            "updatedAt": "2026-11-19T07:30:58Z",
-            "contentType": "application/x-msdos-program",
-            "url": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-dev-0.9.4-windows-amd64-setup.exe"
-          },
-          {
-            "id": 766702719,
-            "name": "FlClash-dev-0.9.4-windows-arm64-portable.zip",
-            "size": 65274779,
-            "sizeExact": true,
-            "digest": "146796803c160ce50f915ed73cd52b35a0b75a4c8cbf15e8fb68ec98e514d4b5",
-            "updatedAt": "2026-11-19T07:30:59Z",
-            "contentType": "application/zip",
-            "url": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-dev-0.9.4-windows-arm64-portable.zip"
-          },
-          {
-            "id": 766702711,
-            "name": "FlClash-dev-0.9.4-windows-arm64-setup.exe",
-            "size": 40094374,
-            "sizeExact": true,
-            "digest": "a83f564e0cacec0d5eea01b221f115bc7f02fdb2a16be6d09448128e430b28ed",
-            "updatedAt": "2026-11-19T07:30:58Z",
-            "contentType": "application/x-msdos-program",
-            "url": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-dev-0.9.4-windows-arm64-setup.exe"
-          },
-          {
-            "id": 766702733,
+            "id": 771331053,
             "name": "manifest.json",
-            "size": 5692,
+            "size": 5628,
             "sizeExact": true,
-            "digest": "0fb1b8a32bd76db09d3f8a1e6defabce408323057790317be0cd1e336b59471e",
-            "updatedAt": "2026-11-19T07:30:54Z",
+            "digest": "94430ae10fba6cae7ef7ba2f0edb5ff43fd04c69fafc44182b6619a493d85a6f",
+            "updatedAt": "2026-11-20T10:07:29Z",
             "contentType": "application/json",
             "url": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/manifest.json"
           },
@@ -1876,9 +1856,9 @@
       "lastChangeAt": "2026-11-19T10:10:43.350Z"
     },
     "clash-nyanpasu": {
-      "etag": "W/\"925a76a0785dbf046794594a9dd98194305cb3f90f2b76e5549d0b69200b3e56\"",
-      "lastCheckedAt": "2026-11-20T08:25:11.820Z",
-      "lastCheckOkAt": "2026-11-20T08:25:11.820Z",
+      "etag": "W/\"43af9abbe7a5d605a506a486986a32e981b7145c850789989d5b1376cd22c95d\"",
+      "lastCheckedAt": "2026-11-20T17:04:09.404Z",
+      "lastCheckOkAt": "2026-11-20T17:04:09.404Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -2453,9 +2433,9 @@
       "lastChangeAt": "2026-11-07T15:07:36.850Z"
     },
     "v2rayn": {
-      "etag": "W/\"d7bc8819acb8e2d224be383bbfd2b23866989d39a756aeb3143a4ecf01d54290\"",
-      "lastCheckedAt": "2026-11-20T08:25:12.294Z",
-      "lastCheckOkAt": "2026-11-20T08:25:12.294Z",
+      "etag": "W/\"8a669aa792808a798a9f026cde090853a0241ba0fc5b3cebb83d19a3cb6b72f8\"",
+      "lastCheckedAt": "2026-11-20T17:04:09.944Z",
+      "lastCheckOkAt": "2026-11-20T17:04:09.944Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -3034,9 +3014,9 @@
       "lastChangeAt": "2026-11-07T15:07:38.921Z"
     },
     "v2rayng": {
-      "etag": "W/\"c6b03cb0462897898a60a8d20afca545cc76ddce6d55a0689da526cfc2c3e740\"",
-      "lastCheckedAt": "2026-11-20T08:25:12.727Z",
-      "lastCheckOkAt": "2026-11-20T08:25:12.727Z",
+      "etag": "W/\"ee95fe9309bb9635e17b18e5d6b3202a6a06c6421bbed3221b26546fa58f4d25\"",
+      "lastCheckedAt": "2026-11-20T17:04:10.602Z",
+      "lastCheckOkAt": "2026-11-20T17:04:10.602Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -3375,9 +3355,9 @@
       "lastChangeAt": "2026-11-07T15:07:40.745Z"
     },
     "clash-meta-for-android": {
-      "etag": "W/\"4ab5603a7c25222953f504ec28b35251e71335461bd2f039968c445d7e2c83d9\"",
-      "lastCheckedAt": "2026-11-20T08:25:13.018Z",
-      "lastCheckOkAt": "2026-11-20T08:25:13.018Z",
+      "etag": "W/\"4f7c4445d4d37034d45fbd9d312e8b117ee899e0f289361b76dd0e6c7eb45586\"",
+      "lastCheckedAt": "2026-11-20T17:04:11.017Z",
+      "lastCheckOkAt": "2026-11-20T17:04:11.017Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -3572,9 +3552,9 @@
       "lastChangeAt": "2026-11-11T07:01:53.786Z"
     },
     "nekobox": {
-      "etag": "W/\"74d5c4bfa89e7f703e641a1b0f9c010d9d19d6d9253f8d64da042f0e29388580\"",
-      "lastCheckedAt": "2026-11-20T08:25:13.352Z",
-      "lastCheckOkAt": "2026-11-20T08:25:13.352Z",
+      "etag": "W/\"f529f5463eb8269cbcbec89cf2889406f8bda2ab7b4ea6a17ec9e82b567d21d2\"",
+      "lastCheckedAt": "2026-11-20T17:04:11.380Z",
+      "lastCheckOkAt": "2026-11-20T17:04:11.380Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -3736,9 +3716,9 @@
       "lastChangeAt": "2026-11-07T15:07:44.615Z"
     },
     "sing-box": {
-      "etag": "W/\"8edff27f79dd8bc0075a5a6cc48be0976a32cf7842cf1dda8fd6efc5941f8af0\"",
-      "lastCheckedAt": "2026-11-20T08:25:14.526Z",
-      "lastCheckOkAt": "2026-11-20T08:25:14.526Z",
+      "etag": "W/\"43e1c4b5c4fac4c8b3a3d6fb4f6ec162641c54d7d7a8bfe3690495328cfe8d06\"",
+      "lastCheckedAt": "2026-11-20T17:04:12.485Z",
+      "lastCheckOkAt": "2026-11-20T17:04:12.485Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -5647,9 +5627,9 @@
       "lastChangeAt": "2026-11-07T15:07:46.511Z"
     },
     "hiddify": {
-      "etag": "W/\"270cd7507b19c414b79e102b8929a69a6294628c0eb8d214370ec06876c87d43\"",
-      "lastCheckedAt": "2026-11-20T08:25:15.057Z",
-      "lastCheckOkAt": "2026-11-20T08:25:15.057Z",
+      "etag": "W/\"f80dd69f43b8a9a007ae77774de20aa546541a4d423b57e5d49b132ab6f3fa99\"",
+      "lastCheckedAt": "2026-11-20T17:04:12.938Z",
+      "lastCheckOkAt": "2026-11-20T17:04:12.938Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -5842,9 +5822,9 @@
       "lastChangeAt": "2026-11-07T15:07:48.174Z"
     },
     "throne": {
-      "etag": "W/\"60b8c42c7a9ff6107042a10be43c539b77d42a689061b90b6a9a3799d7d5f045\"",
-      "lastCheckedAt": "2026-11-20T08:25:15.475Z",
-      "lastCheckOkAt": "2026-11-20T08:25:15.475Z",
+      "etag": "W/\"a8503c459318d539337ea6de6f53e8fd32018f5f9f5c05a9077952e7debb6528\"",
+      "lastCheckedAt": "2026-11-20T17:04:13.337Z",
+      "lastCheckOkAt": "2026-11-20T17:04:13.337Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -6174,29 +6154,6 @@
     }
   },
   "runs": [
-    {
-      "reason": "github-actions",
-      "startedAt": "2026-11-12T10:14:16.583Z",
-      "finishedAt": "2026-11-12T10:14:24.001Z",
-      "durationMs": 7418,
-      "projects": 11,
-      "collect": {
-        "ok": 11,
-        "failed": 0,
-        "notModified": 0,
-        "degraded": 0
-      },
-      "sync": {
-        "files": 0,
-        "skipped": 0,
-        "failed": 0
-      },
-      "storage": "unconfigured",
-      "warnings": [
-        "本站尚未配置安装包存储（S3_* 或本地目录），因此不提供镜像下载，仅展示官方 GitHub 入口。"
-      ],
-      "triggeredBy": "github-actions"
-    },
     {
       "reason": "github-actions",
       "startedAt": "2026-11-12T18:21:17.300Z",
@@ -6846,6 +6803,29 @@
       "startedAt": "2026-11-20T08:25:09.216Z",
       "finishedAt": "2026-11-20T08:25:15.486Z",
       "durationMs": 6270,
+      "projects": 11,
+      "collect": {
+        "ok": 11,
+        "failed": 0,
+        "notModified": 0,
+        "degraded": 0
+      },
+      "sync": {
+        "files": 0,
+        "skipped": 0,
+        "failed": 0
+      },
+      "storage": "unconfigured",
+      "warnings": [
+        "本站尚未配置安装包存储（S3_* 或本地目录），因此不提供镜像下载，仅展示官方 GitHub 入口。"
+      ],
+      "triggeredBy": "github-actions"
+    },
+    {
+      "reason": "github-actions",
+      "startedAt": "2026-11-20T17:04:07.113Z",
+      "finishedAt": "2026-11-20T17:04:13.353Z",
+      "durationMs": 6240,
       "projects": 11,
       "collect": {
         "ok": 11,
