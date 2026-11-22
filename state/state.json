@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "createdAt": "2026-11-07T15:05:43.998Z",
-  "updatedAt": "2026-11-22T11:46:21.812Z",
+  "updatedAt": "2026-11-22T18:39:52.839Z",
   "sources": {
     "clash-verge-rev": {
-      "etag": "W/\"8991d83851e2d569b55282fac0f5ef9ed66a5d6e7d0fe98b7c04f4e21c88b2a0\"",
-      "lastCheckedAt": "2026-11-22T11:46:16.690Z",
-      "lastCheckOkAt": "2026-11-22T11:46:16.690Z",
+      "etag": "W/\"2d6c0305d227142d0cae62a709da11e481b161fd0271f8f23b29999b3d27594d\"",
+      "lastCheckedAt": "2026-11-22T18:39:48.008Z",
+      "lastCheckOkAt": "2026-11-22T18:39:48.008Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -398,9 +398,9 @@
       "lastChangeAt": "2026-11-07T15:05:47.007Z"
     },
     "clash-party": {
-      "etag": "W/\"f76adcc6445daf52a2a8c9ad9da6cab0b806b5ddccb0ec2f5d9a1836bab503b1\"",
-      "lastCheckedAt": "2026-11-22T11:46:17.363Z",
-      "lastCheckOkAt": "2026-11-22T11:46:17.363Z",
+      "etag": "W/\"7bf1707710bd3c0f06c691515ff5aaa6a04ed757a83473bee56adaea64926246\"",
+      "lastCheckedAt": "2026-11-22T18:39:48.776Z",
+      "lastCheckOkAt": "2026-11-22T18:39:48.776Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -1437,9 +1437,9 @@
       "lastChangeAt": "2026-11-20T08:25:10.779Z"
     },
     "flclash": {
-      "etag": "W/\"a740dfc9a6cb250c61c1bc8b23be4dab61a6f383bc2f90127bff2167b1ed113b\"",
-      "lastCheckedAt": "2026-11-22T11:46:17.761Z",
-      "lastCheckOkAt": "2026-11-22T11:46:17.761Z",
+      "etag": "W/\"2d52d41d7f777e54e91293898ebc4304acf2f6e57a0bc8d95c5b5994b0320593\"",
+      "lastCheckedAt": "2026-11-22T18:39:49.209Z",
+      "lastCheckOkAt": "2026-11-22T18:39:49.209Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -1662,7 +1662,15 @@
           }
         ]
       },
-      "prereleases": [],
+      "prereleases": [
+        {
+          "tag": "v0.9.5-pre.1",
+          "name": "v0.9.5-pre.1",
+          "publishedAt": "2026-11-22T15:15:41Z",
+          "htmlUrl": "https://github.com/chen08209/FlClash/releases/tag/v0.9.5-pre.1",
+          "heuristic": false
+        }
+      ],
       "versions": {
         "v0.9.3": {
           "syncedAt": "2026-11-07T16:02:26.426Z",
@@ -1856,9 +1864,9 @@
       "lastChangeAt": "2026-11-19T10:10:43.350Z"
     },
     "clash-nyanpasu": {
-      "etag": "W/\"9ecf0af2933398bd9d7e3b28a3e1bc97a6985eb7682228d18627b5914a49c7e8\"",
-      "lastCheckedAt": "2026-11-22T11:46:18.279Z",
-      "lastCheckOkAt": "2026-11-22T11:46:18.279Z",
+      "etag": "W/\"0a0efe3b28c707958614d2c1f5a36aa826e852cefbe2e0ef859fdf90b5a1e55b\"",
+      "lastCheckedAt": "2026-11-22T18:39:49.682Z",
+      "lastCheckOkAt": "2026-11-22T18:39:49.682Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -2433,9 +2441,9 @@
       "lastChangeAt": "2026-11-07T15:07:36.850Z"
     },
     "v2rayn": {
-      "etag": "W/\"8bc1a971cf90e2bf04aafae11d3ce777871a8acbe88fbbd7792e0e8fdcb71a30\"",
-      "lastCheckedAt": "2026-11-22T11:46:18.841Z",
-      "lastCheckOkAt": "2026-11-22T11:46:18.841Z",
+      "etag": "W/\"75eae534099d9f3d0cbefe65fac2edfae8e26d8a7a793dd773d3f3592c81379f\"",
+      "lastCheckedAt": "2026-11-22T18:39:50.190Z",
+      "lastCheckOkAt": "2026-11-22T18:39:50.190Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -3014,9 +3022,9 @@
       "lastChangeAt": "2026-11-07T15:07:38.921Z"
     },
     "v2rayng": {
-      "etag": "W/\"1192a32b20aed38ed799c1474f0fe2a0e4eba7e9407fca241a1ce28e44cdfa6e\"",
-      "lastCheckedAt": "2026-11-22T11:46:19.154Z",
-      "lastCheckOkAt": "2026-11-22T11:46:19.154Z",
+      "etag": "W/\"79328b32ff95b844a4c44406c42713044486b5d0d512e4559b5d8c5d2300021d\"",
+      "lastCheckedAt": "2026-11-22T18:39:50.572Z",
+      "lastCheckOkAt": "2026-11-22T18:39:50.572Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -3355,9 +3363,9 @@
       "lastChangeAt": "2026-11-07T15:07:40.745Z"
     },
     "clash-meta-for-android": {
-      "etag": "W/\"5fd476d686c587b0b2f290fc417ddfa88749d3db32a44d77e84cd0c764fe8e25\"",
-      "lastCheckedAt": "2026-11-22T11:46:19.490Z",
-      "lastCheckOkAt": "2026-11-22T11:46:19.490Z",
+      "etag": "W/\"b625c7bb7d82ea8037b70af447be802e4568cc0827b4ee4c93fc4103e65498e1\"",
+      "lastCheckedAt": "2026-11-22T18:39:50.871Z",
+      "lastCheckOkAt": "2026-11-22T18:39:50.871Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -3552,9 +3560,9 @@
       "lastChangeAt": "2026-11-11T07:01:53.786Z"
     },
     "nekobox": {
-      "etag": "W/\"513bb5b9a87a31d06fd2a2aff727dc9bc7e0be087d937f5723271ef441239594\"",
-      "lastCheckedAt": "2026-11-22T11:46:19.732Z",
-      "lastCheckOkAt": "2026-11-22T11:46:19.732Z",
+      "etag": "W/\"3797cf4d85de41154100fe103b14b6c99d9a76c2b2f32bbc6264db50146aeb02\"",
+      "lastCheckedAt": "2026-11-22T18:39:51.137Z",
+      "lastCheckOkAt": "2026-11-22T18:39:51.137Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -3716,9 +3724,9 @@
       "lastChangeAt": "2026-11-07T15:07:44.615Z"
     },
     "sing-box": {
-      "etag": "W/\"9211b172f753342ac2d21457010a42b51eea46f7abcbf051dad7fef3d80eb734\"",
-      "lastCheckedAt": "2026-11-22T11:46:21.001Z",
-      "lastCheckOkAt": "2026-11-22T11:46:21.001Z",
+      "etag": "W/\"7b4917a823bad291e97d2adab761a051577f12d1d6dc084787b5ab2ca5e71b91\"",
+      "lastCheckedAt": "2026-11-22T18:39:52.076Z",
+      "lastCheckOkAt": "2026-11-22T18:39:52.076Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -5627,179 +5635,212 @@
       "lastChangeAt": "2026-11-07T15:07:46.511Z"
     },
     "hiddify": {
-      "etag": "W/\"05c8de74ab2ece6d74a95b47ee249b8d887be2c98abb8ccc54ba901f37a5a822\"",
-      "lastCheckedAt": "2026-11-22T11:46:21.380Z",
-      "lastCheckOkAt": "2026-11-22T11:46:21.380Z",
+      "etag": "W/\"26ac71382686465feda697d21ca06cf7b788d1ba7e5c75ae388f9a1f188be01a\"",
+      "lastCheckedAt": "2026-11-22T18:39:52.439Z",
+      "lastCheckOkAt": "2026-11-22T18:39:52.439Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
       "release": {
-        "id": 434454291,
-        "tag": "v5.5.5",
-        "name": "v5.5.5",
-        "publishedAt": "2026-11-04T21:06:14Z",
-        "htmlUrl": "https://github.com/hiddify/hiddify-app/releases/tag/v5.5.5",
+        "id": 451019232,
+        "tag": "v5.9.15",
+        "name": "v5.9.15",
+        "publishedAt": "2026-11-19T07:44:59Z",
+        "htmlUrl": "https://github.com/hiddify/hiddify-app/releases/tag/v5.9.15",
         "assets": [
           {
-            "id": 710938424,
+            "id": 766742724,
             "name": "Hiddify-Android-arm64.apk",
-            "size": 63989614,
+            "size": 67260345,
             "sizeExact": true,
-            "digest": "d607fcbbb3566bc79dd8070979e74e5afed25f59c0643da950aae430a4260c0d",
-            "updatedAt": "2026-11-04T21:06:21Z",
+            "digest": "d769cc01418df7b3871f4930b57527c00b4bc58ea10522d674b30c35e37f8bd9",
+            "updatedAt": "2026-11-19T07:45:07Z",
             "contentType": "application/vnd.android.package-archive",
-            "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.5/Hiddify-Android-arm64.apk"
+            "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.9.15/Hiddify-Android-arm64.apk"
           },
           {
-            "id": 710938427,
+            "id": 766742710,
             "name": "Hiddify-Android-arm7.apk",
-            "size": 62068520,
+            "size": 65520115,
             "sizeExact": true,
-            "digest": "6106f9a83b87bc39b17e01702d2f46cc17fd551109ef73793f08447527f481e2",
-            "updatedAt": "2026-11-04T21:06:21Z",
+            "digest": "35a6e34def199e956387c043d1238f9fa8d319f32376033cb1befa719ca39929",
+            "updatedAt": "2026-11-19T07:45:07Z",
             "contentType": "application/vnd.android.package-archive",
-            "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.5/Hiddify-Android-arm7.apk"
+            "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.9.15/Hiddify-Android-arm7.apk"
           },
           {
-            "id": 710938428,
+            "id": 766742723,
             "name": "Hiddify-Android-universal.apk",
-            "size": 178026791,
+            "size": 187973042,
             "sizeExact": true,
-            "digest": "d22cea2205863248c813d3a620dd1211d98ae2cb6e448f86deb5c191e9c6a992",
-            "updatedAt": "2026-11-04T21:06:27Z",
+            "digest": "860f0855a46b218eb5d4c2b940dc2a067ab49857dfa145a6210fc205e063c259",
+            "updatedAt": "2026-11-19T07:45:14Z",
             "contentType": "application/vnd.android.package-archive",
-            "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.5/Hiddify-Android-universal.apk"
+            "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.9.15/Hiddify-Android-universal.apk"
           },
           {
-            "id": 710938421,
+            "id": 766742717,
             "name": "Hiddify-Android-x86_64.apk",
-            "size": 67160493,
+            "size": 70429596,
             "sizeExact": true,
-            "digest": "7145da5aac6387db9c9a7c626f7ef362b19191985d942b43b928f7876a4466fb",
-            "updatedAt": "2026-11-04T21:06:21Z",
+            "digest": "6935bb716317e7e7de6686b41a3f701fcf2893044dcd2a57933a432ea97f07de",
+            "updatedAt": "2026-11-19T07:45:08Z",
             "contentType": "application/vnd.android.package-archive",
-            "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.5/Hiddify-Android-x86_64.apk"
+            "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.9.15/Hiddify-Android-x86_64.apk"
           },
           {
-            "id": 710938419,
-            "name": "Hiddify-Debian-x64.deb",
-            "size": 55355070,
+            "id": 766742731,
+            "name": "Hiddify-Debian-arm64.deb",
+            "size": 54700510,
             "sizeExact": true,
-            "digest": "2cd4b830a3db146a123fb3a69b02e7d6e6f5399c2b12236a5e3a639ba6b61492",
-            "updatedAt": "2026-11-04T21:06:20Z",
+            "digest": "906566864e3017a1dae1639c6087484d98c96c53275836825ae33e213a733bab",
+            "updatedAt": "2026-11-19T07:45:05Z",
             "contentType": "application/x-debian-package",
-            "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.5/Hiddify-Debian-x64.deb"
+            "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.9.15/Hiddify-Debian-arm64.deb"
           },
           {
-            "id": 710938418,
+            "id": 766742712,
+            "name": "Hiddify-Debian-x64.deb",
+            "size": 57827856,
+            "sizeExact": true,
+            "digest": "f90762994b274e0b51c871739f4b6bc8ea7cda3139f897efc49e101fc5c00d77",
+            "updatedAt": "2026-11-19T07:45:07Z",
+            "contentType": "application/x-debian-package",
+            "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.9.15/Hiddify-Debian-x64.deb"
+          },
+          {
+            "id": 766742715,
             "name": "Hiddify-iOS.ipa",
-            "size": 104704837,
+            "size": 117699653,
             "sizeExact": true,
-            "digest": "55c3712ad89fae1b9ba0421e06b19a6404f896d52ba4a2c9fd16c294216294d0",
-            "updatedAt": "2026-11-04T21:06:24Z",
+            "digest": "4b65dcf42740134ec3b94aeb8546083ede97583012ce2b6be1923fa895287271",
+            "updatedAt": "2026-11-19T07:45:08Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.5/Hiddify-iOS.ipa"
+            "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.9.15/Hiddify-iOS.ipa"
           },
           {
-            "id": 710938412,
-            "name": "Hiddify-Linux-x64-AppImage.AppImage",
-            "size": 70400504,
+            "id": 766742711,
+            "name": "Hiddify-Linux-arm64.AppImage",
+            "size": 69876232,
             "sizeExact": true,
-            "digest": "d1ca48c22aad38cb3a5324fcbaad9fdda57d74779d0671df7f14c99c85d6d041",
-            "updatedAt": "2026-11-04T21:06:22Z",
+            "digest": "809f1151521d7134660f0ce18f3ca933789321e4b86b3b17c7f2e4b458d91a86",
+            "updatedAt": "2026-11-19T07:45:07Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.5/Hiddify-Linux-x64-AppImage.AppImage"
+            "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.9.15/Hiddify-Linux-arm64.AppImage"
           },
           {
-            "id": 710938429,
-            "name": "Hiddify-Linux-x64-AppImage.tar.gz",
-            "size": 69858849,
+            "id": 766742721,
+            "name": "Hiddify-Linux-arm64.AppImage.tar.gz",
+            "size": 69307104,
             "sizeExact": true,
-            "digest": "d8c9cab279d573b6b33a007f6298232ffd20235530cded581060346c48663ed5",
-            "updatedAt": "2026-11-04T21:06:22Z",
+            "digest": "d7b1e7b2bfc95c3f424c1811032f2147b1591adb2e661d76730d18238f4ea219",
+            "updatedAt": "2026-11-19T07:45:07Z",
             "contentType": "application/gzip",
-            "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.5/Hiddify-Linux-x64-AppImage.tar.gz"
+            "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.9.15/Hiddify-Linux-arm64.AppImage.tar.gz"
           },
           {
-            "id": 710938422,
-            "name": "Hiddify-MacOS-AppStore.dmg",
-            "size": 222575498,
+            "id": 766742713,
+            "name": "Hiddify-Linux-x64.AppImage",
+            "size": 73644536,
             "sizeExact": true,
-            "digest": "0035da2b87aef3bdd2b1e2855e59cedefab156d0a35608de0689c20bed6b8d50",
-            "updatedAt": "2026-11-04T21:06:25Z",
-            "contentType": "application/x-apple-diskimage",
-            "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.5/Hiddify-MacOS-AppStore.dmg"
-          },
-          {
-            "id": 710938425,
-            "name": "Hiddify-MacOS-AppStore.pkg",
-            "size": 197593864,
-            "sizeExact": true,
-            "digest": "5ad232ba8d0a8eba881142fca7c6982db52debb3a4ff3227e5127a56ea38ebf3",
-            "updatedAt": "2026-11-04T21:06:27Z",
+            "digest": "07e6565e8479a6789ca6456924a91ce886e7167f83864f0ba20bc328e9b6e4cb",
+            "updatedAt": "2026-11-19T07:45:06Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.5/Hiddify-MacOS-AppStore.pkg"
+            "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.9.15/Hiddify-Linux-x64.AppImage"
           },
           {
-            "id": 710938416,
+            "id": 766742719,
+            "name": "Hiddify-Linux-x64.AppImage.tar.gz",
+            "size": 73069200,
+            "sizeExact": true,
+            "digest": "f5e60d9eb3189483f4901f6e9a2c4a5099317527213c78b54c8b88bd1c6ab644",
+            "updatedAt": "2026-11-19T07:45:07Z",
+            "contentType": "application/gzip",
+            "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.9.15/Hiddify-Linux-x64.AppImage.tar.gz"
+          },
+          {
+            "id": 766742708,
             "name": "Hiddify-MacOS-Installer.pkg",
-            "size": 116982391,
+            "size": 125540614,
             "sizeExact": true,
-            "digest": "3d242b62d878ce38f8bc1d5605866373ddb99e0ccf717739fc1f5ad998edbd86",
-            "updatedAt": "2026-11-04T21:06:25Z",
+            "digest": "66984f8f20b6b44351f903bcc1b568c85cffa312a57edfd0b30056a9aa23fdb0",
+            "updatedAt": "2026-11-19T07:45:08Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.5/Hiddify-MacOS-Installer.pkg"
+            "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.9.15/Hiddify-MacOS-Installer.pkg"
           },
           {
-            "id": 710938423,
+            "id": 766742718,
             "name": "Hiddify-MacOS.dmg",
-            "size": 116685795,
+            "size": 125188029,
             "sizeExact": true,
-            "digest": "3e8c1d1448f861e5594910e168f11dc39e52ecfb68c03d445f9fb1721032992e",
-            "updatedAt": "2026-11-04T21:06:24Z",
+            "digest": "5d095a63af1130535f3f2dc50342242df2c2ea5bc153151c8ef79923cc6cbd3f",
+            "updatedAt": "2026-11-19T07:45:09Z",
             "contentType": "application/x-apple-diskimage",
-            "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.5/Hiddify-MacOS.dmg"
+            "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.9.15/Hiddify-MacOS.dmg"
           },
           {
-            "id": 710938431,
+            "id": 766742709,
+            "name": "Hiddify-rpm-arm64.rpm",
+            "size": 65180452,
+            "sizeExact": true,
+            "digest": "baa0f2b1b7b0b078b91bd9a215a096496c653d6003d7f56becb0be6084a3c657",
+            "updatedAt": "2026-11-19T07:45:07Z",
+            "contentType": "application/x-redhat-package-manager",
+            "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.9.15/Hiddify-rpm-arm64.rpm"
+          },
+          {
+            "id": 766742714,
+            "name": "Hiddify-rpm-x64.rpm",
+            "size": 68637690,
+            "sizeExact": true,
+            "digest": "1886aa0c795581a9eb5cac6e06db8313979a0109fb0a61d9d32c529eb3f883f0",
+            "updatedAt": "2026-11-19T07:45:07Z",
+            "contentType": "application/x-redhat-package-manager",
+            "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.9.15/Hiddify-rpm-x64.rpm"
+          },
+          {
+            "id": 766742720,
             "name": "Hiddify-Windows-Portable-x64.zip",
-            "size": 66721622,
+            "size": 70480719,
             "sizeExact": true,
-            "digest": "b4579d6a9a7b0bb0dedfd2e462ab4cfefc53ec25b56f287cca5edb435f01f627",
-            "updatedAt": "2026-11-04T21:06:22Z",
+            "digest": "3b1b15ba141dfc6103a6f0b11c11c845bcb3aad6fb0644376433006a31c9bcef",
+            "updatedAt": "2026-11-19T07:45:06Z",
             "contentType": "application/zip",
-            "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.5/Hiddify-Windows-Portable-x64.zip"
+            "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.9.15/Hiddify-Windows-Portable-x64.zip"
           },
           {
-            "id": 710938413,
+            "id": 766742705,
             "name": "Hiddify-Windows-Setup-x64.exe",
-            "size": 48917072,
+            "size": 51208848,
             "sizeExact": true,
-            "digest": "7c71bca78a8307b5961ed2f1121d23fa94db6fed2c866af9eb5be375c0b43873",
-            "updatedAt": "2026-11-04T21:06:20Z",
+            "digest": "817bf87f2d0c268f4b5c1169784ac19c5acd60d59a006e928a8c44b685997164",
+            "updatedAt": "2026-11-19T07:45:06Z",
             "contentType": "application/x-msdos-program",
-            "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.5/Hiddify-Windows-Setup-x64.exe"
+            "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.9.15/Hiddify-Windows-Setup-x64.exe"
           },
           {
-            "id": 711149229,
+            "id": 771762488,
             "name": "Hiddify-Windows-Setup-x64.Msix",
-            "size": 67989058,
+            "size": 71786050,
             "sizeExact": true,
-            "digest": "0823ded85d1039b6f808c5238a3507c5c7dc9382623e2bcc7b5f6f598c04bb98",
-            "updatedAt": "2026-11-04T22:21:24Z",
+            "digest": "9a406fd860c1d491d6ea5d6a2acff71b6263a1b7e8db64f874a86340d9ca8902",
+            "updatedAt": "2026-11-20T12:32:59Z",
             "contentType": "application/octet-stream",
-            "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.5/Hiddify-Windows-Setup-x64.Msix"
+            "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.9.15/Hiddify-Windows-Setup-x64.Msix"
+          },
+          {
+            "id": 766742707,
+            "name": "install.sh",
+            "size": 13740,
+            "sizeExact": true,
+            "digest": "6eb936b0dc2ee1bf0e6bf60e86bb4c759b1b8df8df89d98a4ddb615809b8501e",
+            "updatedAt": "2026-11-19T07:45:02Z",
+            "contentType": "application/x-sh",
+            "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.9.15/install.sh"
           }
         ]
       },
       "prereleases": [
-        {
-          "tag": "v5.9.15",
-          "name": "v5.9.15",
-          "publishedAt": "2026-11-19T07:44:59Z",
-          "htmlUrl": "https://github.com/hiddify/hiddify-app/releases/tag/v5.9.15",
-          "heuristic": false
-        },
         {
           "tag": "v5.9.11",
           "name": "v5.9.11",
@@ -5813,18 +5854,25 @@
           "publishedAt": "2026-11-15T16:01:12Z",
           "htmlUrl": "https://github.com/hiddify/hiddify-app/releases/tag/v5.9.8",
           "heuristic": false
+        },
+        {
+          "tag": "v5.9.6",
+          "name": "v5.9.6",
+          "publishedAt": "2026-11-14T23:20:52Z",
+          "htmlUrl": "https://github.com/hiddify/hiddify-app/releases/tag/v5.9.6",
+          "heuristic": false
         }
       ],
       "versions": {},
       "lastSyncedAt": null,
       "consecutiveFailures": 0,
       "nextRetryAt": null,
-      "lastChangeAt": "2026-11-07T15:07:48.174Z"
+      "lastChangeAt": "2026-11-22T18:39:52.439Z"
     },
     "throne": {
-      "etag": "W/\"bdc9529c17705da665750fcda6874f5837ec92adff35beac79ba26f694e5cdd7\"",
-      "lastCheckedAt": "2026-11-22T11:46:21.801Z",
-      "lastCheckOkAt": "2026-11-22T11:46:21.801Z",
+      "etag": "W/\"71f66843bc1dd124594c4c6c950da6801f1231c9d5a0b7671250b4292dd0206f\"",
+      "lastCheckedAt": "2026-11-22T18:39:52.829Z",
+      "lastCheckOkAt": "2026-11-22T18:39:52.829Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
@@ -6154,29 +6202,6 @@
     }
   },
   "runs": [
-    {
-      "reason": "github-actions",
-      "startedAt": "2026-11-14T11:14:56.945Z",
-      "finishedAt": "2026-11-14T11:15:02.469Z",
-      "durationMs": 5524,
-      "projects": 11,
-      "collect": {
-        "ok": 11,
-        "failed": 0,
-        "notModified": 0,
-        "degraded": 0
-      },
-      "sync": {
-        "files": 0,
-        "skipped": 0,
-        "failed": 0
-      },
-      "storage": "unconfigured",
-      "warnings": [
-        "本站尚未配置安装包存储（S3_* 或本地目录），因此不提供镜像下载，仅展示官方 GitHub 入口。"
-      ],
-      "triggeredBy": "github-actions"
-    },
     {
       "reason": "github-actions",
       "startedAt": "2026-11-14T17:10:19.093Z",
@@ -6826,6 +6851,29 @@
       "startedAt": "2026-11-22T11:46:16.149Z",
       "finishedAt": "2026-11-22T11:46:21.811Z",
       "durationMs": 5662,
+      "projects": 11,
+      "collect": {
+        "ok": 11,
+        "failed": 0,
+        "notModified": 0,
+        "degraded": 0
+      },
+      "sync": {
+        "files": 0,
+        "skipped": 0,
+        "failed": 0
+      },
+      "storage": "unconfigured",
+      "warnings": [
+        "本站尚未配置安装包存储（S3_* 或本地目录），因此不提供镜像下载，仅展示官方 GitHub 入口。"
+      ],
+      "triggeredBy": "github-actions"
+    },
+    {
+      "reason": "github-actions",
+      "startedAt": "2026-11-22T18:39:47.373Z",
+      "finishedAt": "2026-11-22T18:39:52.838Z",
+      "durationMs": 5465,
       "projects": 11,
       "collect": {
         "ok": 11,
