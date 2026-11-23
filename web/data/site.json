@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T04:04:11.822Z",
+  "generatedAt": "2026-11-23T14:27:10.373Z",
   "dataSource": "github-rest",
   "site": {
     "name": "代理客户端下载站",
@@ -101,8 +101,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-23T04:04:06.720Z",
-      "checkOkAt": "2026-11-23T04:04:06.720Z",
+      "checkedAt": "2026-11-23T14:27:04.597Z",
+      "checkOkAt": "2026-11-23T14:27:04.597Z",
       "syncedAt": "2026-11-07T16:01:23.574Z",
       "checkError": null,
       "syncError": null,
@@ -301,8 +301,8 @@
         "isPrereleaseTag": false
       },
       "prereleases": [],
-      "checkedAt": "2026-11-23T04:04:07.406Z",
-      "checkOkAt": "2026-11-23T04:04:07.406Z",
+      "checkedAt": "2026-11-23T14:27:05.560Z",
+      "checkOkAt": "2026-11-23T14:27:05.560Z",
       "syncedAt": "2026-11-07T16:01:43.452Z",
       "checkError": null,
       "syncError": null,
@@ -502,6 +502,13 @@
       },
       "prereleases": [
         {
+          "tag": "v0.9.5-rs.1",
+          "name": "v0.9.5-rs.1",
+          "publishedAt": "2026-11-23T10:07:36Z",
+          "htmlUrl": "https://github.com/chen08209/FlClash/releases/tag/v0.9.5-rs.1",
+          "heuristic": false
+        },
+        {
           "tag": "v0.9.5-pre.1",
           "name": "v0.9.5-pre.1",
           "publishedAt": "2026-11-22T15:15:41Z",
@@ -509,8 +516,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-23T04:04:07.805Z",
-      "checkOkAt": "2026-11-23T04:04:07.805Z",
+      "checkedAt": "2026-11-23T14:27:06.010Z",
+      "checkOkAt": "2026-11-23T14:27:06.010Z",
       "syncedAt": "2026-11-07T16:02:26.426Z",
       "checkError": null,
       "syncError": null,
@@ -743,8 +750,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-23T04:04:08.294Z",
-      "checkOkAt": "2026-11-23T04:04:08.294Z",
+      "checkedAt": "2026-11-23T14:27:06.595Z",
+      "checkOkAt": "2026-11-23T14:27:06.595Z",
       "syncedAt": "2026-11-07T16:03:41.451Z",
       "checkError": null,
       "syncError": null,
@@ -1011,8 +1018,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-23T04:04:08.776Z",
-      "checkOkAt": "2026-11-23T04:04:08.776Z",
+      "checkedAt": "2026-11-23T14:27:07.158Z",
+      "checkOkAt": "2026-11-23T14:27:07.158Z",
       "syncedAt": "2026-11-07T16:03:58.120Z",
       "checkError": null,
       "syncError": null,
@@ -1231,8 +1238,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-23T04:04:09.204Z",
-      "checkOkAt": "2026-11-23T04:04:09.204Z",
+      "checkedAt": "2026-11-23T14:27:07.598Z",
+      "checkOkAt": "2026-11-23T14:27:07.598Z",
       "syncedAt": "2026-11-07T16:04:02.087Z",
       "checkError": null,
       "syncError": null,
@@ -1387,8 +1394,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-23T04:04:09.531Z",
-      "checkOkAt": "2026-11-23T04:04:09.531Z",
+      "checkedAt": "2026-11-23T14:27:07.978Z",
+      "checkOkAt": "2026-11-23T14:27:07.978Z",
       "syncedAt": "2026-11-07T16:04:25.410Z",
       "checkError": null,
       "syncError": null,
@@ -1573,8 +1580,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-23T04:04:09.841Z",
-      "checkOkAt": "2026-11-23T04:04:09.841Z",
+      "checkedAt": "2026-11-23T14:27:08.319Z",
+      "checkOkAt": "2026-11-23T14:27:08.319Z",
       "syncedAt": "2026-11-07T16:04:09.285Z",
       "checkError": null,
       "syncError": null,
@@ -1746,8 +1753,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-23T04:04:11.015Z",
-      "checkOkAt": "2026-11-23T04:04:11.015Z",
+      "checkedAt": "2026-11-23T14:27:09.524Z",
+      "checkOkAt": "2026-11-23T14:27:09.524Z",
       "syncedAt": "2026-11-07T16:05:13.266Z",
       "checkError": null,
       "syncError": null,
@@ -2042,8 +2049,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-23T04:04:11.443Z",
-      "checkOkAt": "2026-11-23T04:04:11.443Z",
+      "checkedAt": "2026-11-23T14:27:09.988Z",
+      "checkOkAt": "2026-11-23T14:27:09.988Z",
       "syncedAt": null,
       "checkError": null,
       "syncError": null,
@@ -2314,8 +2321,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-23T04:04:11.817Z",
-      "checkOkAt": "2026-11-23T04:04:11.817Z",
+      "checkedAt": "2026-11-23T14:27:10.368Z",
+      "checkOkAt": "2026-11-23T14:27:10.368Z",
       "syncedAt": "2026-11-07T16:05:08.410Z",
       "checkError": null,
       "syncError": null,
