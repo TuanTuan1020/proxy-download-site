@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T01:46:55.743Z",
+  "generatedAt": "2026-11-24T11:40:05.804Z",
   "dataSource": "github-rest",
   "site": {
     "name": "代理客户端下载站",
@@ -101,8 +101,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-24T01:46:50.843Z",
-      "checkOkAt": "2026-11-24T01:46:50.843Z",
+      "checkedAt": "2026-11-24T11:39:59.882Z",
+      "checkOkAt": "2026-11-24T11:39:59.882Z",
       "syncedAt": "2026-11-07T16:01:23.574Z",
       "checkError": null,
       "syncError": null,
@@ -301,8 +301,8 @@
         "isPrereleaseTag": false
       },
       "prereleases": [],
-      "checkedAt": "2026-11-24T01:46:51.525Z",
-      "checkOkAt": "2026-11-24T01:46:51.525Z",
+      "checkedAt": "2026-11-24T11:40:00.632Z",
+      "checkOkAt": "2026-11-24T11:40:00.632Z",
       "syncedAt": "2026-11-07T16:01:43.452Z",
       "checkError": null,
       "syncError": null,
@@ -516,8 +516,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-24T01:46:51.917Z",
-      "checkOkAt": "2026-11-24T01:46:51.917Z",
+      "checkedAt": "2026-11-24T11:40:01.135Z",
+      "checkOkAt": "2026-11-24T11:40:01.135Z",
       "syncedAt": "2026-11-07T16:02:26.426Z",
       "checkError": null,
       "syncError": null,
@@ -747,11 +747,11 @@
           "name": "Clash Nyanpasu Dev",
           "publishedAt": "2023-11-11T14:20:52Z",
           "htmlUrl": "https://github.com/libnyanpasu/clash-nyanpasu/releases/tag/pre-release",
-          "heuristic": true
+          "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-24T01:46:52.389Z",
-      "checkOkAt": "2026-11-24T01:46:52.389Z",
+      "checkedAt": "2026-11-24T11:40:01.671Z",
+      "checkOkAt": "2026-11-24T11:40:01.671Z",
       "syncedAt": "2026-11-07T16:03:41.451Z",
       "checkError": null,
       "syncError": null,
@@ -1018,8 +1018,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-24T01:46:52.874Z",
-      "checkOkAt": "2026-11-24T01:46:52.874Z",
+      "checkedAt": "2026-11-24T11:40:02.386Z",
+      "checkOkAt": "2026-11-24T11:40:02.386Z",
       "syncedAt": "2026-11-07T16:03:58.120Z",
       "checkError": null,
       "syncError": null,
@@ -1217,6 +1217,13 @@
       },
       "prereleases": [
         {
+          "tag": "2.4.1",
+          "name": "2.4.1",
+          "publishedAt": "2026-11-24T08:12:34Z",
+          "htmlUrl": "https://github.com/2dust/v2rayNG/releases/tag/2.4.1",
+          "heuristic": false
+        },
+        {
           "tag": "2.4.0",
           "name": "2.4.0",
           "publishedAt": "2026-11-12T02:15:09Z",
@@ -1229,17 +1236,10 @@
           "publishedAt": "2026-10-22T02:29:02Z",
           "htmlUrl": "https://github.com/2dust/v2rayNG/releases/tag/2.3.13",
           "heuristic": false
-        },
-        {
-          "tag": "2.3.12",
-          "name": "2.3.12",
-          "publishedAt": "2026-10-18T08:49:41Z",
-          "htmlUrl": "https://github.com/2dust/v2rayNG/releases/tag/2.3.12",
-          "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-24T01:46:53.323Z",
-      "checkOkAt": "2026-11-24T01:46:53.323Z",
+      "checkedAt": "2026-11-24T11:40:02.927Z",
+      "checkOkAt": "2026-11-24T11:40:02.927Z",
       "syncedAt": "2026-11-07T16:04:02.087Z",
       "checkError": null,
       "syncError": null,
@@ -1394,8 +1394,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-24T01:46:53.712Z",
-      "checkOkAt": "2026-11-24T01:46:53.712Z",
+      "checkedAt": "2026-11-24T11:40:03.247Z",
+      "checkOkAt": "2026-11-24T11:40:03.247Z",
       "syncedAt": "2026-11-07T16:04:25.410Z",
       "checkError": null,
       "syncError": null,
@@ -1580,8 +1580,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-24T01:46:53.996Z",
-      "checkOkAt": "2026-11-24T01:46:53.996Z",
+      "checkedAt": "2026-11-24T11:40:03.576Z",
+      "checkOkAt": "2026-11-24T11:40:03.576Z",
       "syncedAt": "2026-11-07T16:04:09.285Z",
       "checkError": null,
       "syncError": null,
@@ -1753,8 +1753,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-24T01:46:54.948Z",
-      "checkOkAt": "2026-11-24T01:46:54.948Z",
+      "checkedAt": "2026-11-24T11:40:04.888Z",
+      "checkOkAt": "2026-11-24T11:40:04.888Z",
       "syncedAt": "2026-11-07T16:05:13.266Z",
       "checkError": null,
       "syncError": null,
@@ -2049,8 +2049,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-24T01:46:55.371Z",
-      "checkOkAt": "2026-11-24T01:46:55.371Z",
+      "checkedAt": "2026-11-24T11:40:05.375Z",
+      "checkOkAt": "2026-11-24T11:40:05.375Z",
       "syncedAt": null,
       "checkError": null,
       "syncError": null,
@@ -2321,8 +2321,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-24T01:46:55.737Z",
-      "checkOkAt": "2026-11-24T01:46:55.737Z",
+      "checkedAt": "2026-11-24T11:40:05.799Z",
+      "checkOkAt": "2026-11-24T11:40:05.799Z",
       "syncedAt": "2026-11-07T16:05:08.410Z",
       "checkError": null,
       "syncError": null,
