@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T04:30:32.319Z",
+  "generatedAt": "2026-11-25T14:52:53.410Z",
   "dataSource": "github-rest",
   "site": {
     "name": "代理客户端下载站",
@@ -101,8 +101,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-25T04:30:27.010Z",
-      "checkOkAt": "2026-11-25T04:30:27.010Z",
+      "checkedAt": "2026-11-25T14:52:47.271Z",
+      "checkOkAt": "2026-11-25T14:52:47.271Z",
       "syncedAt": "2026-11-07T16:01:23.574Z",
       "checkError": null,
       "syncError": null,
@@ -301,8 +301,8 @@
         "isPrereleaseTag": false
       },
       "prereleases": [],
-      "checkedAt": "2026-11-25T04:30:27.731Z",
-      "checkOkAt": "2026-11-25T04:30:27.731Z",
+      "checkedAt": "2026-11-25T14:52:48.136Z",
+      "checkOkAt": "2026-11-25T14:52:48.136Z",
       "syncedAt": "2026-11-07T16:01:43.452Z",
       "checkError": null,
       "syncError": null,
@@ -502,22 +502,29 @@
       },
       "prereleases": [
         {
+          "tag": "v0.9.5-pre.2+2",
+          "name": "v0.9.5-pre.2+2",
+          "publishedAt": "2026-11-25T12:40:01Z",
+          "htmlUrl": "https://github.com/chen08209/FlClash/releases/tag/v0.9.5-pre.2%2B2",
+          "heuristic": false
+        },
+        {
+          "tag": "v0.9.5-rs.2+1",
+          "name": "v0.9.5-rs.2+1",
+          "publishedAt": "2026-11-25T12:24:03Z",
+          "htmlUrl": "https://github.com/chen08209/FlClash/releases/tag/v0.9.5-rs.2%2B1",
+          "heuristic": false
+        },
+        {
           "tag": "v0.9.5-rs.1",
           "name": "v0.9.5-rs.1",
           "publishedAt": "2026-11-23T10:07:36Z",
           "htmlUrl": "https://github.com/chen08209/FlClash/releases/tag/v0.9.5-rs.1",
           "heuristic": false
-        },
-        {
-          "tag": "v0.9.5-pre.1",
-          "name": "v0.9.5-pre.1",
-          "publishedAt": "2026-11-22T15:15:41Z",
-          "htmlUrl": "https://github.com/chen08209/FlClash/releases/tag/v0.9.5-pre.1",
-          "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-25T04:30:28.137Z",
-      "checkOkAt": "2026-11-25T04:30:28.137Z",
+      "checkedAt": "2026-11-25T14:52:48.772Z",
+      "checkOkAt": "2026-11-25T14:52:48.772Z",
       "syncedAt": "2026-11-07T16:02:26.426Z",
       "checkError": null,
       "syncError": null,
@@ -750,8 +757,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-25T04:30:28.750Z",
-      "checkOkAt": "2026-11-25T04:30:28.750Z",
+      "checkedAt": "2026-11-25T14:52:49.361Z",
+      "checkOkAt": "2026-11-25T14:52:49.361Z",
       "syncedAt": "2026-11-07T16:03:41.451Z",
       "checkError": null,
       "syncError": null,
@@ -1018,8 +1025,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-25T04:30:29.389Z",
-      "checkOkAt": "2026-11-25T04:30:29.389Z",
+      "checkedAt": "2026-11-25T14:52:50.055Z",
+      "checkOkAt": "2026-11-25T14:52:50.055Z",
       "syncedAt": "2026-11-07T16:03:58.120Z",
       "checkError": null,
       "syncError": null,
@@ -1238,8 +1245,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-25T04:30:29.755Z",
-      "checkOkAt": "2026-11-25T04:30:29.755Z",
+      "checkedAt": "2026-11-25T14:52:50.527Z",
+      "checkOkAt": "2026-11-25T14:52:50.527Z",
       "syncedAt": "2026-11-07T16:04:02.087Z",
       "checkError": null,
       "syncError": null,
@@ -1394,8 +1401,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-25T04:30:30.101Z",
-      "checkOkAt": "2026-11-25T04:30:30.101Z",
+      "checkedAt": "2026-11-25T14:52:50.949Z",
+      "checkOkAt": "2026-11-25T14:52:50.949Z",
       "syncedAt": "2026-11-07T16:04:25.410Z",
       "checkError": null,
       "syncError": null,
@@ -1580,8 +1587,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-25T04:30:30.416Z",
-      "checkOkAt": "2026-11-25T04:30:30.416Z",
+      "checkedAt": "2026-11-25T14:52:51.275Z",
+      "checkOkAt": "2026-11-25T14:52:51.275Z",
       "syncedAt": "2026-11-07T16:04:09.285Z",
       "checkError": null,
       "syncError": null,
@@ -1753,8 +1760,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-25T04:30:31.477Z",
-      "checkOkAt": "2026-11-25T04:30:31.477Z",
+      "checkedAt": "2026-11-25T14:52:52.408Z",
+      "checkOkAt": "2026-11-25T14:52:52.408Z",
       "syncedAt": "2026-11-07T16:05:13.266Z",
       "checkError": null,
       "syncError": null,
@@ -2049,8 +2056,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-25T04:30:31.887Z",
-      "checkOkAt": "2026-11-25T04:30:31.887Z",
+      "checkedAt": "2026-11-25T14:52:52.960Z",
+      "checkOkAt": "2026-11-25T14:52:52.960Z",
       "syncedAt": null,
       "checkError": null,
       "syncError": null,
@@ -2321,8 +2328,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-25T04:30:32.316Z",
-      "checkOkAt": "2026-11-25T04:30:32.316Z",
+      "checkedAt": "2026-11-25T14:52:53.399Z",
+      "checkOkAt": "2026-11-25T14:52:53.399Z",
       "syncedAt": "2026-11-07T16:05:08.410Z",
       "checkError": null,
       "syncError": null,
