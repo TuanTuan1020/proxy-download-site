@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-26T05:15:30.036Z",
+  "generatedAt": "2026-11-26T15:20:14.107Z",
   "dataSource": "github-rest",
   "site": {
     "name": "代理客户端下载站",
@@ -101,8 +101,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-26T05:15:24.413Z",
-      "checkOkAt": "2026-11-26T05:15:24.413Z",
+      "checkedAt": "2026-11-26T15:20:08.419Z",
+      "checkOkAt": "2026-11-26T15:20:08.419Z",
       "syncedAt": "2026-11-07T16:01:23.574Z",
       "checkError": null,
       "syncError": null,
@@ -301,8 +301,8 @@
         "isPrereleaseTag": false
       },
       "prereleases": [],
-      "checkedAt": "2026-11-26T05:15:25.210Z",
-      "checkOkAt": "2026-11-26T05:15:25.210Z",
+      "checkedAt": "2026-11-26T15:20:09.224Z",
+      "checkOkAt": "2026-11-26T15:20:09.224Z",
       "syncedAt": "2026-11-07T16:01:43.452Z",
       "checkError": null,
       "syncError": null,
@@ -494,20 +494,13 @@
         "发布页附带 SHA256SUMS，本站会用它核对下载文件。"
       ],
       "latest": {
-        "tag": "v0.9.4",
-        "name": "v0.9.4",
-        "publishedAt": "2026-11-19T07:31:00Z",
-        "htmlUrl": "https://github.com/chen08209/FlClash/releases/tag/v0.9.4",
+        "tag": "v0.9.5",
+        "name": "v0.9.5",
+        "publishedAt": "2026-11-26T08:31:49Z",
+        "htmlUrl": "https://github.com/chen08209/FlClash/releases/tag/v0.9.5",
         "isPrereleaseTag": false
       },
       "prereleases": [
-        {
-          "tag": "v0.9.5-pre.2+2",
-          "name": "v0.9.5-pre.2+2",
-          "publishedAt": "2026-11-25T12:40:01Z",
-          "htmlUrl": "https://github.com/chen08209/FlClash/releases/tag/v0.9.5-pre.2%2B2",
-          "heuristic": false
-        },
         {
           "tag": "v0.9.5-rs.2+1",
           "name": "v0.9.5-rs.2+1",
@@ -523,15 +516,15 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-26T05:15:25.632Z",
-      "checkOkAt": "2026-11-26T05:15:25.632Z",
+      "checkedAt": "2026-11-26T15:20:09.662Z",
+      "checkOkAt": "2026-11-26T15:20:09.662Z",
       "syncedAt": "2026-11-07T16:02:26.426Z",
       "checkError": null,
       "syncError": null,
       "dataSource": "github-rest",
       "dataSourceNote": "",
       "nextRetryAt": null,
-      "ignoredFiles": 14,
+      "ignoredFiles": 19,
       "downloads": {
         "windows": {
           "options": [
@@ -543,14 +536,14 @@
               "formatLabel": "EXE",
               "variant": "installer",
               "variantLabel": "安装版",
-              "officialUrl": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-0.9.4-windows-amd64-setup.exe",
-              "officialSize": 43132829,
+              "officialUrl": "https://github.com/chen08209/FlClash/releases/download/v0.9.5/FlClash-0.9.5-windows-amd64-setup.exe",
+              "officialSize": 43310941,
               "officialSizeExact": true,
-              "officialDigest": "77f84fdf24ccb1499e6c0275b713c3a81031f157496e1c5305366184da1ac68a",
+              "officialDigest": "ca4b2f19edba609bf961d01db17661eae710ff5ffec4beaa8dc5e685a9622a63",
               "status": "unavailable",
-              "version": "v0.9.4",
-              "filename": "FlClash-0.9.4-windows-amd64-setup.exe",
-              "size": 43132829,
+              "version": "v0.9.5",
+              "filename": "FlClash-0.9.5-windows-amd64-setup.exe",
+              "size": 43310941,
               "sha256": null,
               "verified": null,
               "verifiedLabel": "",
@@ -566,14 +559,14 @@
               "formatLabel": "EXE",
               "variant": "installer",
               "variantLabel": "安装版",
-              "officialUrl": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-0.9.4-windows-arm64-setup.exe",
-              "officialSize": 40094374,
+              "officialUrl": "https://github.com/chen08209/FlClash/releases/download/v0.9.5/FlClash-0.9.5-windows-arm64-setup.exe",
+              "officialSize": 40261830,
               "officialSizeExact": true,
-              "officialDigest": "a83f564e0cacec0d5eea01b221f115bc7f02fdb2a16be6d09448128e430b28ed",
+              "officialDigest": "2c8bea498836fad4f5ad5472771bacac994f8065ddc901ee716c328bab5b6be9",
               "status": "unavailable",
-              "version": "v0.9.4",
-              "filename": "FlClash-0.9.4-windows-arm64-setup.exe",
-              "size": 40094374,
+              "version": "v0.9.5",
+              "filename": "FlClash-0.9.5-windows-arm64-setup.exe",
+              "size": 40261830,
               "sha256": null,
               "verified": null,
               "verifiedLabel": "",
@@ -593,14 +586,14 @@
               "formatLabel": "DMG",
               "variant": "installer",
               "variantLabel": "安装版",
-              "officialUrl": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-0.9.4-macos-arm64.dmg",
-              "officialSize": 55625224,
+              "officialUrl": "https://github.com/chen08209/FlClash/releases/download/v0.9.5/FlClash-0.9.5-macos-arm64.dmg",
+              "officialSize": 55895604,
               "officialSizeExact": true,
-              "officialDigest": "db0784e7e5a69fc93da85accf4d8d80812e7e014f2082609da395ba6124195c5",
+              "officialDigest": "0a350209c2a1ef8d181a3d0dd563ae8f86aece161f5a4e8554683caf5020bd82",
               "status": "unavailable",
-              "version": "v0.9.4",
-              "filename": "FlClash-0.9.4-macos-arm64.dmg",
-              "size": 55625224,
+              "version": "v0.9.5",
+              "filename": "FlClash-0.9.5-macos-arm64.dmg",
+              "size": 55895604,
               "sha256": null,
               "verified": null,
               "verifiedLabel": "",
@@ -616,14 +609,14 @@
               "formatLabel": "DMG",
               "variant": "installer",
               "variantLabel": "安装版",
-              "officialUrl": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-0.9.4-macos-amd64.dmg",
-              "officialSize": 59502497,
+              "officialUrl": "https://github.com/chen08209/FlClash/releases/download/v0.9.5/FlClash-0.9.5-macos-amd64.dmg",
+              "officialSize": 59803256,
               "officialSizeExact": true,
-              "officialDigest": "481f742112572a6488a5ec40ddd071283dc59eb4d91da1e399be25acaf79e8eb",
+              "officialDigest": "69d68de2c4da721e554d03f9529521afb4b75334d87306be8906416e6af6fab8",
               "status": "unavailable",
-              "version": "v0.9.4",
-              "filename": "FlClash-0.9.4-macos-amd64.dmg",
-              "size": 59502497,
+              "version": "v0.9.5",
+              "filename": "FlClash-0.9.5-macos-amd64.dmg",
+              "size": 59803256,
               "sha256": null,
               "verified": null,
               "verifiedLabel": "",
@@ -634,83 +627,13 @@
           ]
         },
         "android": {
-          "options": [
-            {
-              "arch": "arm64-v8a",
-              "rawArch": "arm64-v8a",
-              "archLabel": "arm64-v8a（64 位主流手机）",
-              "format": "apk",
-              "formatLabel": "APK",
-              "variant": "default",
-              "variantLabel": "",
-              "officialUrl": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-0.9.4-android-arm64-v8a.apk",
-              "officialSize": 60863675,
-              "officialSizeExact": true,
-              "officialDigest": "86fb6f66b5f4d36a3423adeadca625b147da0e782400b6af69aafe58c603a947",
-              "status": "unavailable",
-              "version": "v0.9.4",
-              "filename": "FlClash-0.9.4-android-arm64-v8a.apk",
-              "size": 60863675,
-              "sha256": null,
-              "verified": null,
-              "verifiedLabel": "",
-              "href": null,
-              "syncedAt": null,
-              "note": "本站尚未配置安装包存储，暂不提供镜像下载；请使用官方下载。"
-            },
-            {
-              "arch": "armeabi-v7a",
-              "rawArch": "armeabi-v7a",
-              "archLabel": "armeabi-v7a（32 位旧设备）",
-              "format": "apk",
-              "formatLabel": "APK",
-              "variant": "default",
-              "variantLabel": "",
-              "officialUrl": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-0.9.4-android-armeabi-v7a.apk",
-              "officialSize": 60920111,
-              "officialSizeExact": true,
-              "officialDigest": "ebda76824a86149bb80ca1ce81f0a7682296e356c8acaf0fb842076b642166a6",
-              "status": "unavailable",
-              "version": "v0.9.4",
-              "filename": "FlClash-0.9.4-android-armeabi-v7a.apk",
-              "size": 60920111,
-              "sha256": null,
-              "verified": null,
-              "verifiedLabel": "",
-              "href": null,
-              "syncedAt": null,
-              "note": "本站尚未配置安装包存储，暂不提供镜像下载；请使用官方下载。"
-            },
-            {
-              "arch": "x86_64",
-              "rawArch": "x86_64",
-              "archLabel": "x86_64（模拟器）",
-              "format": "apk",
-              "formatLabel": "APK",
-              "variant": "default",
-              "variantLabel": "",
-              "officialUrl": "https://github.com/chen08209/FlClash/releases/download/v0.9.4/FlClash-0.9.4-android-x86_64.apk",
-              "officialSize": 63439629,
-              "officialSizeExact": true,
-              "officialDigest": "d064bf1f4fc5902d7e1a1f6b7d90786972fcac92cfed01a89a4954b82afeba65",
-              "status": "unavailable",
-              "version": "v0.9.4",
-              "filename": "FlClash-0.9.4-android-x86_64.apk",
-              "size": 63439629,
-              "sha256": null,
-              "verified": null,
-              "verifiedLabel": "",
-              "href": null,
-              "syncedAt": null,
-              "note": "本站尚未配置安装包存储，暂不提供镜像下载；请使用官方下载。"
-            }
-          ]
+          "options": []
         }
       },
       "syncState": "pending",
       "syncMessage": "未配置安装包存储，仅提供官方下载入口",
       "counts": {
-        "total": 7,
+        "total": 4,
         "ready": 0,
         "stale": 0
       }
@@ -757,8 +680,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-26T05:15:26.183Z",
-      "checkOkAt": "2026-11-26T05:15:26.183Z",
+      "checkedAt": "2026-11-26T15:20:10.226Z",
+      "checkOkAt": "2026-11-26T15:20:10.226Z",
       "syncedAt": "2026-11-07T16:03:41.451Z",
       "checkError": null,
       "syncError": null,
@@ -1025,8 +948,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-26T05:15:26.756Z",
-      "checkOkAt": "2026-11-26T05:15:26.756Z",
+      "checkedAt": "2026-11-26T15:20:10.834Z",
+      "checkOkAt": "2026-11-26T15:20:10.834Z",
       "syncedAt": "2026-11-07T16:03:58.120Z",
       "checkError": null,
       "syncError": null,
@@ -1224,6 +1147,13 @@
       },
       "prereleases": [
         {
+          "tag": "2.4.2",
+          "name": "2.4.2",
+          "publishedAt": "2026-11-26T07:59:07Z",
+          "htmlUrl": "https://github.com/2dust/v2rayNG/releases/tag/2.4.2",
+          "heuristic": false
+        },
+        {
           "tag": "2.4.1",
           "name": "2.4.1",
           "publishedAt": "2026-11-24T08:12:34Z",
@@ -1236,17 +1166,10 @@
           "publishedAt": "2026-11-12T02:15:09Z",
           "htmlUrl": "https://github.com/2dust/v2rayNG/releases/tag/2.4.0",
           "heuristic": false
-        },
-        {
-          "tag": "2.3.13",
-          "name": "2.3.13",
-          "publishedAt": "2026-10-22T02:29:02Z",
-          "htmlUrl": "https://github.com/2dust/v2rayNG/releases/tag/2.3.13",
-          "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-26T05:15:27.167Z",
-      "checkOkAt": "2026-11-26T05:15:27.167Z",
+      "checkedAt": "2026-11-26T15:20:11.218Z",
+      "checkOkAt": "2026-11-26T15:20:11.218Z",
       "syncedAt": "2026-11-07T16:04:02.087Z",
       "checkError": null,
       "syncError": null,
@@ -1401,8 +1324,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-26T05:15:27.511Z",
-      "checkOkAt": "2026-11-26T05:15:27.511Z",
+      "checkedAt": "2026-11-26T15:20:11.601Z",
+      "checkOkAt": "2026-11-26T15:20:11.601Z",
       "syncedAt": "2026-11-07T16:04:25.410Z",
       "checkError": null,
       "syncError": null,
@@ -1587,8 +1510,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-26T05:15:27.917Z",
-      "checkOkAt": "2026-11-26T05:15:27.917Z",
+      "checkedAt": "2026-11-26T15:20:11.899Z",
+      "checkOkAt": "2026-11-26T15:20:11.899Z",
       "syncedAt": "2026-11-07T16:04:09.285Z",
       "checkError": null,
       "syncError": null,
@@ -1760,8 +1683,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-26T05:15:29.170Z",
-      "checkOkAt": "2026-11-26T05:15:29.170Z",
+      "checkedAt": "2026-11-26T15:20:13.221Z",
+      "checkOkAt": "2026-11-26T15:20:13.221Z",
       "syncedAt": "2026-11-07T16:05:13.266Z",
       "checkError": null,
       "syncError": null,
@@ -2056,8 +1979,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-26T05:15:29.631Z",
-      "checkOkAt": "2026-11-26T05:15:29.631Z",
+      "checkedAt": "2026-11-26T15:20:13.672Z",
+      "checkOkAt": "2026-11-26T15:20:13.672Z",
       "syncedAt": null,
       "checkError": null,
       "syncError": null,
@@ -2328,8 +2251,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-26T05:15:30.029Z",
-      "checkOkAt": "2026-11-26T05:15:30.029Z",
+      "checkedAt": "2026-11-26T15:20:14.101Z",
+      "checkOkAt": "2026-11-26T15:20:14.101Z",
       "syncedAt": "2026-11-07T16:05:08.410Z",
       "checkError": null,
       "syncError": null,
