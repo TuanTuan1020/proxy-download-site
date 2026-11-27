@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-27T05:48:39.192Z",
+  "generatedAt": "2026-11-27T15:39:09.584Z",
   "dataSource": "github-rest",
   "site": {
     "name": "代理客户端下载站",
@@ -101,8 +101,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-27T05:48:33.804Z",
-      "checkOkAt": "2026-11-27T05:48:33.804Z",
+      "checkedAt": "2026-11-27T15:39:02.791Z",
+      "checkOkAt": "2026-11-27T15:39:02.791Z",
       "syncedAt": "2026-11-07T16:01:23.574Z",
       "checkError": null,
       "syncError": null,
@@ -301,8 +301,8 @@
         "isPrereleaseTag": false
       },
       "prereleases": [],
-      "checkedAt": "2026-11-27T05:48:34.636Z",
-      "checkOkAt": "2026-11-27T05:48:34.636Z",
+      "checkedAt": "2026-11-27T15:39:03.567Z",
+      "checkOkAt": "2026-11-27T15:39:03.567Z",
       "syncedAt": "2026-11-07T16:01:43.452Z",
       "checkError": null,
       "syncError": null,
@@ -497,7 +497,7 @@
         "tag": "v0.9.5",
         "name": "v0.9.5",
         "publishedAt": "2026-11-26T08:31:49Z",
-        "htmlUrl": "https://github.com/chen08209/FlClash/releases/tag/v0.9.5",
+        "htmlUrl": "https://github.com/Vialibrex/FlClash/releases/tag/v0.9.5",
         "isPrereleaseTag": false
       },
       "prereleases": [
@@ -505,19 +505,19 @@
           "tag": "v0.9.5-rs.2+1",
           "name": "v0.9.5-rs.2+1",
           "publishedAt": "2026-11-25T12:24:03Z",
-          "htmlUrl": "https://github.com/chen08209/FlClash/releases/tag/v0.9.5-rs.2%2B1",
+          "htmlUrl": "https://github.com/Vialibrex/FlClash/releases/tag/v0.9.5-rs.2%2B1",
           "heuristic": false
         },
         {
           "tag": "v0.9.5-rs.1",
           "name": "v0.9.5-rs.1",
           "publishedAt": "2026-11-23T10:07:36Z",
-          "htmlUrl": "https://github.com/chen08209/FlClash/releases/tag/v0.9.5-rs.1",
+          "htmlUrl": "https://github.com/Vialibrex/FlClash/releases/tag/v0.9.5-rs.1",
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-27T05:48:35.055Z",
-      "checkOkAt": "2026-11-27T05:48:35.055Z",
+      "checkedAt": "2026-11-27T15:39:04.397Z",
+      "checkOkAt": "2026-11-27T15:39:04.397Z",
       "syncedAt": "2026-11-07T16:02:26.426Z",
       "checkError": null,
       "syncError": null,
@@ -536,7 +536,7 @@
               "formatLabel": "EXE",
               "variant": "installer",
               "variantLabel": "安装版",
-              "officialUrl": "https://github.com/chen08209/FlClash/releases/download/v0.9.5/FlClash-0.9.5-windows-amd64-setup.exe",
+              "officialUrl": "https://github.com/Vialibrex/FlClash/releases/download/v0.9.5/FlClash-0.9.5-windows-amd64-setup.exe",
               "officialSize": 43310941,
               "officialSizeExact": true,
               "officialDigest": "ca4b2f19edba609bf961d01db17661eae710ff5ffec4beaa8dc5e685a9622a63",
@@ -559,7 +559,7 @@
               "formatLabel": "EXE",
               "variant": "installer",
               "variantLabel": "安装版",
-              "officialUrl": "https://github.com/chen08209/FlClash/releases/download/v0.9.5/FlClash-0.9.5-windows-arm64-setup.exe",
+              "officialUrl": "https://github.com/Vialibrex/FlClash/releases/download/v0.9.5/FlClash-0.9.5-windows-arm64-setup.exe",
               "officialSize": 40261830,
               "officialSizeExact": true,
               "officialDigest": "2c8bea498836fad4f5ad5472771bacac994f8065ddc901ee716c328bab5b6be9",
@@ -586,7 +586,7 @@
               "formatLabel": "DMG",
               "variant": "installer",
               "variantLabel": "安装版",
-              "officialUrl": "https://github.com/chen08209/FlClash/releases/download/v0.9.5/FlClash-0.9.5-macos-arm64.dmg",
+              "officialUrl": "https://github.com/Vialibrex/FlClash/releases/download/v0.9.5/FlClash-0.9.5-macos-arm64.dmg",
               "officialSize": 55895604,
               "officialSizeExact": true,
               "officialDigest": "0a350209c2a1ef8d181a3d0dd563ae8f86aece161f5a4e8554683caf5020bd82",
@@ -609,7 +609,7 @@
               "formatLabel": "DMG",
               "variant": "installer",
               "variantLabel": "安装版",
-              "officialUrl": "https://github.com/chen08209/FlClash/releases/download/v0.9.5/FlClash-0.9.5-macos-amd64.dmg",
+              "officialUrl": "https://github.com/Vialibrex/FlClash/releases/download/v0.9.5/FlClash-0.9.5-macos-amd64.dmg",
               "officialSize": 59803256,
               "officialSizeExact": true,
               "officialDigest": "69d68de2c4da721e554d03f9529521afb4b75334d87306be8906416e6af6fab8",
@@ -680,8 +680,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-27T05:48:35.618Z",
-      "checkOkAt": "2026-11-27T05:48:35.618Z",
+      "checkedAt": "2026-11-27T15:39:04.974Z",
+      "checkOkAt": "2026-11-27T15:39:04.974Z",
       "syncedAt": "2026-11-07T16:03:41.451Z",
       "checkError": null,
       "syncError": null,
@@ -948,8 +948,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-27T05:48:36.163Z",
-      "checkOkAt": "2026-11-27T05:48:36.163Z",
+      "checkedAt": "2026-11-27T15:39:05.635Z",
+      "checkOkAt": "2026-11-27T15:39:05.635Z",
       "syncedAt": "2026-11-07T16:03:58.120Z",
       "checkError": null,
       "syncError": null,
@@ -1147,6 +1147,13 @@
       },
       "prereleases": [
         {
+          "tag": "2.4.3",
+          "name": "2.4.3",
+          "publishedAt": "2026-11-27T06:56:19Z",
+          "htmlUrl": "https://github.com/2dust/v2rayNG/releases/tag/2.4.3",
+          "heuristic": false
+        },
+        {
           "tag": "2.4.2",
           "name": "2.4.2",
           "publishedAt": "2026-11-26T07:59:07Z",
@@ -1159,17 +1166,10 @@
           "publishedAt": "2026-11-24T08:12:34Z",
           "htmlUrl": "https://github.com/2dust/v2rayNG/releases/tag/2.4.1",
           "heuristic": false
-        },
-        {
-          "tag": "2.4.0",
-          "name": "2.4.0",
-          "publishedAt": "2026-11-12T02:15:09Z",
-          "htmlUrl": "https://github.com/2dust/v2rayNG/releases/tag/2.4.0",
-          "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-27T05:48:36.588Z",
-      "checkOkAt": "2026-11-27T05:48:36.588Z",
+      "checkedAt": "2026-11-27T15:39:06.260Z",
+      "checkOkAt": "2026-11-27T15:39:06.260Z",
       "syncedAt": "2026-11-07T16:04:02.087Z",
       "checkError": null,
       "syncError": null,
@@ -1324,8 +1324,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-27T05:48:36.871Z",
-      "checkOkAt": "2026-11-27T05:48:36.871Z",
+      "checkedAt": "2026-11-27T15:39:06.684Z",
+      "checkOkAt": "2026-11-27T15:39:06.684Z",
       "syncedAt": "2026-11-07T16:04:25.410Z",
       "checkError": null,
       "syncError": null,
@@ -1510,8 +1510,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-27T05:48:37.163Z",
-      "checkOkAt": "2026-11-27T05:48:37.163Z",
+      "checkedAt": "2026-11-27T15:39:07.300Z",
+      "checkOkAt": "2026-11-27T15:39:07.300Z",
       "syncedAt": "2026-11-07T16:04:09.285Z",
       "checkError": null,
       "syncError": null,
@@ -1683,8 +1683,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-27T05:48:38.207Z",
-      "checkOkAt": "2026-11-27T05:48:38.207Z",
+      "checkedAt": "2026-11-27T15:39:08.626Z",
+      "checkOkAt": "2026-11-27T15:39:08.626Z",
       "syncedAt": "2026-11-07T16:05:13.266Z",
       "checkError": null,
       "syncError": null,
@@ -1979,8 +1979,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-27T05:48:38.750Z",
-      "checkOkAt": "2026-11-27T05:48:38.750Z",
+      "checkedAt": "2026-11-27T15:39:09.068Z",
+      "checkOkAt": "2026-11-27T15:39:09.068Z",
       "syncedAt": null,
       "checkError": null,
       "syncError": null,
@@ -2251,8 +2251,8 @@
           "heuristic": false
         }
       ],
-      "checkedAt": "2026-11-27T05:48:39.188Z",
-      "checkOkAt": "2026-11-27T05:48:39.188Z",
+      "checkedAt": "2026-11-27T15:39:09.579Z",
+      "checkOkAt": "2026-11-27T15:39:09.579Z",
       "syncedAt": "2026-11-07T16:05:08.410Z",
       "checkError": null,
       "syncError": null,
